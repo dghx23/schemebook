@@ -525,5 +525,8 @@ def refresh_pmb_cache(force: bool = False) -> dict[str, Any]:
             )
             if intro_match:
                 result["intro"] = _strip_html(intro_match.group(0))
-    PMB_CACHE_PATH.write_text(json.dumps(result, indent=2), encoding="utf-8")
+    try:
+        PMB_CACHE_PATH.write_text(json.dumps(result, indent=2), encoding="utf-8")
+    except OSError:
+        pass
     return result
