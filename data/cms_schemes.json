@@ -1,0 +1,434 @@
+{
+  "source": "CMS Industry Report 2023",
+  "source_url": "https://www.medicalschemes.co.za/media-centre/the-medical-schemes-industry-in-2023/",
+  "fetched_at": "2026-07-03",
+  "count": 71,
+  "schemes": [
+    {
+      "no": 1,
+      "name": "AECI MEDICAL AID SOCIETY",
+      "type": "Restricted",
+      "slug": "aeci-medical-aid-society"
+    },
+    {
+      "no": 2,
+      "name": "ALLIANCE-MIDMED MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "alliance-midmed-medical-scheme"
+    },
+    {
+      "no": 3,
+      "name": "ANGLO MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "anglo-medical-scheme"
+    },
+    {
+      "no": 4,
+      "name": "ANGLOVAAL GROUP MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "anglovaal-group-medical-scheme"
+    },
+    {
+      "no": 5,
+      "name": "BANKMED",
+      "type": "Restricted",
+      "slug": "bankmed"
+    },
+    {
+      "no": 6,
+      "name": "BARLOWORLD MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "barloworld-medical-scheme"
+    },
+    {
+      "no": 7,
+      "name": "BESTMED MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "bestmed-medical-scheme"
+    },
+    {
+      "no": 8,
+      "name": "BMW EMPLOYEES MEDICAL AID SOCIETY",
+      "type": "Restricted",
+      "slug": "bmw-employees-medical-aid-society"
+    },
+    {
+      "no": 9,
+      "name": "BONITAS MEDICAL FUND",
+      "type": "Open",
+      "slug": "bonitas-medical-fund"
+    },
+    {
+      "no": 10,
+      "name": "BP MEDICAL AID SOCIETY",
+      "type": "Restricted",
+      "slug": "bp-medical-aid-society"
+    },
+    {
+      "no": 11,
+      "name": "BUILDING & CONSTRUCTION INDUSTRY MEDICAL AID FUND",
+      "type": "Restricted",
+      "slug": "building-construction-industry-medical-aid-fund"
+    },
+    {
+      "no": 12,
+      "name": "CAPE MEDICAL PLAN",
+      "type": "Open",
+      "slug": "cape-medical-plan"
+    },
+    {
+      "no": 13,
+      "name": "CHARTERED ACCOUNTANTS (SA) MEDICAL AID FUND (CAMAF)",
+      "type": "Restricted",
+      "slug": "chartered-accountants-sa-medical-aid-fund-camaf"
+    },
+    {
+      "no": 14,
+      "name": "COMPCARE WELLNESS MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "compcare-wellness-medical-scheme"
+    },
+    {
+      "no": 15,
+      "name": "DE BEERS BENEFIT SOCIETY",
+      "type": "Restricted",
+      "slug": "de-beers-benefit-society"
+    },
+    {
+      "no": 16,
+      "name": "DISCOVERY HEALTH MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "discovery-health-medical-scheme"
+    },
+    {
+      "no": 17,
+      "name": "ENGEN MEDICAL BENEFIT FUND",
+      "type": "Restricted",
+      "slug": "engen-medical-benefit-fund"
+    },
+    {
+      "no": 18,
+      "name": "FEDHEALTH MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "fedhealth-medical-scheme"
+    },
+    {
+      "no": 19,
+      "name": "FISHING INDUSTRY MEDICAL SCHEME (FISH-MED)",
+      "type": "Restricted",
+      "slug": "fishing-industry-medical-scheme-fish-med"
+    },
+    {
+      "no": 20,
+      "name": "FOODMED MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "foodmed-medical-scheme"
+    },
+    {
+      "no": 21,
+      "name": "GENESIS MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "genesis-medical-scheme"
+    },
+    {
+      "no": 22,
+      "name": "GLENCORE MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "glencore-medical-scheme"
+    },
+    {
+      "no": 23,
+      "name": "GOLDEN ARROW EMPLOYEES MEDICAL BENEFIT FUND",
+      "type": "Restricted",
+      "slug": "golden-arrow-employees-medical-benefit-fund"
+    },
+    {
+      "no": 24,
+      "name": "GOVERNMENT EMPLOYEES MEDICAL SCHEME (GEMS)",
+      "type": "Restricted",
+      "slug": "government-employees-medical-scheme-gems"
+    },
+    {
+      "no": 25,
+      "name": "HORIZON MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "horizon-medical-scheme"
+    },
+    {
+      "no": 26,
+      "name": "IMPALA MEDICAL PLAN",
+      "type": "Restricted",
+      "slug": "impala-medical-plan"
+    },
+    {
+      "no": 27,
+      "name": "IMPERIAL GROUP MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "imperial-group-medical-scheme"
+    },
+    {
+      "no": 28,
+      "name": "KEYHEALTH MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "keyhealth-medical-scheme"
+    },
+    {
+      "no": 29,
+      "name": "LA-HEALTH MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "la-health-medical-scheme"
+    },
+    {
+      "no": 30,
+      "name": "LIBCARE MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "libcare-medical-scheme"
+    },
+    {
+      "no": 31,
+      "name": "LONMIN MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "lonmin-medical-scheme"
+    },
+    {
+      "no": 32,
+      "name": "MAKOTI MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "makoti-medical-scheme"
+    },
+    {
+      "no": 33,
+      "name": "MALCOR MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "malcor-medical-aid-scheme"
+    },
+    {
+      "no": 34,
+      "name": "MASSMART HEALTH PLAN",
+      "type": "Restricted",
+      "slug": "massmart-health-plan"
+    },
+    {
+      "no": 35,
+      "name": "MBMED MEDICAL AID FUND",
+      "type": "Restricted",
+      "slug": "mbmed-medical-aid-fund"
+    },
+    {
+      "no": 36,
+      "name": "MEDIHELP MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "medihelp-medical-scheme"
+    },
+    {
+      "no": 37,
+      "name": "MEDIMED MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "medimed-medical-scheme"
+    },
+    {
+      "no": 38,
+      "name": "MEDIPOS MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "medipos-medical-scheme"
+    },
+    {
+      "no": 39,
+      "name": "MEDSHIELD MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "medshield-medical-scheme"
+    },
+    {
+      "no": 40,
+      "name": "MOMENTUM MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "momentum-medical-scheme"
+    },
+    {
+      "no": 41,
+      "name": "MOTOHEALTH CARE",
+      "type": "Restricted",
+      "slug": "motohealth-care"
+    },
+    {
+      "no": 42,
+      "name": "MULTICHOICE MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "multichoice-medical-aid-scheme"
+    },
+    {
+      "no": 43,
+      "name": "NETCARE MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "netcare-medical-scheme"
+    },
+    {
+      "no": 44,
+      "name": "OLD MUTUAL STAFF MEDICAL AID FUND",
+      "type": "Restricted",
+      "slug": "old-mutual-staff-medical-aid-fund"
+    },
+    {
+      "no": 45,
+      "name": "PARMED MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "parmed-medical-aid-scheme"
+    },
+    {
+      "no": 46,
+      "name": "PG GROUP MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "pg-group-medical-scheme"
+    },
+    {
+      "no": 47,
+      "name": "PICK \u2018N PAY MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "pick-n-pay-medical-scheme"
+    },
+    {
+      "no": 48,
+      "name": "PLATINUM HEALTH",
+      "type": "Restricted",
+      "slug": "platinum-health"
+    },
+    {
+      "no": 49,
+      "name": "PROFMED",
+      "type": "Restricted",
+      "slug": "profmed"
+    },
+    {
+      "no": 50,
+      "name": "RAND WATER MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "rand-water-medical-scheme"
+    },
+    {
+      "no": 51,
+      "name": "REMEDI MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "remedi-medical-aid-scheme"
+    },
+    {
+      "no": 52,
+      "name": "RETAIL MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "retail-medical-scheme"
+    },
+    {
+      "no": 53,
+      "name": "RHODES UNIVERSITY MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "rhodes-university-medical-scheme"
+    },
+    {
+      "no": 54,
+      "name": "SA BREWERIES MEDICAL AID SOCIETY (SABMAS)",
+      "type": "Restricted",
+      "slug": "sa-breweries-medical-aid-society-sabmas"
+    },
+    {
+      "no": 55,
+      "name": "SABC MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "sabc-medical-scheme"
+    },
+    {
+      "no": 56,
+      "name": "SOUTH AFRICAN MUNICIPAL UNION NATIONAL MEDICAL SCHEME (SAMWUMED)",
+      "type": "Restricted",
+      "slug": "south-african-municipal-union-national-medical-scheme-samwumed"
+    },
+    {
+      "no": 57,
+      "name": "SASOLMED",
+      "type": "Restricted",
+      "slug": "sasolmed"
+    },
+    {
+      "no": 58,
+      "name": "SEDMED",
+      "type": "Restricted",
+      "slug": "sedmed"
+    },
+    {
+      "no": 59,
+      "name": "SISONKE HEALTH MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "sisonke-health-medical-scheme"
+    },
+    {
+      "no": 60,
+      "name": "SIZWE HOSMED MEDICAL FUND",
+      "type": "Open",
+      "slug": "sizwe-hosmed-medical-fund"
+    },
+    {
+      "no": 61,
+      "name": "SOUTH AFRICAN POLICE SERVICE MEDICAL SCHEME (POLMED)",
+      "type": "Restricted",
+      "slug": "south-african-police-service-medical-scheme-polmed"
+    },
+    {
+      "no": 62,
+      "name": "SUREMED HEALTH",
+      "type": "Open",
+      "slug": "suremed-health"
+    },
+    {
+      "no": 63,
+      "name": "TFG MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "tfg-medical-aid-scheme"
+    },
+    {
+      "no": 64,
+      "name": "THEBEMED MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "thebemed-medical-scheme"
+    },
+    {
+      "no": 65,
+      "name": "TIGER BRANDS MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "tiger-brands-medical-scheme"
+    },
+    {
+      "no": 66,
+      "name": "TRANSMED MEDICAL FUND",
+      "type": "Restricted",
+      "slug": "transmed-medical-fund"
+    },
+    {
+      "no": 67,
+      "name": "TSOGO SUN GROUP MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "tsogo-sun-group-medical-scheme"
+    },
+    {
+      "no": 68,
+      "name": "UMVUZO HEALTH MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "umvuzo-health-medical-scheme"
+    },
+    {
+      "no": 69,
+      "name": "UNIVERSITY OF KWAZULU-NATAL MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "university-of-kwazulu-natal-medical-scheme"
+    },
+    {
+      "no": 70,
+      "name": "WITBANK COALFIELDS MEDICAL AID SOCIETY (WCMAS)",
+      "type": "Restricted",
+      "slug": "witbank-coalfields-medical-aid-society-wcmas"
+    },
+    {
+      "no": 71,
+      "name": "WOOLTRU HEALTHCARE FUND",
+      "type": "Restricted",
+      "slug": "wooltru-healthcare-fund"
+    }
+  ]
+}

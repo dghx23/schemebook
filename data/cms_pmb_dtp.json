@@ -1,0 +1,1622 @@
+[
+  {
+    "code": "906A",
+    "description": "Acute generalised paralysis, including polio and Guillain-Barre",
+    "treatment": "Medical management; ventilation and plasmapheresis",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "341A",
+    "description": "Basal ganglia, extra-pyramidal disorders; other dystonias  NOS",
+    "treatment": "Initial diagnosis; initiation of medical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "950A",
+    "description": "Benign and malignant brain tumours, treatable",
+    "treatment": "Medical and surgical management which includes radiation therapy and chemotherapy",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "49A",
+    "description": "Compound/ depressed fractures of skull",
+    "treatment": "Craniotomy/ craniectomy",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "213A",
+    "description": "Difficulty in breathing, eating, swallowing, bowel, or bladder control due to non-progressive neurological (including spinal) condition or injury",
+    "treatment": "Medical and surgical management; ventilation",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "83A",
+    "description": "Encephalocele; congenital hydrocephalus",
+    "treatment": "Shunt; surgery",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "902A",
+    "description": "Epilepsy (status epilepticus, initial diagnosis, candidate for neurosurgery)",
+    "treatment": "Medical management; ventilation; neurosurgery",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "211A",
+    "description": "Intraspinal and Intracranial abscess",
+    "treatment": "Medical and surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "905A",
+    "description": "Meningitis \u2013 acute and subacute",
+    "treatment": "Medical and surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "513A",
+    "description": "Myasthenia gravis; muscular dystrophy; neuro-myopathies NOS",
+    "treatment": "Initial diagnosis; initiation of medical management; therapy for acute complications and exacerbations",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "510A",
+    "description": "Peripheral nerve injury with open wound",
+    "treatment": "Neuroplasty",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "940A",
+    "description": "Reversible CNS abnormalities due to other systemic disease",
+    "treatment": "Medical and surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "1A",
+    "description": "Severe / moderate head injury: hematoma / oedema with loss of consciousness",
+    "treatment": "Medical and surgical management; ventilation",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "84A",
+    "description": "Spina Bifida",
+    "treatment": "Surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "941A",
+    "description": "Spinal cord compression, ischaemia or degenerative disease NOS",
+    "treatment": "Medical and surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "901A",
+    "description": "Stroke \u2013 due to hemorrhage, or ischaemia",
+    "treatment": "Medical management; surgery",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "28A",
+    "description": "Subarachnoid and intracranial hemorrhage / hematoma; compression of brain",
+    "treatment": "Medical and surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "305A",
+    "description": "Tetanus",
+    "treatment": "Medical management; ventilation",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "265A",
+    "description": "Transient cerebral ischaemia; life-threatening cerebrovascular conditions NOS",
+    "treatment": "Evaluation; medical management; surgery",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "109A",
+    "description": "Vertebral dislocations/ fractures, open or closed with injury to spinal cord",
+    "treatment": "Repair /reconstruction; medical management; inpatient rehabilitation up to 2 months",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "684A",
+    "description": "Viral meningitis, encephalitis, myelitis and encephalomyelitis",
+    "treatment": "Medical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "47B",
+    "description": "Acute orbital cellulitis",
+    "treatment": "Medical and surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "394B",
+    "description": "Angle-closure glaucoma",
+    "treatment": "Iridectomy; laser surgery; medical and surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "586B",
+    "description": "Bell\u2019s palsy; exposure keratoconjunctivitis",
+    "treatment": "Tarsorrhaphy; medical and surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "950B",
+    "description": "Cancer of the eye and orbit - treatable",
+    "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "901B",
+    "description": "Cataract; aphakia",
+    "treatment": "Extraction of cataract; lens implant",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "911B",
+    "description": "Corneal ulcer; Superficial injury of eye and adnexa",
+    "treatment": "Conjunctival flap; medical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "405B",
+    "description": "Glaucoma associated with disorders of the lens",
+    "treatment": "Surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "386B",
+    "description": "Herpes zoster  & herpes simplex with ophthalmic complications",
+    "treatment": "Medical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "389B",
+    "description": "Hyphaema",
+    "treatment": "Removal of blood clot; observation",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "485B",
+    "description": "Inflammation of lacrimal passages",
+    "treatment": "Incision; medical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "909B",
+    "description": "Open wound of eyeball and other eye structures",
+    "treatment": "Medical and surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "407B",
+    "description": "Primary and open angle glaucoma with failed medical management",
+    "treatment": "Trabeculectomy; other surgery",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "419B",
+    "description": "Purulent endophthalmitis",
+    "treatment": "Vitrectomy",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "922B",
+    "description": "Retained intraocular foreign body",
+    "treatment": "Surgical management",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "904B",
+    "description": "Retinal detachment, tear and other retinal disorders",
+    "treatment": "Vitrectomy; laser treatment; other surgery",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "906B",
+    "description": "Retinal vascular occlusion; central retinal vein occlusion",
+    "treatment": "Laser surgery",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "409B",
+    "description": "Sympathetic uveitis and degenerative disorders and conditions of globe; sight threatening thyroid optopathy",
+    "treatment": "Enucleation; medical management; surgery",
+    "category": "BRAIN AND NERVOUS SYSTEM"
+  },
+  {
+    "code": "33C",
+    "description": "Acute and chronic mastoiditis",
+    "treatment": "Mastoidectomy; medical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "482C",
+    "description": "Acute otitis media",
+    "treatment": "Medical and surgical management, including myringotomy",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "900C",
+    "description": "Acute upper airway obstruction, including croup, epiglottitis and acute laryngotracheitis",
+    "treatment": "Medical management; intubation; tracheostomy",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "950C",
+    "description": "Cancer of oral cavity, pharynx, nose, ear, and larynx - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "241C",
+    "description": "Cancrum oris",
+    "treatment": "Medical and surgical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "38C",
+    "description": "Choanal atresia",
+    "treatment": "Repair of choanal atresia",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "133C",
+    "description": "Cholesteatoma",
+    "treatment": "Medical and surgical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "910C",
+    "description": "Chronic upper airway obstruction, resulting in cor pulmonale",
+    "treatment": "Medical and surgical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "901C",
+    "description": "Cleft palate and/or cleft lip without airway obstruction",
+    "treatment": "Repair",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "12C",
+    "description": "Deep open wound of neck, including larynx; fracture of larynx or trachea, open",
+    "treatment": "Medical and surgical management; ventilation",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "346C",
+    "description": "Epistaxis \u2013 not responsive to anterior packing",
+    "treatment": "Cautery / repair / control hemorrhage",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "521C",
+    "description": "Foreign body in ear and nose",
+    "treatment": "Removal of foreign body; and medical and surgical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "29C",
+    "description": "Foreign body in pharynx, larynx, trachea, bronchus & esophagus",
+    "treatment": "Removal of foreign body",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "339C",
+    "description": "Fracture of face bones, orbit, jaw; injury to optic and other cranial nerves",
+    "treatment": "Medical and surgical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "219C",
+    "description": "Leukoplakia of oral mucosa, including tongue",
+    "treatment": "Incision/excision; medical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "132C",
+    "description": "Life-threatening diseases of pharynx NOS, including retropharyngeal abscess",
+    "treatment": "Medical and surgical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "457C",
+    "description": "Open wound of ear-drum",
+    "treatment": "Tympanoplasty; medical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "240C",
+    "description": "Peritonsillar abscess",
+    "treatment": "Incision and drainage of abscess; tonsillectomy; medical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "347C",
+    "description": "Sialoadenitis; abscess / fistula of salivary glands",
+    "treatment": "Surgery",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "543C",
+    "description": "Stomatitis, cellulites and abscess of oral soft tissue; Vincent\u2019s angina",
+    "treatment": "Incision and drainage; medical management",
+    "category": "EAR, NOSE, MOUTH AND THROAT"
+  },
+  {
+    "code": "903D",
+    "description": "Bacterial, viral, fungal pneumonia",
+    "treatment": "Medical management, ventilation",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "158D",
+    "description": "# Respiratory failure, regardless of cause",
+    "treatment": "# Medical management; oxygen; ventilation",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "157D",
+    "description": "Acute asthmatic attack; pneumonia due to respiratory syncytial virus in persons under age 3",
+    "treatment": "Medical management",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "125D",
+    "description": "Adult respiratory distress syndrome; inhalation and aspiration pneumonias",
+    "treatment": "Medical management; ventilation",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "315D",
+    "description": "Atelectasis (collapse of lung)",
+    "treatment": "Medical and surgical management; ventilation",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "340D",
+    "description": "Benign neoplasm of respiratory and  intrathoracic organs",
+    "treatment": "Biopsy; lobectomy; Medical management; radiation therapy",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "950D",
+    "description": "Cancer of lung, bronchus, pleura, trachea, mediastinum & other respiratory organs - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "170D",
+    "description": "Empyema and abscess of lung",
+    "treatment": "Medical and surgical management",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "934D",
+    "description": "Frank haemoptysis",
+    "treatment": "Medical and surgical management",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "203D",
+    "description": "Hypoplasia and dysplasia of lung",
+    "treatment": "Medical and surgical management",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "900D",
+    "description": "Open fracture of ribs and sternum; multiple rib fractures; flail chest",
+    "treatment": "Medical and surgical management, ventilation",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "5D",
+    "description": "Pneumothorax and haemothorax",
+    "treatment": "Tube thoracostomy / thoracotomy",
+    "category": "RESPIRATORY SYSTEM"
+  },
+  {
+    "code": "155E",
+    "description": "Myocarditis; cardiomyopathy; transposition of great vessels; hypoplastic left heart syndrome",
+    "treatment": "Medical and surgical management; cardiac transplant",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "108E",
+    "description": "Pericarditis",
+    "treatment": "Medical and surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "907E",
+    "description": "Acute and subacute ischemic heart disease, including myocardial infarction and unstable angina",
+    "treatment": "Medical management; surgery; percutaneous procedures",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "284E",
+    "description": "Acute pulmonary heart disease and pulmonary emboli",
+    "treatment": "Medical and surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "35E",
+    "description": "Acute rheumatic fever",
+    "treatment": "Medical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "908E",
+    "description": "Aneurysm of major artery of chest, abdomen, neck, - Unruptured or ruptured NOS",
+    "treatment": "Surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "26E",
+    "description": "Arterial embolism/thrombosis: abdominal aorta, thoracic aorta",
+    "treatment": "Medical and surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "204E",
+    "description": "Cardiac failure: acute or recent deterioration of chronic cardiac failure",
+    "treatment": "Medical treatment",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "98E",
+    "description": "Complete, corrected and other transposition of great vessels",
+    "treatment": "Repair",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "97E",
+    "description": "Coronary artery anomaly",
+    "treatment": "Anomalous coronary artery ligation",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "309E",
+    "description": "Diseases and disorders of aortic valve NOS",
+    "treatment": "Aortic valve replacement",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "210E",
+    "description": "Diseases of endocardium; endocarditis",
+    "treatment": "Medical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "314E",
+    "description": "Diseases of mitral valve",
+    "treatment": "Valvuloplasty; valve replacement; medical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "902E",
+    "description": "Disorders of arteries: visceral",
+    "treatment": "Bypass graft; surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "18E",
+    "description": "Dissecting or ruptured aortic aneurysm",
+    "treatment": "Surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "915E",
+    "description": "Gangrene; severe atherosclerosis of arteries of extremities; diabetes mellitus with peripheral circulatory disease",
+    "treatment": "Medical and surgical management including amputation",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "294E",
+    "description": "Giant cell arteritis, Kawasaki disease, hypersensitivity angiitis",
+    "treatment": "Medical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "450E",
+    "description": "Hereditary hemorrhagic telangiectasia",
+    "treatment": "Excision",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "901E",
+    "description": "Hypertension \u2013 acute life-threatening complications and malignant hypertension; renal artery stenosis and other curable hypertension",
+    "treatment": "Medical and surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "111E",
+    "description": "Injury to major blood vessels - trunk, head and neck, and upper limbs",
+    "treatment": "Repair",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "19E",
+    "description": "Injury to major blood vessels of extremities",
+    "treatment": "Ligation",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "903E",
+    "description": "Life-threatening cardiac arrhythmias",
+    "treatment": "Medical and surgical management, pacemakers, cardioversion",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "900E",
+    "description": "Life-threatening complications of elective cardiac and major vascular procedures",
+    "treatment": "Medical and surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "497E",
+    "description": "Multiple valvular disease",
+    "treatment": "Surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "355E",
+    "description": "Other aneurysm of artery \u2013 peripheral",
+    "treatment": "Surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "905E",
+    "description": "Other correctable congenital cardiac conditions",
+    "treatment": "Surgical repair; medical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "100E",
+    "description": "Patent ductus arteriosus; aortic pulmonary fistula - persistent",
+    "treatment": "Ligation",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "209E",
+    "description": "Phlebitis & thrombophlebitis, deep",
+    "treatment": "Ligation and division; medical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "914E",
+    "description": "Rheumatic pericarditis; rheumatic myocarditis",
+    "treatment": "Medical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "16E",
+    "description": "Rupture of papillary muscle",
+    "treatment": "Medical and surgical management",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "627E",
+    "description": "Shock / hypotension \u2013 life-threatening",
+    "treatment": "Medical management; ventilation",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "99E",
+    "description": "Tetralogy of Fallot (TOF)",
+    "treatment": "Total repair tetralogy",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "93E",
+    "description": "Ventricular septal defect - persistent",
+    "treatment": "Closure",
+    "category": "HEART AND VASCULATURE"
+  },
+  {
+    "code": "920F",
+    "description": "Anal Fissure; Anal fistula",
+    "treatment": "Fissurectomy ; Fistulectomy; medical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "41F",
+    "description": "Abscess of intestine",
+    "treatment": "Drain abscess; medical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "489F",
+    "description": "Acquired hypertrophic pyloric stenosis and other disorders of the stomach and duodenum",
+    "treatment": "Surgical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "254F",
+    "description": "Acute diverticulitis of colon",
+    "treatment": "Medical and surgical management, including colon resection",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "124F",
+    "description": "Acute vascular insufficiency of intestine",
+    "treatment": "Colectomy",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "337F",
+    "description": "Amoebiasis; typhoid",
+    "treatment": "Medical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "264F",
+    "description": "Anal and rectal polyp",
+    "treatment": "Excision of polyp",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "9F",
+    "description": "Appendicitis",
+    "treatment": "Appendectomy",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "952F",
+    "description": "Cancer of retroperitoneum, peritoneum, omentum & mesentery - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "950C",
+    "description": "Cancer of the gastro-intestinal tract, including oesophagus, stomach, bowel, rectum, anus - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "95F",
+    "description": "Congenital anomalies of upper alimentary tract \u2013 excluding tongue",
+    "treatment": "Medical and surgical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "214F",
+    "description": "Oesophageal stricture",
+    "treatment": "Dilatation; surgery",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "516F",
+    "description": "Oesophageal varices",
+    "treatment": "Medical management; surgical shunt; sclerotherapy",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "902F",
+    "description": "Gastric or intestinal ulcers with hemorrhage or perforation",
+    "treatment": "Surgery; endoscopic diagnosis; medical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "901F",
+    "description": "Gastroenteritis and colitis with life-threatening haemorrhage or dehydration, regardless of cause",
+    "treatment": "Medical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "6F",
+    "description": "Hernia with obstruction and/or gangrene; uncomplicated hernias under age 18",
+    "treatment": "Repair; bowel resection",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "20F",
+    "description": "Intestinal obstruction without mention of hernia; symptomatic foreign body in stomach, intestines, colon & rectum",
+    "treatment": "Excision; surgery; medical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "232F",
+    "description": "Paralytic ileus",
+    "treatment": "Medical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "498F",
+    "description": "Peritoneal adhesion",
+    "treatment": "Surgical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "3F",
+    "description": "Peritonitis, regardless of cause",
+    "treatment": "Medical and surgical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "555F",
+    "description": "Rectal prolapse",
+    "treatment": "Partial colectomy",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "292F",
+    "description": "Regional enteritis; idiopathic proctocolitis \u2013 acute exacerbations and complications only",
+    "treatment": "Medical and surgical management",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "900F",
+    "description": "Rupture of intra-abdominal organ",
+    "treatment": "Repair; splenectomy; resection",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "507F",
+    "description": "Thrombosed and complicated haemorrhoids",
+    "treatment": "Haemorrhoidectomy; incision",
+    "category": "GASTRO-INTESTINAL SYSTEM"
+  },
+  {
+    "code": "325G",
+    "description": "Acute necrosis of liver",
+    "treatment": "Medical management",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "327G",
+    "description": "Acute pancreatitis",
+    "treatment": "Medical management, and where appropriate, surgical management",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "36G",
+    "description": "Budd-Chiari syndrome, and other venous embolism and thrombosis",
+    "treatment": "Thrombectomy / ligation",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "910G",
+    "description": "Calculus of bile duct with cholecystitis",
+    "treatment": "Medical management; cholecystectomy; other open or closed surgery",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "950G",
+    "description": "Cancer of liver, biliary system and pancreas - treatable",
+    "treatment": "Medical and surgical management",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "255G",
+    "description": "Cyst and pseudocyst of pancreas",
+    "treatment": "Drainage of pancreatic cyst",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "156G",
+    "description": "Disorders of bile duct",
+    "treatment": "Excision; repair",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "910G",
+    "description": "Gallstone with cholecystitis and/or jaundice",
+    "treatment": "Medical management; cholecystectomy; other open or closed surgery",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "743G",
+    "description": "Hepatorenal syndrome",
+    "treatment": "Medical management",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "27G",
+    "description": "Liver abscess; pancreatic abscess",
+    "treatment": "Medical and surgical management",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "911G",
+    "description": "Liver failure; hepatic vascular obstruction; inborn errors of liver metabolism; biliary atresia",
+    "treatment": "Liver transplant, other surgery, medical management",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "231G",
+    "description": "Portal vein thrombosis",
+    "treatment": "Shunt",
+    "category": "LIVER, PANCREAS AND SPLEEN"
+  },
+  {
+    "code": "353H",
+    "description": "Abscess of bursa or tendon",
+    "treatment": "Incision and drainage",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "32H",
+    "description": "Acute osteomyelitis",
+    "treatment": "Medical and surgical management",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "950H",
+    "description": "Cancer of bones - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "206H",
+    "description": "Chronic osteomyelitis",
+    "treatment": "Incision and drainage",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "902H",
+    "description": "Closed fractures/ dislocations of limb bones / epiphyses \u2013 excluding fingers and toes",
+    "treatment": "Reduction / relocation",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "85H",
+    "description": "Congenital dislocation of hip; coxa vara and valga; congenital clubfoot",
+    "treatment": "Repair / reconstruction",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "147H",
+    "description": "Crush injuries of trunk, upper limbs, lower limbs, including blood vessels",
+    "treatment": "Surgical management; ventilation; acute renal dialysis",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "491H",
+    "description": "Dislocations / fractures of vertebral column without spinal cord injury",
+    "treatment": "Medical management; surgical stabilisation",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "500H",
+    "description": "Disruptions of the achilles / quadriceps tendons",
+    "treatment": "Repair",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "178H",
+    "description": "Fracture of hip",
+    "treatment": "Reduction; hip replacement",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "445H",
+    "description": "Injury to internal organs",
+    "treatment": "Medical and surgical management",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "900H",
+    "description": "Open fracture / dislocation of bones and joints",
+    "treatment": "Reduction / relocation; medical and surgical management",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "34H",
+    "description": "Pyogenic arthritis",
+    "treatment": "Medical and surgical management",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "901H",
+    "description": "Traumatic amputation of limbs, hands, feet, and digits",
+    "treatment": "Replantation / amputation",
+    "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+  },
+  {
+    "code": "465J",
+    "description": "Acute lymphadenitis",
+    "treatment": "Incision and drainage; medical management",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "900J",
+    "description": "Burns, greater than 10% of body surface, or more than 5% involving head, neck, hands, perineum",
+    "treatment": "Debridement; free skin graft; medical management",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "950J",
+    "description": "Cancer of breast - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "954J",
+    "description": "Cancer of skin, excluding malignant melanoma - treatable",
+    "treatment": "If histologically confirmed, Medical and surgical management, which includes radiation therapy",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "952J",
+    "description": "Cancer of soft tissue, including sarcomas and malignancies of the adnexa - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "349J",
+    "description": "Cellulitis and abscesses with risk of organ or limb damage or septiceamia if untreated; necrotizing fasciitis",
+    "treatment": "Medical and surgical management",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "901J",
+    "description": "Disseminated bullous skin disease,  including pemphigus, pemphigoid, epidermolysis bullosa, epidermolytic hyperkeratosis",
+    "treatment": "Medical management",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "951J",
+    "description": "Lethal midline granuloma",
+    "treatment": "Medical management, which includes radiation therapy",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "953J",
+    "description": "Malignant melanoma of skin - treatable",
+    "treatment": "Medical and surgical management, which includes radiation therapy",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "373J",
+    "description": "Non-superficial open wounds \u2013 non life-threatening",
+    "treatment": "Repair",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "356J",
+    "description": "Pyoderma; body, deep-seated fungal infections",
+    "treatment": "Medical management",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "112J",
+    "description": "Toxic epidermal necrolysis and staphylococcal scalded skin syndrome; Stevens-Johnson syndrome",
+    "treatment": "Medical management",
+    "category": "SKIN AND BREAST"
+  },
+  {
+    "code": "331K",
+    "description": "Acute thyroiditis",
+    "treatment": "Medical management",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "951K",
+    "description": "Benign and malignant tumours of pituitary gland with/without hypersecretion syndromes",
+    "treatment": "Medical and surgical management; radiation therapy",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "30K",
+    "description": "Benign neoplasm of islets of Langerhans",
+    "treatment": "Excision of tumour; medical management",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "950K",
+    "description": "Cancer of endocrine system, excluding thyroid - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "952K",
+    "description": "Cancer of thyroid - treatable; carcinoid syndrome",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "61K",
+    "description": "Congenital hypothyroidism",
+    "treatment": "Medical management",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "902K",
+    "description": "Disorder of adrenal secretion NOS",
+    "treatment": "Medical management; adrenalectomy",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "447K",
+    "description": "Disorders of parathyroid gland; benign neoplasm of parathyroid gland",
+    "treatment": "Medical and surgical management",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "904K",
+    "description": "Hyper and hypothyroidism  with life-threatening complications or requiring surgery",
+    "treatment": "Medical management\nSurgery",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "31K",
+    "description": "Hypoglycemic coma; hyperglycemia; diabetic ketoacidosis",
+    "treatment": "Medical management",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "236K",
+    "description": "Iron deficiency; vitamin and other nutritional deficiencies \u2013 life-threatening",
+    "treatment": "Medical management",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "901K",
+    "description": "Life-threatening congenital abnormalities of carbohydrate, lipid, protein and amino acid metabolism",
+    "treatment": "Medical management",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "903K",
+    "description": "Life-threatening disorders of fluid and electrolyte balance, NOS",
+    "treatment": "Medical management",
+    "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+  },
+  {
+    "code": "354L",
+    "description": "Abscess of prostate",
+    "treatment": "Turp; drain abscess",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "904L",
+    "description": "Acute and chronic pyelonephritis; renal and perinephric abscess",
+    "treatment": "Medical and surgical management",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "903L",
+    "description": "Acute glomerulonephritis and nephritic syndrome",
+    "treatment": "Medical management",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "954L",
+    "description": "Cancer of penis and other male genital organ - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "953L",
+    "description": "Cancer of prostate gland - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "950L",
+    "description": "Cancer of testis - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "952L",
+    "description": "Cancer of urinary system including kidney and bladder  - treatable",
+    "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "906L",
+    "description": "Congenital anomalies of urinary system - symptomatic and life-threatening",
+    "treatment": "Nephrectomy / repair",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "901L",
+    "description": "End stage renal disease regardless of cause",
+    "treatment": "Dialysis and renal transplant where Department of Health criteria are met only (see criteria published in GPS 004-9001)",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "900L",
+    "description": "Hyperplasia of the prostate, with acute urinary retention or obstructive renal failure",
+    "treatment": "Transurethral resection; medical management",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "905L",
+    "description": "Obstruction of the urogenital tract, regardless of cause",
+    "treatment": "Catheterisation; surgery; endoscopic removal of obstructing agent: lithotripsy",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "436L",
+    "description": "Torsion of testis",
+    "treatment": "Orchidectomy; repair",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "43L",
+    "description": "Trauma to the urinary system including ruptured bladder",
+    "treatment": "Cystorrhaphy; suture; repair",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "289L",
+    "description": "Ureteral fistula (intestinal)",
+    "treatment": "Nephrostomy",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "359L",
+    "description": "Vesicoureteral reflux",
+    "treatment": "Medical management; replantation",
+    "category": "URINARY AND MALE GENITAL SYSTEM"
+  },
+  {
+    "code": "539M",
+    "description": "Abscesses of Bartholin's gland and vulva",
+    "treatment": "Incision and drainage; medical management",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "288M",
+    "description": "Acute pelvic inflammatory disease",
+    "treatment": "Medical and surgical management",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "954M",
+    "description": "Cancer of Cervix - treatable",
+    "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "952M",
+    "description": "Cancer of ovary - treatable",
+    "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "950M",
+    "description": "Cancer of uterus - treatable",
+    "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "953M",
+    "description": "Cancer of vagina, vulva and other female genital organs NOS - treatable",
+    "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "960M",
+    "description": "Cervical and breast cancer screening",
+    "treatment": "Cervical smears; periodic breast examination",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "645M",
+    "description": "Congenital abnormalities of the female genitalia",
+    "treatment": "Medical and surgical management",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "266M",
+    "description": "Dysplasia of cervix and cervical carcinoma-in-situ; cervical condylomata",
+    "treatment": "Medical and surgical management",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "53M",
+    "description": "Ectopic pregnancy",
+    "treatment": "Surgery",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "460M",
+    "description": "Fistula involving female genital tract",
+    "treatment": "Closure of fistula",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "951M",
+    "description": "Hydatidiform mole; choriocarcinoma",
+    "treatment": "D & C; hysterectomy; chemotherapy",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "902M",
+    "description": "Infertility (Explanatory Note 9 of Annexure A of Regulations)",
+    "treatment": "Medical and surgical management",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "528M",
+    "description": "Menopausal management, anomalies of ovaries, primary and secondary amenorrhoea, female sex hormones abnormalities NOS, including hirsutism",
+    "treatment": "Medical and surgical management, including hormone replacement therapy",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "434M",
+    "description": "Non-inflammatory disorders and benign neoplasms of ovary, fallopian tubes and uterus",
+    "treatment": "Salpingectomy; oophorectomy; hysterectomy; medical and surgical management",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "237M",
+    "description": "Sexual abuse, including rape",
+    "treatment": "Medical management; psychotherapy",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "903M",
+    "description": "Spontaneous abortion",
+    "treatment": "Medical and surgical manegment",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "435M",
+    "description": "Torsion of ovary",
+    "treatment": "Oophorectomy; ovarian cystectomy",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "530M",
+    "description": "Uterine prolapse; cystocele",
+    "treatment": "Surgical repair",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "296M",
+    "description": "Voluntary termination of pregnancy",
+    "treatment": "Induced abortion; medical and surgical management",
+    "category": "FEMALE REPRODUCTIVE SYSTEM"
+  },
+  {
+    "code": "67N",
+    "description": "# Low birth weight (under 1000g) with respiratory difficulties",
+    "treatment": "# Medical management not including ventilation",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "967N",
+    "description": "# Low birth weight (under 2500 grams & > 1000g) with respiratory difficulties",
+    "treatment": "# Medical management, including ventilation; intensive care therapy",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "71N",
+    "description": "Birth trauma for baby",
+    "treatment": "Medical management; surgery",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "901N",
+    "description": "Congenital systemic infections affecting the newborn",
+    "treatment": "Medical management, ventilation",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "904N",
+    "description": "Haematological disorders of the newborn",
+    "treatment": "Medical management",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "54N",
+    "description": "Necrotizing enterocolitis in newborn",
+    "treatment": "Medical and surgical management",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "74N",
+    "description": "Neonatal and infant GIT abnormalities and disorders, including malrotation and atresia",
+    "treatment": "Medical and surgical management",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "902N",
+    "description": "Neonatal endocrine, metabolic and toxin-induced conditions",
+    "treatment": "Medical management",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "903N",
+    "description": "Neurological abnormalities in the newborn",
+    "treatment": "Medical management",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "52N",
+    "description": "Pregnancy",
+    "treatment": "Antenatal and obstetric care necessitating hospitalisation, including delivery",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "56N",
+    "description": "Respiratory conditions of newborn",
+    "treatment": "Medical management; ventilation",
+    "category": "PREGNANCY AND CHILDBIRTH"
+  },
+  {
+    "code": "50S",
+    "description": "Syphilis - congenital, secondary and tertiary",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "168S",
+    "description": "# HIV-infection",
+    "treatment": "# HIV voluntary counseling and testing\nCo-trimoxazole as preventative therapy  Screening and preventative therapy for  TB, Diagnosis and treatment of sexually transmitted infections\nPain management in palliative care\nTreatment of opportunistic infections,  Prevention of mother-to-child transmission of HIV\nPost-exposure prophylaxis following occupational exposure or sexual assault\nMedical management and medication, including the provision of anti-retroviral therapy, and ongoing monitoring for medicine effectiveness and safety, to the extent provided for in the national guidelines applicable in the public sector",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "260S",
+    "description": "# Imminent death regardless of diagnosis",
+    "treatment": "# Comfort care; pain relief; hydration",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "113S",
+    "description": "Acquired haemolytic anaemias",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "901S",
+    "description": "Acute leukemias, lymphomas",
+    "treatment": "Medical management, which includes chemotherapy, radiation therapy, bone marrow transplantation",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "277S",
+    "description": "Anaerobic infections \u2013 life threatening",
+    "treatment": "Medical management; hyperbaric oxygen",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "48S",
+    "description": "Anaphylactic shock",
+    "treatment": "Medical management; ventilation",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "900S",
+    "description": "Aplastic anemia; agranulocytosis; other life-threatening hereditary immune deficiencies",
+    "treatment": "Bone marrow transplantation; medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "197S",
+    "description": "Botulism",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "338S",
+    "description": "Cholera; rat-bite fever",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "196S",
+    "description": "Chronic Granulomatous disease",
+    "treatment": "Medical management, which includes radiation therapy",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "916S",
+    "description": "Coagulation defects",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "246S",
+    "description": "Cysticercosis; other systemic cestode infection",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "903S",
+    "description": "Deep-seated (excluding nail infections), disseminated and systemic fungal infections",
+    "treatment": "Medical management; surgery",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "44S",
+    "description": "Erysipelas",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "179S",
+    "description": "Hereditary angioedema; angioneurotic oedema",
+    "treatment": "Medical and surgical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "174S",
+    "description": "Hereditary haemolytic anaemias (e.g. sickle cell); dyserythropoietic anemia (congenital)",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "201S",
+    "description": "Herpetic encephalitis; Reye\u2019s syndrome",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "913S",
+    "description": "Immune compromise NOS and associated life-threatening infections NOS",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "912S",
+    "description": "Leprosy and other systemic mycobacterial infections, Excluding tuberculosis",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "336S",
+    "description": "Leptospirosis; spirochaetal infections NOS",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "252S",
+    "description": "Life-threatening anaemia NOS",
+    "treatment": "Medical management; transfusion",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "908S",
+    "description": "Life-threatening conditions due  to exposure to the elements, including hypo and hyperthermia; lighting strikes",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "907S",
+    "description": "Life-threatening rickettsial and other arthropod-borne diseases",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "172S",
+    "description": "Malaria; trypanosomiasis; other life-threatening parasitic disease",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "904S",
+    "description": "Metastatic infections; septiceamia",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "910S",
+    "description": "Multiple myeloma and chronic leukaemias",
+    "treatment": "Medical management which includes chemotherapy and radiation therapy",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "247S",
+    "description": "Poisoning by ingestion, injection, and non-medicinal agents",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "911S",
+    "description": "Sexually transmitted diseases with systemic involvement not elsewhere specified",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "128S",
+    "description": "Tetanus; anthrax; Whipple's disease",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "122S",
+    "description": "Thalassemia and other haemoglobinopathies \u2013 treatable",
+    "treatment": "Medical management; bone marrow transplant",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "316S",
+    "description": "Toxic effect of gasses, fumes, and vapors",
+    "treatment": "Medical therapy",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "11S",
+    "description": "Tuberculosis",
+    "treatment": "Diagnosis and acute medical management; successful transfer to maintenance therapy in accordance to DOH guidelines",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "937S",
+    "description": "Tumour of internal organ (excludes skin): unknown whether benign or malignant",
+    "treatment": "Biopsy",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "15S",
+    "description": "Whooping cough, diptheria",
+    "treatment": "Medical management",
+    "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+  },
+  {
+    "code": "182T",
+    "description": "Abuse or dependence on Psychoactive substance, including alcohol",
+    "treatment": "Hospital-based management up to 3 weeks/year",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "910T",
+    "description": "Acute delusional mood, anxiety, personality, perception disorders and organic mental disorder caused by drugs",
+    "treatment": "Hospital-based management up to 3 days",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "901T",
+    "description": "Acute stress disorder accompanied by recent significant trauma, including physical or sexual abuse",
+    "treatment": "Hospital admission for psychotherapy / counselling up to 3 days, or up to 12 outpatient psychotherapy / counselling contacts",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "910T",
+    "description": "Alcohol withdrawal delirium; alcohol intoxication delirium",
+    "treatment": "Hospital-based management up to 3 days leading to rehabilitation",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "908T",
+    "description": "Anorexia Nervosa and Bulimia Nervosa",
+    "treatment": "Hospital-based management up to 3 weeks/year or minimum of 15 outpatient contacts per year",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "903T",
+    "description": "Attempted suicide, irrespective of cause",
+    "treatment": "Hospital-based management up to 3 days or up to 6 outpatient contacts",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "184T",
+    "description": "Brief reactive psychosis",
+    "treatment": "Hospital-based management up to 3 weeks/year",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "910T",
+    "description": "Delirium: Amphetamine, Cocaine, or other psychoactive substance",
+    "treatment": "Hospital-based management up to 3 days",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "902T",
+    "description": "Major affective disorders, including unipolar and bipolar depression",
+    "treatment": "Hospital-based management up to 3 weeks/year (including inpatient electro-convulsive therapy and inpatient psychotherapy) or outpatient psychotherapy of up to 15 contacts",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "907T",
+    "description": "Schizophrenic and paranoid delusional disorders",
+    "treatment": "Hospital-based management up to 3 weeks/year",
+    "category": "MENTAL ILLNESS"
+  },
+  {
+    "code": "909T",
+    "description": "Treatable dementia",
+    "treatment": "Admission for initial diagnosis; management  of acute psychotic symptoms - up to 1 week",
+    "category": "MENTAL ILLNESS"
+  }
+]
