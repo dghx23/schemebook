@@ -46,12 +46,10 @@
   </div>
   <div class="compiler-panel">
     <p class="ref-kicker">Where</p>
-    <h2>Its own address, feeding the rest</h2>
+    <h2>Its own address</h2>
     <p>
       Standalone at <code>schemebook.riskatlas.co.za</code>, under the ZA
-      portfolio — not a page buried inside ClinicalAtlas or ClaimBuddy. Those
-      products, and RiskAtlas, link back to SchemeBook rather than holding a
-      second copy of this data, so there's one place it's kept current.
+      portfolio — its own front door, not a page buried inside something else.
     </p>
   </div>
   <div class="compiler-panel">
@@ -140,13 +138,5 @@
     <h2>Jargon, explained</h2>
     <p>Co-payments, waiting periods, DSPs, late-joiner penalties — the words your scheme uses and what they actually mean.</p>
   </a>
-</section>
-
-<section class="ac-panel" aria-label="Also used by">
-  <header class="ac-section-head"><h2>Also referenced by</h2></header>
-  <p>
-    SchemeBook is the one place this data lives. <a href="{{ url_for('clinical_atlas_za.medical_aids') }}">ClinicalAtlas ZA</a>
-    and <a href="{{ url_for('inbox') }}">ClaimBuddy</a> link back here rather than holding a second copy of it.
-  </p>
 </section>
 {% endblock %}
