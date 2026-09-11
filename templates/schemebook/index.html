@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}SchemeBook — South African medical scheme directory{% endblock %}
+{% block meta_description %}SchemeBook — an independent directory of South African private medical schemes, PMBs, CDL, and DTP, plus a plain-language guide to medical aid jargon.{% endblock %}
+{% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
+{% block content %}
+
+<article class="sx-essay">
+  <p class="sx-kicker">Sentrix Digital · ZA portfolio</p>
+  <h1>{{ title }}</h1>
+  <p class="sx-lead">{{ tagline }}</p>
+  <p>
+    Independent of any scheme, broker, or insurer. SchemeBook does not sell cover
+    and does not advise you on which plan to choose — it organises the public
+    record (CMS-registered schemes, Prescribed Minimum Benefits, the Chronic
+    Disease List, and Diagnosis Treatment Pairs) and explains the jargon in
+    plain language, so you can read your own scheme's rules with confidence.
+  </p>
+</article>
+
+<section class="ac-panel" aria-label="SchemeBook at a glance">
+  <header class="ac-section-head"><h2>At a glance</h2></header>
+  <div class="ac-stat-grid">
+    <a href="{{ url_for('atlascore.medical_schemes_schemes', core_code='za') }}" class="ac-stat-card">
+      <span class="ac-stat-value">{{ stats.schemes }}</span>
+      <span class="ac-stat-label">Registered schemes</span>
+      <span class="ac-stat-detail">{{ stats.schemes_open }} open · {{ stats.schemes_restricted }} restricted</span>
+    </a>
+    <a href="{{ url_for('atlascore.medical_schemes_pmb', core_code='za') }}" class="ac-stat-card">
+      <span class="ac-stat-value">{{ stats.pmb_sections }}</span>
+      <span class="ac-stat-label">PMB sections</span>
+    </a>
+    <a href="{{ url_for('atlascore.medical_schemes_cdl', core_code='za') }}" class="ac-stat-card">
+      <span class="ac-stat-value">{{ stats.cdl_conditions }}</span>
+      <span class="ac-stat-label">Chronic Disease List conditions</span>
+    </a>
+    <a href="{{ url_for('atlascore.medical_schemes_dtp', core_code='za') }}" class="ac-stat-card">
+      <span class="ac-stat-value">{{ stats.dtp_conditions }}</span>
+      <span class="ac-stat-label">Diagnosis Treatment Pairs</span>
+    </a>
+  </div>
+</section>
+
+<section class="sx-squares" id="directory" aria-label="Directory">
+  <a href="{{ url_for('atlascore.medical_schemes_schemes', core_code='za') }}">
+    <p class="sx-kicker">Directory</p>
+    <h2>Scheme directory</h2>
+    <p>Every CMS-registered open and restricted scheme, with type, PMB coverage, and source record.</p>
+  </a>
+  <a href="{{ url_for('atlascore.medical_schemes_pmb', core_code='za') }}">
+    <p class="sx-kicker">Rules</p>
+    <h2>PMB explainer</h2>
+    <p>What Prescribed Minimum Benefits are, and why your scheme has to pay for them regardless of your plan.</p>
+  </a>
+  <a href="{{ url_for('atlascore.medical_schemes_cdl', core_code='za') }}">
+    <p class="sx-kicker">Rules</p>
+    <h2>Chronic Disease List</h2>
+    <p>The chronic conditions PMB cover extends to, and the treatment standard attached to each.</p>
+  </a>
+  <a href="{{ url_for('atlascore.medical_schemes_dtp', core_code='za') }}">
+    <p class="sx-kicker">Rules</p>
+    <h2>Diagnosis Treatment Pairs</h2>
+    <p>The government-set minimum treatment standard behind each Chronic Disease List entry.</p>
+  </a>
+  <a href="{{ url_for('schemebook_jargon') }}">
+    <p class="sx-kicker">For consumers</p>
+    <h2>Jargon, explained</h2>
+    <p>Co-payments, waiting periods, DSPs, late-joiner penalties — the words your scheme uses and what they actually mean.</p>
+  </a>
+</section>
+
+<section class="ac-panel" aria-label="Also used by">
+  <header class="ac-section-head"><h2>Also referenced by</h2></header>
+  <p>
+    SchemeBook is the one place this data lives. <a href="{{ url_for('clinical_atlas_za.medical_aids') }}">ClinicalAtlas ZA</a>
+    and <a href="{{ url_for('inbox') }}">ClaimBuddy</a> link back here rather than holding a second copy of it.
+  </p>
+</section>
+{% endblock %}

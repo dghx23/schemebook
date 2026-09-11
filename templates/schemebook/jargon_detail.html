@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}{{ term.term }} — SchemeBook jargon{% endblock %}
+{% block meta_description %}{{ term.one_liner }}{% endblock %}
+{% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
+{% block content %}
+
+<article class="sx-essay">
+  <p class="sx-kicker">
+    <a href="{{ url_for('schemebook_home') }}">SchemeBook</a> ·
+    <a href="{{ url_for('schemebook_jargon') }}">Jargon</a>
+  </p>
+  <h1>{{ term.term }}</h1>
+  <p class="sx-lead">{{ term.one_liner }}</p>
+  <p>{{ term.detail }}</p>
+</article>
+
+{% set others = jargon | rejectattr('slug', 'equalto', term.slug) | list %}
+<section class="sx-note">
+  <p class="sx-kicker">More jargon</p>
+  <p>
+    {% for other in others %}<a href="{{ url_for('schemebook_jargon_detail', slug=other.slug) }}">{{ other.term }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+  </p>
+</section>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Medical aid jargon, explained — SchemeBook{% endblock %}
+{% block meta_description %}Plain-language explanations of South African medical scheme jargon: PMB, CDL, DTP, co-payments, waiting periods, and more.{% endblock %}
+{% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
+{% block content %}
+
+<article class="sx-essay">
+  <p class="sx-kicker"><a href="{{ url_for('schemebook_home') }}">SchemeBook</a> · For consumers</p>
+  <h1>Jargon, explained</h1>
+  <p class="sx-lead">The words your scheme's rules use, in plain language.</p>
+</article>
+
+<div class="ref-grid">
+  {% for term in jargon %}
+  <a class="ref-card" href="{{ url_for('schemebook_jargon_detail', slug=term.slug) }}">
+    <span class="ref-kicker">Term</span>
+    <h2>{{ term.term }}</h2>
+    <p>{{ term.one_liner }}</p>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}
