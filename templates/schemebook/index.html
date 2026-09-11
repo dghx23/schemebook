@@ -2,6 +2,9 @@
 {% block title %}SchemeBook — South African medical scheme directory{% endblock %}
 {% block meta_description %}SchemeBook — an independent directory of South African private medical schemes, PMBs, CDL, and DTP, plus a plain-language guide to medical aid jargon.{% endblock %}
 {% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
+{% block head_extra %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/compiler.css') }}">
+{% endblock %}
 {% block content %}
 
 <article class="sx-essay">
@@ -16,6 +19,54 @@
     plain language.
   </p>
 </article>
+
+<div class="compiler-why" aria-label="What, why, where, when">
+  <div class="compiler-panel">
+    <p class="ref-kicker">What</p>
+    <h2>A registry and a translator, in one place</h2>
+    <p>
+      SchemeBook is two things bolted together: a directory of every CMS-registered
+      medical scheme in South Africa (open and restricted, with type and PMB
+      coverage), and a plain-language glossary of the terms those schemes'
+      rules assume you already know — co-payment, DSP, late-joiner penalty,
+      and the rest. It is a reference tool, not a comparison or quote engine.
+    </p>
+  </div>
+  <div class="compiler-panel">
+    <p class="ref-kicker">Why</p>
+    <h2>The rules are public. Reading them isn't easy.</h2>
+    <p>
+      Prescribed Minimum Benefits, the Chronic Disease List, and Diagnosis
+      Treatment Pairs are all matters of public record — but they're published
+      as government gazettes and 71 separate scheme rule documents, in
+      regulatory language nobody outside the industry was taught to read.
+      SchemeBook exists so that gap isn't the reason a claim gets refused, a
+      benefit goes unused, or a reform proposal has to start from zero.
+    </p>
+  </div>
+  <div class="compiler-panel">
+    <p class="ref-kicker">Where</p>
+    <h2>Its own address, feeding the rest</h2>
+    <p>
+      Standalone at <code>schemebook.riskatlas.co.za</code>, under the ZA
+      portfolio — not a page buried inside ClinicalAtlas or ClaimBuddy. Those
+      products, and RiskAtlas, link back to SchemeBook rather than holding a
+      second copy of this data, so there's one place it's kept current.
+    </p>
+  </div>
+  <div class="compiler-panel">
+    <p class="ref-kicker">When</p>
+    <h2>Before the jargon costs you something</h2>
+    <p>
+      Before you sign up or switch schemes, when a claim or a co-payment
+      surprises you, when a rejection or scheme letter uses a term you don't
+      recognise, or when you're researching the system itself rather than
+      your own cover. The underlying PMB data refreshes on a daily cache
+      cycle from the Council for Medical Schemes; the scheme registry follows
+      the CMS Industry Report as new editions publish.
+    </p>
+  </div>
+</div>
 
 <section class="sx-squares" id="who" aria-label="Who SchemeBook is for">
   <a href="#directory">
