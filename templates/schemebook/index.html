@@ -3,7 +3,24 @@
 {% block meta_description %}SchemeBook — an independent directory of South African private medical schemes, PMBs, CDL, and DTP, plus a plain-language guide to medical aid jargon.{% endblock %}
 {% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
 {% block head_extra %}
-<link rel="stylesheet" href="{{ url_for('static', filename='css/compiler.css') }}">
+<style>
+  .sb-tabbar {
+    position: sticky; top: 0; z-index: 5;
+    display: flex; gap: 0.5rem; flex-wrap: wrap;
+    padding: 0.75rem 0; margin: 1.5rem 0;
+    background: rgba(245, 244, 251, 0.85); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  }
+  .sb-tabbar a {
+    background: rgba(255, 255, 255, 0.6); border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 999px; padding: 0.5rem 1.1rem; font-size: 0.85rem; font-weight: 700;
+    color: var(--rv2-violet-deep, #6b5ce0); text-decoration: none;
+  }
+  .sb-tabbar a.is-active {
+    background: linear-gradient(135deg, var(--rv2-violet, #8b7bf0), var(--rv2-pink, #f0a6c9));
+    color: #fff; border-color: transparent;
+  }
+  .sb-section { scroll-margin-top: 4.5rem; margin-bottom: 1.5rem; }
+</style>
 {% endblock %}
 {% block content %}
 
@@ -11,62 +28,129 @@
   <p class="sx-kicker">Sentrix Digital · ZA portfolio</p>
   <h1>{{ title }}</h1>
   <p class="sx-lead">{{ tagline }}</p>
-  <p>
-    Independent of any scheme, broker, or insurer. SchemeBook does not sell cover
-    and does not advise you on which plan to choose — it organises the public
-    record (CMS-registered schemes, Prescribed Minimum Benefits, the Chronic
-    Disease List, and Diagnosis Treatment Pairs) and explains the jargon in
-    plain language.
-  </p>
 </article>
 
-<div class="compiler-why" aria-label="What, why, where, when">
-  <div class="compiler-panel">
-    <p class="ref-kicker">What</p>
-    <h2>A registry and a translator, in one place</h2>
-    <p>
-      SchemeBook is two things bolted together: a directory of every CMS-registered
-      medical scheme in South Africa (open and restricted, with type and PMB
-      coverage), and a plain-language glossary of the terms those schemes'
-      rules assume you already know — co-payment, DSP, late-joiner penalty,
-      and the rest. It is a reference tool, not a comparison or quote engine.
-    </p>
-  </div>
-  <div class="compiler-panel">
-    <p class="ref-kicker">Why</p>
-    <h2>The rules are public. Reading them isn't easy.</h2>
-    <p>
-      Prescribed Minimum Benefits, the Chronic Disease List, and Diagnosis
-      Treatment Pairs are all matters of public record — but they're published
-      as government gazettes and 71 separate scheme rule documents, in
-      regulatory language nobody outside the industry was taught to read.
-      SchemeBook exists so that gap isn't the reason a claim gets refused, a
-      benefit goes unused, or a reform proposal has to start from zero.
-    </p>
-  </div>
-  <div class="compiler-panel">
-    <p class="ref-kicker">Where</p>
-    <h2>Its own address</h2>
-    <p>
-      Standalone at <code>schemebook.riskatlas.co.za</code>, under the ZA
-      portfolio — its own front door, not a page buried inside something else.
-    </p>
-  </div>
-  <div class="compiler-panel">
-    <p class="ref-kicker">When</p>
-    <h2>Before the jargon costs you something</h2>
-    <p>
-      Before you sign up or switch schemes, when a claim or a co-payment
-      surprises you, when a rejection or scheme letter uses a term you don't
-      recognise, or when you're researching the system itself rather than
-      your own cover. The underlying PMB data refreshes on a daily cache
-      cycle from the Council for Medical Schemes; the scheme registry follows
-      the CMS Industry Report as new editions publish.
-    </p>
-  </div>
-</div>
+<nav class="sb-tabbar" aria-label="SchemeBook sections">
+  <a href="#overview" class="is-active">Overview</a>
+  <a href="#directory">Directory</a>
+  <a href="#rules">Rules</a>
+  <a href="#jargon">Jargon</a>
+  <a href="#who">Who it's for</a>
+</nav>
 
-<section class="sx-squares" id="who" aria-label="Who SchemeBook is for">
+<section id="overview" class="sb-section">
+  <div class="compiler-why" aria-label="What, why, where, when">
+    <div class="compiler-panel">
+      <p class="ref-kicker">What</p>
+      <h2>A registry and a translator, in one place</h2>
+      <p>
+        SchemeBook is two things bolted together: a directory of every CMS-registered
+        medical scheme in South Africa (open and restricted, with type and PMB
+        coverage), and a plain-language glossary of the terms those schemes'
+        rules assume you already know — co-payment, DSP, late-joiner penalty,
+        and the rest. It is a reference tool, not a comparison or quote engine.
+      </p>
+    </div>
+    <div class="compiler-panel">
+      <p class="ref-kicker">Why</p>
+      <h2>The rules are public. Reading them isn't easy.</h2>
+      <p>
+        Prescribed Minimum Benefits, the Chronic Disease List, and Diagnosis
+        Treatment Pairs are all matters of public record — but they're published
+        as government gazettes and 71 separate scheme rule documents, in
+        regulatory language nobody outside the industry was taught to read.
+        SchemeBook exists so that gap isn't the reason a claim gets refused, a
+        benefit goes unused, or a reform proposal has to start from zero.
+      </p>
+    </div>
+    <div class="compiler-panel">
+      <p class="ref-kicker">Where</p>
+      <h2>Its own address</h2>
+      <p>
+        Standalone at <code>schemebook.riskatlas.co.za</code>, under the ZA
+        portfolio — its own front door, not a page buried inside something else.
+      </p>
+    </div>
+    <div class="compiler-panel">
+      <p class="ref-kicker">When</p>
+      <h2>Before the jargon costs you something</h2>
+      <p>
+        Before you sign up or switch schemes, when a claim or a co-payment
+        surprises you, when a rejection or scheme letter uses a term you don't
+        recognise, or when you're researching the system itself rather than
+        your own cover. The underlying PMB data refreshes on a daily cache
+        cycle from the Council for Medical Schemes; the scheme registry follows
+        the CMS Industry Report as new editions publish.
+      </p>
+    </div>
+  </div>
+
+  <section class="ac-panel" aria-label="SchemeBook at a glance" style="margin-top:1.5rem;">
+    <header class="ac-section-head"><h2>At a glance</h2></header>
+    <div class="ac-stat-grid">
+      <a href="{{ url_for('atlascore.medical_schemes_schemes', core_code='za') }}" class="ac-stat-card">
+        <span class="ac-stat-value">{{ stats.schemes }}</span>
+        <span class="ac-stat-label">Registered schemes</span>
+        <span class="ac-stat-detail">{{ stats.schemes_open }} open · {{ stats.schemes_restricted }} restricted</span>
+      </a>
+      <a href="{{ url_for('atlascore.medical_schemes_pmb', core_code='za') }}" class="ac-stat-card">
+        <span class="ac-stat-value">{{ stats.pmb_sections }}</span>
+        <span class="ac-stat-label">PMB sections</span>
+      </a>
+      <a href="{{ url_for('atlascore.medical_schemes_cdl', core_code='za') }}" class="ac-stat-card">
+        <span class="ac-stat-value">{{ stats.cdl_conditions }}</span>
+        <span class="ac-stat-label">Chronic Disease List conditions</span>
+      </a>
+      <a href="{{ url_for('atlascore.medical_schemes_dtp', core_code='za') }}" class="ac-stat-card">
+        <span class="ac-stat-value">{{ stats.dtp_conditions }}</span>
+        <span class="ac-stat-label">Diagnosis Treatment Pairs</span>
+      </a>
+    </div>
+  </section>
+</section>
+
+<section id="directory" class="sb-section sx-squares" aria-label="Directory">
+  <a href="{{ url_for('atlascore.medical_schemes_schemes', core_code='za') }}">
+    <p class="sx-kicker">Directory</p>
+    <h2>Scheme directory</h2>
+    <p>Every CMS-registered open and restricted scheme, with type, PMB coverage, and source record.</p>
+  </a>
+</section>
+
+<section id="rules" class="sb-section sx-squares" aria-label="Rules">
+  <a href="{{ url_for('atlascore.medical_schemes_pmb', core_code='za') }}">
+    <p class="sx-kicker">Rules</p>
+    <h2>PMB explainer</h2>
+    <p>What Prescribed Minimum Benefits are, and why your scheme has to pay for them regardless of your plan.</p>
+  </a>
+  <a href="{{ url_for('atlascore.medical_schemes_cdl', core_code='za') }}">
+    <p class="sx-kicker">Rules</p>
+    <h2>Chronic Disease List</h2>
+    <p>The chronic conditions PMB cover extends to, and the treatment standard attached to each.</p>
+  </a>
+  <a href="{{ url_for('atlascore.medical_schemes_dtp', core_code='za') }}">
+    <p class="sx-kicker">Rules</p>
+    <h2>Diagnosis Treatment Pairs</h2>
+    <p>The government-set minimum treatment standard behind each Chronic Disease List entry.</p>
+  </a>
+</section>
+
+<section id="jargon" class="sb-section sx-squares" aria-label="Jargon">
+  <a href="{{ url_for('schemebook_jargon') }}">
+    <p class="sx-kicker">Plain language</p>
+    <h2>Jargon, explained</h2>
+    <p>Co-payments, waiting periods, DSPs, late-joiner penalties — the words your scheme uses and what they actually mean.</p>
+  </a>
+  {% for term in jargon[:3] %}
+  <a href="{{ url_for('schemebook_jargon_detail', slug=term.slug) }}">
+    <p class="sx-kicker">Term</p>
+    <h2>{{ term.term }}</h2>
+    <p>{{ term.one_liner }}</p>
+  </a>
+  {% endfor %}
+</section>
+
+<section id="who" class="sb-section sx-squares" aria-label="Who SchemeBook is for">
   <a href="#directory">
     <p class="sx-kicker">Working out their own cover</p>
     <h3>Consumers</h3>
@@ -89,54 +173,24 @@
   </a>
 </section>
 
-<section class="ac-panel" aria-label="SchemeBook at a glance">
-  <header class="ac-section-head"><h2>At a glance</h2></header>
-  <div class="ac-stat-grid">
-    <a href="{{ url_for('atlascore.medical_schemes_schemes', core_code='za') }}" class="ac-stat-card">
-      <span class="ac-stat-value">{{ stats.schemes }}</span>
-      <span class="ac-stat-label">Registered schemes</span>
-      <span class="ac-stat-detail">{{ stats.schemes_open }} open · {{ stats.schemes_restricted }} restricted</span>
-    </a>
-    <a href="{{ url_for('atlascore.medical_schemes_pmb', core_code='za') }}" class="ac-stat-card">
-      <span class="ac-stat-value">{{ stats.pmb_sections }}</span>
-      <span class="ac-stat-label">PMB sections</span>
-    </a>
-    <a href="{{ url_for('atlascore.medical_schemes_cdl', core_code='za') }}" class="ac-stat-card">
-      <span class="ac-stat-value">{{ stats.cdl_conditions }}</span>
-      <span class="ac-stat-label">Chronic Disease List conditions</span>
-    </a>
-    <a href="{{ url_for('atlascore.medical_schemes_dtp', core_code='za') }}" class="ac-stat-card">
-      <span class="ac-stat-value">{{ stats.dtp_conditions }}</span>
-      <span class="ac-stat-label">Diagnosis Treatment Pairs</span>
-    </a>
-  </div>
-</section>
-
-<section class="sx-squares" id="directory" aria-label="Directory">
-  <a href="{{ url_for('atlascore.medical_schemes_schemes', core_code='za') }}">
-    <p class="sx-kicker">Directory</p>
-    <h2>Scheme directory</h2>
-    <p>Every CMS-registered open and restricted scheme, with type, PMB coverage, and source record.</p>
-  </a>
-  <a href="{{ url_for('atlascore.medical_schemes_pmb', core_code='za') }}">
-    <p class="sx-kicker">Rules</p>
-    <h2>PMB explainer</h2>
-    <p>What Prescribed Minimum Benefits are, and why your scheme has to pay for them regardless of your plan.</p>
-  </a>
-  <a href="{{ url_for('atlascore.medical_schemes_cdl', core_code='za') }}">
-    <p class="sx-kicker">Rules</p>
-    <h2>Chronic Disease List</h2>
-    <p>The chronic conditions PMB cover extends to, and the treatment standard attached to each.</p>
-  </a>
-  <a href="{{ url_for('atlascore.medical_schemes_dtp', core_code='za') }}">
-    <p class="sx-kicker">Rules</p>
-    <h2>Diagnosis Treatment Pairs</h2>
-    <p>The government-set minimum treatment standard behind each Chronic Disease List entry.</p>
-  </a>
-  <a href="{{ url_for('schemebook_jargon') }}">
-    <p class="sx-kicker">Plain language</p>
-    <h2>Jargon, explained</h2>
-    <p>Co-payments, waiting periods, DSPs, late-joiner penalties — the words your scheme uses and what they actually mean.</p>
-  </a>
-</section>
+<script>
+(function () {
+  var tabs = document.querySelectorAll(".sb-tabbar a");
+  var sections = Array.prototype.map.call(tabs, function (a) {
+    return document.querySelector(a.getAttribute("href"));
+  });
+  function onScroll() {
+    var pos = window.scrollY + 80;
+    var activeIdx = 0;
+    sections.forEach(function (sec, i) {
+      if (sec && sec.offsetTop <= pos) activeIdx = i;
+    });
+    tabs.forEach(function (a, i) {
+      a.classList.toggle("is-active", i === activeIdx);
+    });
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+})();
+</script>
 {% endblock %}
