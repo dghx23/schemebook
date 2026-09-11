@@ -16,8 +16,12 @@ from cms_authority import cms_data_sources, cms_stats
 
 TITLE = "SchemeBook"
 TAGLINE = (
-    "An independent directory of South African private medical schemes, and "
-    "a plain-language guide to the jargon and complexity of your medical aid."
+    "An independent directory of South African private medical schemes, and a "
+    "plain-language guide to the jargon and complexity of medical aid — built "
+    "to be navigated by anyone: consumers working out their own cover, industry "
+    "professionals, international bodies seeking to understand South Africa's "
+    "system, and institutional reformists looking for one central place to "
+    "start from."
 )
 
 JARGON: list[dict[str, str]] = [
