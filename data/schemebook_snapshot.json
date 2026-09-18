@@ -1,0 +1,2858 @@
+{
+  "schema_version": 1,
+  "product": "SchemeBook",
+  "source_contract": "Core ZA / CMS authority",
+  "stats": {
+    "schemes": 71,
+    "schemes_open": 16,
+    "schemes_restricted": 55,
+    "dtp_conditions": 266,
+    "cdl_conditions": 26,
+    "pmb_sections": 6
+  },
+  "schemes": [
+    {
+      "no": 7,
+      "name": "BESTMED MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "bestmed-medical-scheme"
+    },
+    {
+      "no": 9,
+      "name": "BONITAS MEDICAL FUND",
+      "type": "Open",
+      "slug": "bonitas-medical-fund"
+    },
+    {
+      "no": 12,
+      "name": "CAPE MEDICAL PLAN",
+      "type": "Open",
+      "slug": "cape-medical-plan"
+    },
+    {
+      "no": 14,
+      "name": "COMPCARE WELLNESS MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "compcare-wellness-medical-scheme"
+    },
+    {
+      "no": 16,
+      "name": "DISCOVERY HEALTH MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "discovery-health-medical-scheme"
+    },
+    {
+      "no": 18,
+      "name": "FEDHEALTH MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "fedhealth-medical-scheme"
+    },
+    {
+      "no": 21,
+      "name": "GENESIS MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "genesis-medical-scheme"
+    },
+    {
+      "no": 28,
+      "name": "KEYHEALTH MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "keyhealth-medical-scheme"
+    },
+    {
+      "no": 32,
+      "name": "MAKOTI MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "makoti-medical-scheme"
+    },
+    {
+      "no": 36,
+      "name": "MEDIHELP MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "medihelp-medical-scheme"
+    },
+    {
+      "no": 37,
+      "name": "MEDIMED MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "medimed-medical-scheme"
+    },
+    {
+      "no": 39,
+      "name": "MEDSHIELD MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "medshield-medical-scheme"
+    },
+    {
+      "no": 40,
+      "name": "MOMENTUM MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "momentum-medical-scheme"
+    },
+    {
+      "no": 60,
+      "name": "SIZWE HOSMED MEDICAL FUND",
+      "type": "Open",
+      "slug": "sizwe-hosmed-medical-fund"
+    },
+    {
+      "no": 62,
+      "name": "SUREMED HEALTH",
+      "type": "Open",
+      "slug": "suremed-health"
+    },
+    {
+      "no": 64,
+      "name": "THEBEMED MEDICAL SCHEME",
+      "type": "Open",
+      "slug": "thebemed-medical-scheme"
+    },
+    {
+      "no": 1,
+      "name": "AECI MEDICAL AID SOCIETY",
+      "type": "Restricted",
+      "slug": "aeci-medical-aid-society"
+    },
+    {
+      "no": 2,
+      "name": "ALLIANCE-MIDMED MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "alliance-midmed-medical-scheme"
+    },
+    {
+      "no": 3,
+      "name": "ANGLO MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "anglo-medical-scheme"
+    },
+    {
+      "no": 4,
+      "name": "ANGLOVAAL GROUP MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "anglovaal-group-medical-scheme"
+    },
+    {
+      "no": 5,
+      "name": "BANKMED",
+      "type": "Restricted",
+      "slug": "bankmed"
+    },
+    {
+      "no": 6,
+      "name": "BARLOWORLD MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "barloworld-medical-scheme"
+    },
+    {
+      "no": 8,
+      "name": "BMW EMPLOYEES MEDICAL AID SOCIETY",
+      "type": "Restricted",
+      "slug": "bmw-employees-medical-aid-society"
+    },
+    {
+      "no": 10,
+      "name": "BP MEDICAL AID SOCIETY",
+      "type": "Restricted",
+      "slug": "bp-medical-aid-society"
+    },
+    {
+      "no": 11,
+      "name": "BUILDING & CONSTRUCTION INDUSTRY MEDICAL AID FUND",
+      "type": "Restricted",
+      "slug": "building-construction-industry-medical-aid-fund"
+    },
+    {
+      "no": 13,
+      "name": "CHARTERED ACCOUNTANTS (SA) MEDICAL AID FUND (CAMAF)",
+      "type": "Restricted",
+      "slug": "chartered-accountants-sa-medical-aid-fund-camaf"
+    },
+    {
+      "no": 15,
+      "name": "DE BEERS BENEFIT SOCIETY",
+      "type": "Restricted",
+      "slug": "de-beers-benefit-society"
+    },
+    {
+      "no": 17,
+      "name": "ENGEN MEDICAL BENEFIT FUND",
+      "type": "Restricted",
+      "slug": "engen-medical-benefit-fund"
+    },
+    {
+      "no": 19,
+      "name": "FISHING INDUSTRY MEDICAL SCHEME (FISH-MED)",
+      "type": "Restricted",
+      "slug": "fishing-industry-medical-scheme-fish-med"
+    },
+    {
+      "no": 20,
+      "name": "FOODMED MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "foodmed-medical-scheme"
+    },
+    {
+      "no": 22,
+      "name": "GLENCORE MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "glencore-medical-scheme"
+    },
+    {
+      "no": 23,
+      "name": "GOLDEN ARROW EMPLOYEES MEDICAL BENEFIT FUND",
+      "type": "Restricted",
+      "slug": "golden-arrow-employees-medical-benefit-fund"
+    },
+    {
+      "no": 24,
+      "name": "GOVERNMENT EMPLOYEES MEDICAL SCHEME (GEMS)",
+      "type": "Restricted",
+      "slug": "government-employees-medical-scheme-gems"
+    },
+    {
+      "no": 25,
+      "name": "HORIZON MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "horizon-medical-scheme"
+    },
+    {
+      "no": 26,
+      "name": "IMPALA MEDICAL PLAN",
+      "type": "Restricted",
+      "slug": "impala-medical-plan"
+    },
+    {
+      "no": 27,
+      "name": "IMPERIAL GROUP MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "imperial-group-medical-scheme"
+    },
+    {
+      "no": 29,
+      "name": "LA-HEALTH MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "la-health-medical-scheme"
+    },
+    {
+      "no": 30,
+      "name": "LIBCARE MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "libcare-medical-scheme"
+    },
+    {
+      "no": 31,
+      "name": "LONMIN MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "lonmin-medical-scheme"
+    },
+    {
+      "no": 33,
+      "name": "MALCOR MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "malcor-medical-aid-scheme"
+    },
+    {
+      "no": 34,
+      "name": "MASSMART HEALTH PLAN",
+      "type": "Restricted",
+      "slug": "massmart-health-plan"
+    },
+    {
+      "no": 35,
+      "name": "MBMED MEDICAL AID FUND",
+      "type": "Restricted",
+      "slug": "mbmed-medical-aid-fund"
+    },
+    {
+      "no": 38,
+      "name": "MEDIPOS MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "medipos-medical-scheme"
+    },
+    {
+      "no": 41,
+      "name": "MOTOHEALTH CARE",
+      "type": "Restricted",
+      "slug": "motohealth-care"
+    },
+    {
+      "no": 42,
+      "name": "MULTICHOICE MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "multichoice-medical-aid-scheme"
+    },
+    {
+      "no": 43,
+      "name": "NETCARE MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "netcare-medical-scheme"
+    },
+    {
+      "no": 44,
+      "name": "OLD MUTUAL STAFF MEDICAL AID FUND",
+      "type": "Restricted",
+      "slug": "old-mutual-staff-medical-aid-fund"
+    },
+    {
+      "no": 45,
+      "name": "PARMED MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "parmed-medical-aid-scheme"
+    },
+    {
+      "no": 46,
+      "name": "PG GROUP MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "pg-group-medical-scheme"
+    },
+    {
+      "no": 47,
+      "name": "PICK ‘N PAY MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "pick-n-pay-medical-scheme"
+    },
+    {
+      "no": 48,
+      "name": "PLATINUM HEALTH",
+      "type": "Restricted",
+      "slug": "platinum-health"
+    },
+    {
+      "no": 49,
+      "name": "PROFMED",
+      "type": "Restricted",
+      "slug": "profmed"
+    },
+    {
+      "no": 50,
+      "name": "RAND WATER MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "rand-water-medical-scheme"
+    },
+    {
+      "no": 51,
+      "name": "REMEDI MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "remedi-medical-aid-scheme"
+    },
+    {
+      "no": 52,
+      "name": "RETAIL MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "retail-medical-scheme"
+    },
+    {
+      "no": 53,
+      "name": "RHODES UNIVERSITY MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "rhodes-university-medical-scheme"
+    },
+    {
+      "no": 54,
+      "name": "SA BREWERIES MEDICAL AID SOCIETY (SABMAS)",
+      "type": "Restricted",
+      "slug": "sa-breweries-medical-aid-society-sabmas"
+    },
+    {
+      "no": 55,
+      "name": "SABC MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "sabc-medical-scheme"
+    },
+    {
+      "no": 57,
+      "name": "SASOLMED",
+      "type": "Restricted",
+      "slug": "sasolmed"
+    },
+    {
+      "no": 58,
+      "name": "SEDMED",
+      "type": "Restricted",
+      "slug": "sedmed"
+    },
+    {
+      "no": 59,
+      "name": "SISONKE HEALTH MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "sisonke-health-medical-scheme"
+    },
+    {
+      "no": 56,
+      "name": "SOUTH AFRICAN MUNICIPAL UNION NATIONAL MEDICAL SCHEME (SAMWUMED)",
+      "type": "Restricted",
+      "slug": "south-african-municipal-union-national-medical-scheme-samwumed"
+    },
+    {
+      "no": 61,
+      "name": "SOUTH AFRICAN POLICE SERVICE MEDICAL SCHEME (POLMED)",
+      "type": "Restricted",
+      "slug": "south-african-police-service-medical-scheme-polmed"
+    },
+    {
+      "no": 63,
+      "name": "TFG MEDICAL AID SCHEME",
+      "type": "Restricted",
+      "slug": "tfg-medical-aid-scheme"
+    },
+    {
+      "no": 65,
+      "name": "TIGER BRANDS MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "tiger-brands-medical-scheme"
+    },
+    {
+      "no": 66,
+      "name": "TRANSMED MEDICAL FUND",
+      "type": "Restricted",
+      "slug": "transmed-medical-fund"
+    },
+    {
+      "no": 67,
+      "name": "TSOGO SUN GROUP MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "tsogo-sun-group-medical-scheme"
+    },
+    {
+      "no": 68,
+      "name": "UMVUZO HEALTH MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "umvuzo-health-medical-scheme"
+    },
+    {
+      "no": 69,
+      "name": "UNIVERSITY OF KWAZULU-NATAL MEDICAL SCHEME",
+      "type": "Restricted",
+      "slug": "university-of-kwazulu-natal-medical-scheme"
+    },
+    {
+      "no": 70,
+      "name": "WITBANK COALFIELDS MEDICAL AID SOCIETY (WCMAS)",
+      "type": "Restricted",
+      "slug": "witbank-coalfields-medical-aid-society-wcmas"
+    },
+    {
+      "no": 71,
+      "name": "WOOLTRU HEALTHCARE FUND",
+      "type": "Restricted",
+      "slug": "wooltru-healthcare-fund"
+    }
+  ],
+  "pmb": {
+    "sections": [
+      {
+        "id": "overview",
+        "title": "What are PMBs?",
+        "body": "Prescribed Minimum Benefits (PMBs) are defined benefits ensuring all medical scheme members can access minimum health services regardless of benefit option. Schemes must cover diagnosis, treatment, and care for emergencies, ~271 DTP conditions, and 26 CDL chronic diseases."
+      },
+      {
+        "id": "objectives",
+        "title": "PMB objectives",
+        "body": "Continuous healthcare even when annual benefits are exhausted; correct payer for PMB treatment (including state hospital care); minimum care regardless of age or option; and sustainable scheme finances through better chronic disease management."
+      },
+      {
+        "id": "dtp",
+        "title": "Diagnosis Treatment Pairs (DTPs)",
+        "body": "Annexure A to the Medical Schemes Act lists diagnosis–treatment pairs linking a diagnosis to appropriate treatment. Care should follow evidence-based public-sector protocols where schemes disagree. Some DTPs include chronic medicine (e.g. HIV, menopause management)."
+      },
+      {
+        "id": "cdl",
+        "title": "Chronic Disease List (CDL)",
+        "body": "26 chronic conditions with mandated medication, consultations, and tests. Treatment algorithms published in the Government Gazette are minimum standards — scheme cover may not be inferior. Schemes may use protocols, formularies, and Designated Service Providers (DSPs)."
+      },
+      {
+        "id": "emergency",
+        "title": "Emergency conditions",
+        "body": "Sudden, unexpected onset requiring immediate treatment or operation — risk of death, organ damage, or lasting disability without care. Schemes must approve suspected PMB emergencies even before final diagnosis; confirmation may be requested later. Nearest facility is covered in emergencies."
+      },
+      {
+        "id": "dsp",
+        "title": "Designated Service Providers",
+        "body": "Scheme-first-choice providers for PMB conditions. Non-DSP use may trigger co-payments unless no reasonable DSP exists near home or work. DSPs must deliver without unreasonable delay; if unable, the scheme remains liable at a non-DSP."
+      }
+    ],
+    "pmb_pillars": [
+      {
+        "title": "Emergency",
+        "detail": "Any emergency medical condition — nearest facility covered."
+      },
+      {
+        "title": "DTP conditions",
+        "detail": "271 diagnosis–treatment pairs in Medical Schemes Act Annexure A."
+      },
+      {
+        "title": "CDL chronic disease",
+        "detail": "26 listed chronic diseases with algorithm minimum standards."
+      }
+    ],
+    "diagnosis_based_note": "PMB eligibility uses a diagnosis-based approach — symptoms determine the PMB, not how the condition was contracted.",
+    "cached_excerpt": "Prescribed Minimum Benefits (PMBs) are defined benefits to ensure that all medical scheme members have access to minimum health services.\" />",
+    "fetched_at": "2026-09-18T10:58:56.465242+00:00",
+    "source_url": "https://www.medicalschemes.co.za/resources/pmb/"
+  },
+  "cdl": [
+    {
+      "name": "Addison's disease",
+      "acronym": "ADS",
+      "atlas_slug": "addison-disease",
+      "category": "Endocrine",
+      "claim_note": "Steroid dependence and crisis risk — note sick leave and safety-critical duties.",
+      "slug": "addison-s-disease"
+    },
+    {
+      "name": "Asthma",
+      "acronym": "AST",
+      "atlas_slug": "asthma",
+      "category": "Respiratory",
+      "claim_note": "PMB algorithms set minimum care — pair with material duty limits if exertion triggers symptoms.",
+      "slug": "asthma"
+    },
+    {
+      "name": "Bipolar mood disorder",
+      "acronym": "BMD",
+      "atlas_slug": "bipolar-affective-disorder",
+      "category": "Mental health",
+      "claim_note": "Episode frequency and cognition — separate PMB mental health cover from IP own-occupation test.",
+      "slug": "bipolar-mood-disorder"
+    },
+    {
+      "name": "Bronchiectasis",
+      "acronym": "BCE",
+      "atlas_slug": "bronchiectasis",
+      "category": "Respiratory",
+      "claim_note": "Chronic infection and fatigue — document stamina and attendance impact.",
+      "slug": "bronchiectasis"
+    },
+    {
+      "name": "Cardiac failure",
+      "acronym": "CHF",
+      "atlas_slug": "heart-failure",
+      "category": "Cardiovascular",
+      "claim_note": "NYHA class and exertional limits matter for own-occupation and safety-critical tests.",
+      "slug": "cardiac-failure"
+    },
+    {
+      "name": "Cardiomyopathy",
+      "acronym": "CMY",
+      "atlas_slug": "cardiomyopathy",
+      "category": "Cardiovascular",
+      "claim_note": "Arrhythmia and pump failure risk — capture specialist plan and duty restrictions.",
+      "slug": "cardiomyopathy"
+    },
+    {
+      "name": "Chronic obstructive pulmonary disorder",
+      "acronym": "COP",
+      "atlas_slug": "copd",
+      "category": "Respiratory",
+      "claim_note": "Progressive breathlessness — link spirometry and functional capacity to material duties.",
+      "slug": "chronic-obstructive-pulmonary-disorder"
+    },
+    {
+      "name": "Chronic renal disease",
+      "acronym": "CRF",
+      "atlas_slug": "chronic-kidney-disease",
+      "category": "Renal",
+      "claim_note": "PMB chronic cover may run parallel to disability cover — document renal staging and work limits.",
+      "slug": "chronic-renal-disease"
+    },
+    {
+      "name": "Coronary artery disease",
+      "acronym": "IHD",
+      "atlas_slug": "coronary-artery-disease",
+      "category": "Cardiovascular",
+      "claim_note": "Angina and intervention history — note driving, shift work, and stress tolerance.",
+      "slug": "coronary-artery-disease"
+    },
+    {
+      "name": "Crohn's disease",
+      "acronym": "CSD",
+      "atlas_slug": "crohn-disease",
+      "category": "GI",
+      "claim_note": "Flare frequency and toilet access — material for attendance and client-facing roles.",
+      "slug": "crohn-s-disease"
+    },
+    {
+      "name": "Diabetes insipidus",
+      "acronym": "DBI",
+      "atlas_slug": "diabetes-insipidus",
+      "category": "Endocrine",
+      "claim_note": "Fluid balance and monitoring — document travel and shift constraints.",
+      "slug": "diabetes-insipidus"
+    },
+    {
+      "name": "Diabetes mellitus types 1 & 2",
+      "acronym": "DM1/DM2",
+      "atlas_slug": "type-2-diabetes-mellitus",
+      "category": "Metabolic",
+      "claim_note": "Hypoglycaemia and complications — HbA1c monitoring is a PMB algorithm benchmark.",
+      "slug": "diabetes-mellitus-types-1-2"
+    },
+    {
+      "name": "Dysrhythmias",
+      "acronym": "DYS",
+      "atlas_slug": "atrial-fibrillation",
+      "category": "Cardiovascular",
+      "claim_note": "Palpitations and anticoagulation — safety-critical work may need explicit limits.",
+      "slug": "dysrhythmias"
+    },
+    {
+      "name": "Epilepsy",
+      "acronym": "EPL",
+      "atlas_slug": "epilepsy-unspecified",
+      "category": "Neurological",
+      "claim_note": "Seizure control and driving licence rules — central to disability and safety assessments.",
+      "slug": "epilepsy"
+    },
+    {
+      "name": "Glaucoma",
+      "acronym": "GLC",
+      "atlas_slug": "glaucoma",
+      "category": "Ophthalmology",
+      "claim_note": "Visual field loss — pair with driving, screen work, and safety-critical roles.",
+      "slug": "glaucoma"
+    },
+    {
+      "name": "HIV/AIDS",
+      "acronym": "HIV",
+      "atlas_slug": "hiv-disease",
+      "category": "Infectious",
+      "claim_note": "PMB HIV management is separate from income-protection definitions — document ART adherence and complications.",
+      "slug": "hiv-aids"
+    },
+    {
+      "name": "Haemophilia",
+      "acronym": "HAE",
+      "atlas_slug": "haemophilia",
+      "category": "Haematology",
+      "claim_note": "Bleeding risk and factor prophylaxis — manual and physical duties need explicit limits.",
+      "slug": "haemophilia"
+    },
+    {
+      "name": "Hyperlipidaemia",
+      "acronym": "HYL",
+      "atlas_slug": "hyperlipidaemia",
+      "category": "Metabolic",
+      "claim_note": "PMB focuses on cardiovascular risk reduction — usually secondary to work impact claims.",
+      "slug": "hyperlipidaemia"
+    },
+    {
+      "name": "Hypertension",
+      "acronym": "HYP",
+      "atlas_slug": "hypertension",
+      "category": "Cardiovascular",
+      "claim_note": "Controlled vs uncontrolled BP — document complications, not only script strength.",
+      "slug": "hypertension"
+    },
+    {
+      "name": "Hypothyroidism",
+      "acronym": "TDH",
+      "atlas_slug": "hypothyroidism",
+      "category": "Metabolic",
+      "claim_note": "Fatigue and cognition on suboptimal replacement — TSH monitoring is PMB-aligned.",
+      "slug": "hypothyroidism"
+    },
+    {
+      "name": "Multiple sclerosis",
+      "acronym": "MSS",
+      "atlas_slug": "multiple-sclerosis",
+      "category": "Neurological",
+      "claim_note": "Relapsing course and fatigue — document EDSS or functional equivalents for insurers.",
+      "slug": "multiple-sclerosis"
+    },
+    {
+      "name": "Parkinson's disease",
+      "acronym": "PAR",
+      "atlas_slug": "parkinson-disease",
+      "category": "Neurological",
+      "claim_note": "Tremor, gait, and medication timing — safety-critical and fine motor duties.",
+      "slug": "parkinson-s-disease"
+    },
+    {
+      "name": "Rheumatoid arthritis",
+      "acronym": "RHA",
+      "atlas_slug": "rheumatoid-arthritis",
+      "category": "Pain & MSK",
+      "claim_note": "Grip, stamina, and morning stiffness — link DMARD plan to material manual duties.",
+      "slug": "rheumatoid-arthritis"
+    },
+    {
+      "name": "Schizophrenia",
+      "acronym": "SCZ",
+      "atlas_slug": "schizophrenia",
+      "category": "Mental health",
+      "claim_note": "Relapse and cognition — PMB cover does not replace IP functional and own-occupation evidence.",
+      "slug": "schizophrenia"
+    },
+    {
+      "name": "Systemic lupus erythematosus",
+      "acronym": "SLE",
+      "atlas_slug": "systemic-lupus-erythematosus",
+      "category": "Autoimmune",
+      "claim_note": "Flares, fatigue, and organ involvement — document unpredictable incapacity episodes.",
+      "slug": "systemic-lupus-erythematosus"
+    },
+    {
+      "name": "Ulcerative colitis",
+      "acronym": "IBD",
+      "atlas_slug": "ulcerative-colitis",
+      "category": "GI",
+      "claim_note": "Flare pattern and surgery history — attendance and travel impact for claims.",
+      "slug": "ulcerative-colitis"
+    }
+  ],
+  "dtp": [
+    {
+      "code": "109A",
+      "slug": "109a-vertebral-dislocations-fractures-open-or-closed-with-injury-to-spinal-cord",
+      "description": "Vertebral dislocations/ fractures, open or closed with injury to spinal cord",
+      "treatment": "Repair /reconstruction; medical management; inpatient rehabilitation up to 2 months",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "1A",
+      "slug": "1a-severe-moderate-head-injury-hematoma-oedema-with-loss-of-consciousness",
+      "description": "Severe / moderate head injury: hematoma / oedema with loss of consciousness",
+      "treatment": "Medical and surgical management; ventilation",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "211A",
+      "slug": "211a-intraspinal-and-intracranial-abscess",
+      "description": "Intraspinal and Intracranial abscess",
+      "treatment": "Medical and surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "213A",
+      "slug": "213a-difficulty-in-breathing-eating-swallowing-bowel-or-bladder-control-due-to-non-progressive-neurological-including-spinal-condition-or-injury",
+      "description": "Difficulty in breathing, eating, swallowing, bowel, or bladder control due to non-progressive neurological (including spinal) condition or injury",
+      "treatment": "Medical and surgical management; ventilation",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "265A",
+      "slug": "265a-transient-cerebral-ischaemia-life-threatening-cerebrovascular-conditions-nos",
+      "description": "Transient cerebral ischaemia; life-threatening cerebrovascular conditions NOS",
+      "treatment": "Evaluation; medical management; surgery",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "28A",
+      "slug": "28a-subarachnoid-and-intracranial-hemorrhage-hematoma-compression-of-brain",
+      "description": "Subarachnoid and intracranial hemorrhage / hematoma; compression of brain",
+      "treatment": "Medical and surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "305A",
+      "slug": "305a-tetanus",
+      "description": "Tetanus",
+      "treatment": "Medical management; ventilation",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "341A",
+      "slug": "341a-basal-ganglia-extra-pyramidal-disorders-other-dystonias-nos",
+      "description": "Basal ganglia, extra-pyramidal disorders; other dystonias  NOS",
+      "treatment": "Initial diagnosis; initiation of medical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "386B",
+      "slug": "386b-herpes-zoster-herpes-simplex-with-ophthalmic-complications",
+      "description": "Herpes zoster  & herpes simplex with ophthalmic complications",
+      "treatment": "Medical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "389B",
+      "slug": "389b-hyphaema",
+      "description": "Hyphaema",
+      "treatment": "Removal of blood clot; observation",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "394B",
+      "slug": "394b-angle-closure-glaucoma",
+      "description": "Angle-closure glaucoma",
+      "treatment": "Iridectomy; laser surgery; medical and surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "405B",
+      "slug": "405b-glaucoma-associated-with-disorders-of-the-lens",
+      "description": "Glaucoma associated with disorders of the lens",
+      "treatment": "Surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "407B",
+      "slug": "407b-primary-and-open-angle-glaucoma-with-failed-medical-management",
+      "description": "Primary and open angle glaucoma with failed medical management",
+      "treatment": "Trabeculectomy; other surgery",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "409B",
+      "slug": "409b-sympathetic-uveitis-and-degenerative-disorders-and-conditions-of-globe-sight-threatening-thyroid-optopathy",
+      "description": "Sympathetic uveitis and degenerative disorders and conditions of globe; sight threatening thyroid optopathy",
+      "treatment": "Enucleation; medical management; surgery",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "419B",
+      "slug": "419b-purulent-endophthalmitis",
+      "description": "Purulent endophthalmitis",
+      "treatment": "Vitrectomy",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "47B",
+      "slug": "47b-acute-orbital-cellulitis",
+      "description": "Acute orbital cellulitis",
+      "treatment": "Medical and surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "485B",
+      "slug": "485b-inflammation-of-lacrimal-passages",
+      "description": "Inflammation of lacrimal passages",
+      "treatment": "Incision; medical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "49A",
+      "slug": "49a-compound-depressed-fractures-of-skull",
+      "description": "Compound/ depressed fractures of skull",
+      "treatment": "Craniotomy/ craniectomy",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "510A",
+      "slug": "510a-peripheral-nerve-injury-with-open-wound",
+      "description": "Peripheral nerve injury with open wound",
+      "treatment": "Neuroplasty",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "513A",
+      "slug": "513a-myasthenia-gravis-muscular-dystrophy-neuro-myopathies-nos",
+      "description": "Myasthenia gravis; muscular dystrophy; neuro-myopathies NOS",
+      "treatment": "Initial diagnosis; initiation of medical management; therapy for acute complications and exacerbations",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "586B",
+      "slug": "586b-bell-s-palsy-exposure-keratoconjunctivitis",
+      "description": "Bell’s palsy; exposure keratoconjunctivitis",
+      "treatment": "Tarsorrhaphy; medical and surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "684A",
+      "slug": "684a-viral-meningitis-encephalitis-myelitis-and-encephalomyelitis",
+      "description": "Viral meningitis, encephalitis, myelitis and encephalomyelitis",
+      "treatment": "Medical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "83A",
+      "slug": "83a-encephalocele-congenital-hydrocephalus",
+      "description": "Encephalocele; congenital hydrocephalus",
+      "treatment": "Shunt; surgery",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "84A",
+      "slug": "84a-spina-bifida",
+      "description": "Spina Bifida",
+      "treatment": "Surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "901A",
+      "slug": "901a-stroke-due-to-hemorrhage-or-ischaemia",
+      "description": "Stroke – due to hemorrhage, or ischaemia",
+      "treatment": "Medical management; surgery",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "901B",
+      "slug": "901b-cataract-aphakia",
+      "description": "Cataract; aphakia",
+      "treatment": "Extraction of cataract; lens implant",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "902A",
+      "slug": "902a-epilepsy-status-epilepticus-initial-diagnosis-candidate-for-neurosurgery",
+      "description": "Epilepsy (status epilepticus, initial diagnosis, candidate for neurosurgery)",
+      "treatment": "Medical management; ventilation; neurosurgery",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "904B",
+      "slug": "904b-retinal-detachment-tear-and-other-retinal-disorders",
+      "description": "Retinal detachment, tear and other retinal disorders",
+      "treatment": "Vitrectomy; laser treatment; other surgery",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "905A",
+      "slug": "905a-meningitis-acute-and-subacute",
+      "description": "Meningitis – acute and subacute",
+      "treatment": "Medical and surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "906A",
+      "slug": "906a-acute-generalised-paralysis-including-polio-and-guillain-barre",
+      "description": "Acute generalised paralysis, including polio and Guillain-Barre",
+      "treatment": "Medical management; ventilation and plasmapheresis",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "906B",
+      "slug": "906b-retinal-vascular-occlusion-central-retinal-vein-occlusion",
+      "description": "Retinal vascular occlusion; central retinal vein occlusion",
+      "treatment": "Laser surgery",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "909B",
+      "slug": "909b-open-wound-of-eyeball-and-other-eye-structures",
+      "description": "Open wound of eyeball and other eye structures",
+      "treatment": "Medical and surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "911B",
+      "slug": "911b-corneal-ulcer-superficial-injury-of-eye-and-adnexa",
+      "description": "Corneal ulcer; Superficial injury of eye and adnexa",
+      "treatment": "Conjunctival flap; medical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "922B",
+      "slug": "922b-retained-intraocular-foreign-body",
+      "description": "Retained intraocular foreign body",
+      "treatment": "Surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "940A",
+      "slug": "940a-reversible-cns-abnormalities-due-to-other-systemic-disease",
+      "description": "Reversible CNS abnormalities due to other systemic disease",
+      "treatment": "Medical and surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "941A",
+      "slug": "941a-spinal-cord-compression-ischaemia-or-degenerative-disease-nos",
+      "description": "Spinal cord compression, ischaemia or degenerative disease NOS",
+      "treatment": "Medical and surgical management",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "950A",
+      "slug": "950a-benign-and-malignant-brain-tumours-treatable",
+      "description": "Benign and malignant brain tumours, treatable",
+      "treatment": "Medical and surgical management which includes radiation therapy and chemotherapy",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "950B",
+      "slug": "950b-cancer-of-the-eye-and-orbit-treatable",
+      "description": "Cancer of the eye and orbit - treatable",
+      "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+      "category": "BRAIN AND NERVOUS SYSTEM"
+    },
+    {
+      "code": "12C",
+      "slug": "12c-deep-open-wound-of-neck-including-larynx-fracture-of-larynx-or-trachea-open",
+      "description": "Deep open wound of neck, including larynx; fracture of larynx or trachea, open",
+      "treatment": "Medical and surgical management; ventilation",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "132C",
+      "slug": "132c-life-threatening-diseases-of-pharynx-nos-including-retropharyngeal-abscess",
+      "description": "Life-threatening diseases of pharynx NOS, including retropharyngeal abscess",
+      "treatment": "Medical and surgical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "133C",
+      "slug": "133c-cholesteatoma",
+      "description": "Cholesteatoma",
+      "treatment": "Medical and surgical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "219C",
+      "slug": "219c-leukoplakia-of-oral-mucosa-including-tongue",
+      "description": "Leukoplakia of oral mucosa, including tongue",
+      "treatment": "Incision/excision; medical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "240C",
+      "slug": "240c-peritonsillar-abscess",
+      "description": "Peritonsillar abscess",
+      "treatment": "Incision and drainage of abscess; tonsillectomy; medical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "241C",
+      "slug": "241c-cancrum-oris",
+      "description": "Cancrum oris",
+      "treatment": "Medical and surgical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "29C",
+      "slug": "29c-foreign-body-in-pharynx-larynx-trachea-bronchus-esophagus",
+      "description": "Foreign body in pharynx, larynx, trachea, bronchus & esophagus",
+      "treatment": "Removal of foreign body",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "339C",
+      "slug": "339c-fracture-of-face-bones-orbit-jaw-injury-to-optic-and-other-cranial-nerves",
+      "description": "Fracture of face bones, orbit, jaw; injury to optic and other cranial nerves",
+      "treatment": "Medical and surgical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "33C",
+      "slug": "33c-acute-and-chronic-mastoiditis",
+      "description": "Acute and chronic mastoiditis",
+      "treatment": "Mastoidectomy; medical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "346C",
+      "slug": "346c-epistaxis-not-responsive-to-anterior-packing",
+      "description": "Epistaxis – not responsive to anterior packing",
+      "treatment": "Cautery / repair / control hemorrhage",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "347C",
+      "slug": "347c-sialoadenitis-abscess-fistula-of-salivary-glands",
+      "description": "Sialoadenitis; abscess / fistula of salivary glands",
+      "treatment": "Surgery",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "38C",
+      "slug": "38c-choanal-atresia",
+      "description": "Choanal atresia",
+      "treatment": "Repair of choanal atresia",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "457C",
+      "slug": "457c-open-wound-of-ear-drum",
+      "description": "Open wound of ear-drum",
+      "treatment": "Tympanoplasty; medical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "482C",
+      "slug": "482c-acute-otitis-media",
+      "description": "Acute otitis media",
+      "treatment": "Medical and surgical management, including myringotomy",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "521C",
+      "slug": "521c-foreign-body-in-ear-and-nose",
+      "description": "Foreign body in ear and nose",
+      "treatment": "Removal of foreign body; and medical and surgical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "543C",
+      "slug": "543c-stomatitis-cellulites-and-abscess-of-oral-soft-tissue-vincent-s-angina",
+      "description": "Stomatitis, cellulites and abscess of oral soft tissue; Vincent’s angina",
+      "treatment": "Incision and drainage; medical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "900C",
+      "slug": "900c-acute-upper-airway-obstruction-including-croup-epiglottitis-and-acute-laryngotracheitis",
+      "description": "Acute upper airway obstruction, including croup, epiglottitis and acute laryngotracheitis",
+      "treatment": "Medical management; intubation; tracheostomy",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "901C",
+      "slug": "901c-cleft-palate-and-or-cleft-lip-without-airway-obstruction",
+      "description": "Cleft palate and/or cleft lip without airway obstruction",
+      "treatment": "Repair",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "910C",
+      "slug": "910c-chronic-upper-airway-obstruction-resulting-in-cor-pulmonale",
+      "description": "Chronic upper airway obstruction, resulting in cor pulmonale",
+      "treatment": "Medical and surgical management",
+      "category": "EAR, NOSE, MOUTH AND THROAT"
+    },
+    {
+      "code": "236K",
+      "slug": "236k-iron-deficiency-vitamin-and-other-nutritional-deficiencies-life-threatening",
+      "description": "Iron deficiency; vitamin and other nutritional deficiencies – life-threatening",
+      "treatment": "Medical management",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "30K",
+      "slug": "30k-benign-neoplasm-of-islets-of-langerhans",
+      "description": "Benign neoplasm of islets of Langerhans",
+      "treatment": "Excision of tumour; medical management",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "31K",
+      "slug": "31k-hypoglycemic-coma-hyperglycemia-diabetic-ketoacidosis",
+      "description": "Hypoglycemic coma; hyperglycemia; diabetic ketoacidosis",
+      "treatment": "Medical management",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "331K",
+      "slug": "331k-acute-thyroiditis",
+      "description": "Acute thyroiditis",
+      "treatment": "Medical management",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "447K",
+      "slug": "447k-disorders-of-parathyroid-gland-benign-neoplasm-of-parathyroid-gland",
+      "description": "Disorders of parathyroid gland; benign neoplasm of parathyroid gland",
+      "treatment": "Medical and surgical management",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "61K",
+      "slug": "61k-congenital-hypothyroidism",
+      "description": "Congenital hypothyroidism",
+      "treatment": "Medical management",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "901K",
+      "slug": "901k-life-threatening-congenital-abnormalities-of-carbohydrate-lipid-protein-and-amino-acid-metabolism",
+      "description": "Life-threatening congenital abnormalities of carbohydrate, lipid, protein and amino acid metabolism",
+      "treatment": "Medical management",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "902K",
+      "slug": "902k-disorder-of-adrenal-secretion-nos",
+      "description": "Disorder of adrenal secretion NOS",
+      "treatment": "Medical management; adrenalectomy",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "903K",
+      "slug": "903k-life-threatening-disorders-of-fluid-and-electrolyte-balance-nos",
+      "description": "Life-threatening disorders of fluid and electrolyte balance, NOS",
+      "treatment": "Medical management",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "904K",
+      "slug": "904k-hyper-and-hypothyroidism-with-life-threatening-complications-or-requiring-surgery",
+      "description": "Hyper and hypothyroidism  with life-threatening complications or requiring surgery",
+      "treatment": "Medical management\nSurgery",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "950K",
+      "slug": "950k-cancer-of-endocrine-system-excluding-thyroid-treatable",
+      "description": "Cancer of endocrine system, excluding thyroid - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "951K",
+      "slug": "951k-benign-and-malignant-tumours-of-pituitary-gland-with-without-hypersecretion-syndromes",
+      "description": "Benign and malignant tumours of pituitary gland with/without hypersecretion syndromes",
+      "treatment": "Medical and surgical management; radiation therapy",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "952K",
+      "slug": "952k-cancer-of-thyroid-treatable-carcinoid-syndrome",
+      "description": "Cancer of thyroid - treatable; carcinoid syndrome",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "ENDOCRINE, METABOLIC AND NUTRITIONAL"
+    },
+    {
+      "code": "237M",
+      "slug": "237m-sexual-abuse-including-rape",
+      "description": "Sexual abuse, including rape",
+      "treatment": "Medical management; psychotherapy",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "266M",
+      "slug": "266m-dysplasia-of-cervix-and-cervical-carcinoma-in-situ-cervical-condylomata",
+      "description": "Dysplasia of cervix and cervical carcinoma-in-situ; cervical condylomata",
+      "treatment": "Medical and surgical management",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "288M",
+      "slug": "288m-acute-pelvic-inflammatory-disease",
+      "description": "Acute pelvic inflammatory disease",
+      "treatment": "Medical and surgical management",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "296M",
+      "slug": "296m-voluntary-termination-of-pregnancy",
+      "description": "Voluntary termination of pregnancy",
+      "treatment": "Induced abortion; medical and surgical management",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "434M",
+      "slug": "434m-non-inflammatory-disorders-and-benign-neoplasms-of-ovary-fallopian-tubes-and-uterus",
+      "description": "Non-inflammatory disorders and benign neoplasms of ovary, fallopian tubes and uterus",
+      "treatment": "Salpingectomy; oophorectomy; hysterectomy; medical and surgical management",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "435M",
+      "slug": "435m-torsion-of-ovary",
+      "description": "Torsion of ovary",
+      "treatment": "Oophorectomy; ovarian cystectomy",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "460M",
+      "slug": "460m-fistula-involving-female-genital-tract",
+      "description": "Fistula involving female genital tract",
+      "treatment": "Closure of fistula",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "528M",
+      "slug": "528m-menopausal-management-anomalies-of-ovaries-primary-and-secondary-amenorrhoea-female-sex-hormones-abnormalities-nos-including-hirsutism",
+      "description": "Menopausal management, anomalies of ovaries, primary and secondary amenorrhoea, female sex hormones abnormalities NOS, including hirsutism",
+      "treatment": "Medical and surgical management, including hormone replacement therapy",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "530M",
+      "slug": "530m-uterine-prolapse-cystocele",
+      "description": "Uterine prolapse; cystocele",
+      "treatment": "Surgical repair",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "539M",
+      "slug": "539m-abscesses-of-bartholin-s-gland-and-vulva",
+      "description": "Abscesses of Bartholin's gland and vulva",
+      "treatment": "Incision and drainage; medical management",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "53M",
+      "slug": "53m-ectopic-pregnancy",
+      "description": "Ectopic pregnancy",
+      "treatment": "Surgery",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "645M",
+      "slug": "645m-congenital-abnormalities-of-the-female-genitalia",
+      "description": "Congenital abnormalities of the female genitalia",
+      "treatment": "Medical and surgical management",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "902M",
+      "slug": "902m-infertility-explanatory-note-9-of-annexure-a-of-regulations",
+      "description": "Infertility (Explanatory Note 9 of Annexure A of Regulations)",
+      "treatment": "Medical and surgical management",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "903M",
+      "slug": "903m-spontaneous-abortion",
+      "description": "Spontaneous abortion",
+      "treatment": "Medical and surgical manegment",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "950M",
+      "slug": "950m-cancer-of-uterus-treatable",
+      "description": "Cancer of uterus - treatable",
+      "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "951M",
+      "slug": "951m-hydatidiform-mole-choriocarcinoma",
+      "description": "Hydatidiform mole; choriocarcinoma",
+      "treatment": "D & C; hysterectomy; chemotherapy",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "952M",
+      "slug": "952m-cancer-of-ovary-treatable",
+      "description": "Cancer of ovary - treatable",
+      "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "953M",
+      "slug": "953m-cancer-of-vagina-vulva-and-other-female-genital-organs-nos-treatable",
+      "description": "Cancer of vagina, vulva and other female genital organs NOS - treatable",
+      "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "954M",
+      "slug": "954m-cancer-of-cervix-treatable",
+      "description": "Cancer of Cervix - treatable",
+      "treatment": "Medical and surgical management, which includes radiation therapy and chemotherapy",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "960M",
+      "slug": "960m-cervical-and-breast-cancer-screening",
+      "description": "Cervical and breast cancer screening",
+      "treatment": "Cervical smears; periodic breast examination",
+      "category": "FEMALE REPRODUCTIVE SYSTEM"
+    },
+    {
+      "code": "124F",
+      "slug": "124f-acute-vascular-insufficiency-of-intestine",
+      "description": "Acute vascular insufficiency of intestine",
+      "treatment": "Colectomy",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "20F",
+      "slug": "20f-intestinal-obstruction-without-mention-of-hernia-symptomatic-foreign-body-in-stomach-intestines-colon-rectum",
+      "description": "Intestinal obstruction without mention of hernia; symptomatic foreign body in stomach, intestines, colon & rectum",
+      "treatment": "Excision; surgery; medical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "214F",
+      "slug": "214f-oesophageal-stricture",
+      "description": "Oesophageal stricture",
+      "treatment": "Dilatation; surgery",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "232F",
+      "slug": "232f-paralytic-ileus",
+      "description": "Paralytic ileus",
+      "treatment": "Medical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "254F",
+      "slug": "254f-acute-diverticulitis-of-colon",
+      "description": "Acute diverticulitis of colon",
+      "treatment": "Medical and surgical management, including colon resection",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "264F",
+      "slug": "264f-anal-and-rectal-polyp",
+      "description": "Anal and rectal polyp",
+      "treatment": "Excision of polyp",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "292F",
+      "slug": "292f-regional-enteritis-idiopathic-proctocolitis-acute-exacerbations-and-complications-only",
+      "description": "Regional enteritis; idiopathic proctocolitis – acute exacerbations and complications only",
+      "treatment": "Medical and surgical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "337F",
+      "slug": "337f-amoebiasis-typhoid",
+      "description": "Amoebiasis; typhoid",
+      "treatment": "Medical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "3F",
+      "slug": "3f-peritonitis-regardless-of-cause",
+      "description": "Peritonitis, regardless of cause",
+      "treatment": "Medical and surgical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "41F",
+      "slug": "41f-abscess-of-intestine",
+      "description": "Abscess of intestine",
+      "treatment": "Drain abscess; medical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "489F",
+      "slug": "489f-acquired-hypertrophic-pyloric-stenosis-and-other-disorders-of-the-stomach-and-duodenum",
+      "description": "Acquired hypertrophic pyloric stenosis and other disorders of the stomach and duodenum",
+      "treatment": "Surgical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "498F",
+      "slug": "498f-peritoneal-adhesion",
+      "description": "Peritoneal adhesion",
+      "treatment": "Surgical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "507F",
+      "slug": "507f-thrombosed-and-complicated-haemorrhoids",
+      "description": "Thrombosed and complicated haemorrhoids",
+      "treatment": "Haemorrhoidectomy; incision",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "516F",
+      "slug": "516f-oesophageal-varices",
+      "description": "Oesophageal varices",
+      "treatment": "Medical management; surgical shunt; sclerotherapy",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "555F",
+      "slug": "555f-rectal-prolapse",
+      "description": "Rectal prolapse",
+      "treatment": "Partial colectomy",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "6F",
+      "slug": "6f-hernia-with-obstruction-and-or-gangrene-uncomplicated-hernias-under-age-18",
+      "description": "Hernia with obstruction and/or gangrene; uncomplicated hernias under age 18",
+      "treatment": "Repair; bowel resection",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "900F",
+      "slug": "900f-rupture-of-intra-abdominal-organ",
+      "description": "Rupture of intra-abdominal organ",
+      "treatment": "Repair; splenectomy; resection",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "901F",
+      "slug": "901f-gastroenteritis-and-colitis-with-life-threatening-haemorrhage-or-dehydration-regardless-of-cause",
+      "description": "Gastroenteritis and colitis with life-threatening haemorrhage or dehydration, regardless of cause",
+      "treatment": "Medical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "902F",
+      "slug": "902f-gastric-or-intestinal-ulcers-with-hemorrhage-or-perforation",
+      "description": "Gastric or intestinal ulcers with hemorrhage or perforation",
+      "treatment": "Surgery; endoscopic diagnosis; medical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "920F",
+      "slug": "920f-anal-fissure-anal-fistula",
+      "description": "Anal Fissure; Anal fistula",
+      "treatment": "Fissurectomy ; Fistulectomy; medical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "950C",
+      "slug": "950c-cancer-of-the-gastro-intestinal-tract-including-oesophagus-stomach-bowel-rectum-anus-treatable",
+      "description": "Cancer of the gastro-intestinal tract, including oesophagus, stomach, bowel, rectum, anus - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "952F",
+      "slug": "952f-cancer-of-retroperitoneum-peritoneum-omentum-mesentery-treatable",
+      "description": "Cancer of retroperitoneum, peritoneum, omentum & mesentery - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "95F",
+      "slug": "95f-congenital-anomalies-of-upper-alimentary-tract-excluding-tongue",
+      "description": "Congenital anomalies of upper alimentary tract – excluding tongue",
+      "treatment": "Medical and surgical management",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "9F",
+      "slug": "9f-appendicitis",
+      "description": "Appendicitis",
+      "treatment": "Appendectomy",
+      "category": "GASTRO-INTESTINAL SYSTEM"
+    },
+    {
+      "code": "113S",
+      "slug": "113s-acquired-haemolytic-anaemias",
+      "description": "Acquired haemolytic anaemias",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "11S",
+      "slug": "11s-tuberculosis",
+      "description": "Tuberculosis",
+      "treatment": "Diagnosis and acute medical management; successful transfer to maintenance therapy in accordance to DOH guidelines",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "122S",
+      "slug": "122s-thalassemia-and-other-haemoglobinopathies-treatable",
+      "description": "Thalassemia and other haemoglobinopathies – treatable",
+      "treatment": "Medical management; bone marrow transplant",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "128S",
+      "slug": "128s-tetanus-anthrax-whipple-s-disease",
+      "description": "Tetanus; anthrax; Whipple's disease",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "15S",
+      "slug": "15s-whooping-cough-diptheria",
+      "description": "Whooping cough, diptheria",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "168S",
+      "slug": "168s-hiv-infection",
+      "description": "# HIV-infection",
+      "treatment": "# HIV voluntary counseling and testing\nCo-trimoxazole as preventative therapy  Screening and preventative therapy for  TB, Diagnosis and treatment of sexually transmitted infections\nPain management in palliative care\nTreatment of opportunistic infections,  Prevention of mother-to-child transmission of HIV\nPost-exposure prophylaxis following occupational exposure or sexual assault\nMedical management and medication, including the provision of anti-retroviral therapy, and ongoing monitoring for medicine effectiveness and safety, to the extent provided for in the national guidelines applicable in the public sector",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "172S",
+      "slug": "172s-malaria-trypanosomiasis-other-life-threatening-parasitic-disease",
+      "description": "Malaria; trypanosomiasis; other life-threatening parasitic disease",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "174S",
+      "slug": "174s-hereditary-haemolytic-anaemias-e-g-sickle-cell-dyserythropoietic-anemia-congenital",
+      "description": "Hereditary haemolytic anaemias (e.g. sickle cell); dyserythropoietic anemia (congenital)",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "179S",
+      "slug": "179s-hereditary-angioedema-angioneurotic-oedema",
+      "description": "Hereditary angioedema; angioneurotic oedema",
+      "treatment": "Medical and surgical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "196S",
+      "slug": "196s-chronic-granulomatous-disease",
+      "description": "Chronic Granulomatous disease",
+      "treatment": "Medical management, which includes radiation therapy",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "197S",
+      "slug": "197s-botulism",
+      "description": "Botulism",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "201S",
+      "slug": "201s-herpetic-encephalitis-reye-s-syndrome",
+      "description": "Herpetic encephalitis; Reye’s syndrome",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "246S",
+      "slug": "246s-cysticercosis-other-systemic-cestode-infection",
+      "description": "Cysticercosis; other systemic cestode infection",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "247S",
+      "slug": "247s-poisoning-by-ingestion-injection-and-non-medicinal-agents",
+      "description": "Poisoning by ingestion, injection, and non-medicinal agents",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "252S",
+      "slug": "252s-life-threatening-anaemia-nos",
+      "description": "Life-threatening anaemia NOS",
+      "treatment": "Medical management; transfusion",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "260S",
+      "slug": "260s-imminent-death-regardless-of-diagnosis",
+      "description": "# Imminent death regardless of diagnosis",
+      "treatment": "# Comfort care; pain relief; hydration",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "277S",
+      "slug": "277s-anaerobic-infections-life-threatening",
+      "description": "Anaerobic infections – life threatening",
+      "treatment": "Medical management; hyperbaric oxygen",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "316S",
+      "slug": "316s-toxic-effect-of-gasses-fumes-and-vapors",
+      "description": "Toxic effect of gasses, fumes, and vapors",
+      "treatment": "Medical therapy",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "336S",
+      "slug": "336s-leptospirosis-spirochaetal-infections-nos",
+      "description": "Leptospirosis; spirochaetal infections NOS",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "338S",
+      "slug": "338s-cholera-rat-bite-fever",
+      "description": "Cholera; rat-bite fever",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "44S",
+      "slug": "44s-erysipelas",
+      "description": "Erysipelas",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "48S",
+      "slug": "48s-anaphylactic-shock",
+      "description": "Anaphylactic shock",
+      "treatment": "Medical management; ventilation",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "50S",
+      "slug": "50s-syphilis-congenital-secondary-and-tertiary",
+      "description": "Syphilis - congenital, secondary and tertiary",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "900S",
+      "slug": "900s-aplastic-anemia-agranulocytosis-other-life-threatening-hereditary-immune-deficiencies",
+      "description": "Aplastic anemia; agranulocytosis; other life-threatening hereditary immune deficiencies",
+      "treatment": "Bone marrow transplantation; medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "901S",
+      "slug": "901s-acute-leukemias-lymphomas",
+      "description": "Acute leukemias, lymphomas",
+      "treatment": "Medical management, which includes chemotherapy, radiation therapy, bone marrow transplantation",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "903S",
+      "slug": "903s-deep-seated-excluding-nail-infections-disseminated-and-systemic-fungal-infections",
+      "description": "Deep-seated (excluding nail infections), disseminated and systemic fungal infections",
+      "treatment": "Medical management; surgery",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "904S",
+      "slug": "904s-metastatic-infections-septiceamia",
+      "description": "Metastatic infections; septiceamia",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "907S",
+      "slug": "907s-life-threatening-rickettsial-and-other-arthropod-borne-diseases",
+      "description": "Life-threatening rickettsial and other arthropod-borne diseases",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "908S",
+      "slug": "908s-life-threatening-conditions-due-to-exposure-to-the-elements-including-hypo-and-hyperthermia-lighting-strikes",
+      "description": "Life-threatening conditions due  to exposure to the elements, including hypo and hyperthermia; lighting strikes",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "910S",
+      "slug": "910s-multiple-myeloma-and-chronic-leukaemias",
+      "description": "Multiple myeloma and chronic leukaemias",
+      "treatment": "Medical management which includes chemotherapy and radiation therapy",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "911S",
+      "slug": "911s-sexually-transmitted-diseases-with-systemic-involvement-not-elsewhere-specified",
+      "description": "Sexually transmitted diseases with systemic involvement not elsewhere specified",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "912S",
+      "slug": "912s-leprosy-and-other-systemic-mycobacterial-infections-excluding-tuberculosis",
+      "description": "Leprosy and other systemic mycobacterial infections, Excluding tuberculosis",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "913S",
+      "slug": "913s-immune-compromise-nos-and-associated-life-threatening-infections-nos",
+      "description": "Immune compromise NOS and associated life-threatening infections NOS",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "916S",
+      "slug": "916s-coagulation-defects",
+      "description": "Coagulation defects",
+      "treatment": "Medical management",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "937S",
+      "slug": "937s-tumour-of-internal-organ-excludes-skin-unknown-whether-benign-or-malignant",
+      "description": "Tumour of internal organ (excludes skin): unknown whether benign or malignant",
+      "treatment": "Biopsy",
+      "category": "HAEMATOLOGICAL, INFECTIOUS AND MISCELLANEOUS\nSYSTEMIC CONDITIONS"
+    },
+    {
+      "code": "100E",
+      "slug": "100e-patent-ductus-arteriosus-aortic-pulmonary-fistula-persistent",
+      "description": "Patent ductus arteriosus; aortic pulmonary fistula - persistent",
+      "treatment": "Ligation",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "108E",
+      "slug": "108e-pericarditis",
+      "description": "Pericarditis",
+      "treatment": "Medical and surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "111E",
+      "slug": "111e-injury-to-major-blood-vessels-trunk-head-and-neck-and-upper-limbs",
+      "description": "Injury to major blood vessels - trunk, head and neck, and upper limbs",
+      "treatment": "Repair",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "155E",
+      "slug": "155e-myocarditis-cardiomyopathy-transposition-of-great-vessels-hypoplastic-left-heart-syndrome",
+      "description": "Myocarditis; cardiomyopathy; transposition of great vessels; hypoplastic left heart syndrome",
+      "treatment": "Medical and surgical management; cardiac transplant",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "16E",
+      "slug": "16e-rupture-of-papillary-muscle",
+      "description": "Rupture of papillary muscle",
+      "treatment": "Medical and surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "18E",
+      "slug": "18e-dissecting-or-ruptured-aortic-aneurysm",
+      "description": "Dissecting or ruptured aortic aneurysm",
+      "treatment": "Surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "19E",
+      "slug": "19e-injury-to-major-blood-vessels-of-extremities",
+      "description": "Injury to major blood vessels of extremities",
+      "treatment": "Ligation",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "204E",
+      "slug": "204e-cardiac-failure-acute-or-recent-deterioration-of-chronic-cardiac-failure",
+      "description": "Cardiac failure: acute or recent deterioration of chronic cardiac failure",
+      "treatment": "Medical treatment",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "209E",
+      "slug": "209e-phlebitis-thrombophlebitis-deep",
+      "description": "Phlebitis & thrombophlebitis, deep",
+      "treatment": "Ligation and division; medical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "210E",
+      "slug": "210e-diseases-of-endocardium-endocarditis",
+      "description": "Diseases of endocardium; endocarditis",
+      "treatment": "Medical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "26E",
+      "slug": "26e-arterial-embolism-thrombosis-abdominal-aorta-thoracic-aorta",
+      "description": "Arterial embolism/thrombosis: abdominal aorta, thoracic aorta",
+      "treatment": "Medical and surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "284E",
+      "slug": "284e-acute-pulmonary-heart-disease-and-pulmonary-emboli",
+      "description": "Acute pulmonary heart disease and pulmonary emboli",
+      "treatment": "Medical and surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "294E",
+      "slug": "294e-giant-cell-arteritis-kawasaki-disease-hypersensitivity-angiitis",
+      "description": "Giant cell arteritis, Kawasaki disease, hypersensitivity angiitis",
+      "treatment": "Medical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "309E",
+      "slug": "309e-diseases-and-disorders-of-aortic-valve-nos",
+      "description": "Diseases and disorders of aortic valve NOS",
+      "treatment": "Aortic valve replacement",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "314E",
+      "slug": "314e-diseases-of-mitral-valve",
+      "description": "Diseases of mitral valve",
+      "treatment": "Valvuloplasty; valve replacement; medical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "355E",
+      "slug": "355e-other-aneurysm-of-artery-peripheral",
+      "description": "Other aneurysm of artery – peripheral",
+      "treatment": "Surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "35E",
+      "slug": "35e-acute-rheumatic-fever",
+      "description": "Acute rheumatic fever",
+      "treatment": "Medical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "450E",
+      "slug": "450e-hereditary-hemorrhagic-telangiectasia",
+      "description": "Hereditary hemorrhagic telangiectasia",
+      "treatment": "Excision",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "497E",
+      "slug": "497e-multiple-valvular-disease",
+      "description": "Multiple valvular disease",
+      "treatment": "Surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "627E",
+      "slug": "627e-shock-hypotension-life-threatening",
+      "description": "Shock / hypotension – life-threatening",
+      "treatment": "Medical management; ventilation",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "900E",
+      "slug": "900e-life-threatening-complications-of-elective-cardiac-and-major-vascular-procedures",
+      "description": "Life-threatening complications of elective cardiac and major vascular procedures",
+      "treatment": "Medical and surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "901E",
+      "slug": "901e-hypertension-acute-life-threatening-complications-and-malignant-hypertension-renal-artery-stenosis-and-other-curable-hypertension",
+      "description": "Hypertension – acute life-threatening complications and malignant hypertension; renal artery stenosis and other curable hypertension",
+      "treatment": "Medical and surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "902E",
+      "slug": "902e-disorders-of-arteries-visceral",
+      "description": "Disorders of arteries: visceral",
+      "treatment": "Bypass graft; surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "903E",
+      "slug": "903e-life-threatening-cardiac-arrhythmias",
+      "description": "Life-threatening cardiac arrhythmias",
+      "treatment": "Medical and surgical management, pacemakers, cardioversion",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "905E",
+      "slug": "905e-other-correctable-congenital-cardiac-conditions",
+      "description": "Other correctable congenital cardiac conditions",
+      "treatment": "Surgical repair; medical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "907E",
+      "slug": "907e-acute-and-subacute-ischemic-heart-disease-including-myocardial-infarction-and-unstable-angina",
+      "description": "Acute and subacute ischemic heart disease, including myocardial infarction and unstable angina",
+      "treatment": "Medical management; surgery; percutaneous procedures",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "908E",
+      "slug": "908e-aneurysm-of-major-artery-of-chest-abdomen-neck-unruptured-or-ruptured-nos",
+      "description": "Aneurysm of major artery of chest, abdomen, neck, - Unruptured or ruptured NOS",
+      "treatment": "Surgical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "914E",
+      "slug": "914e-rheumatic-pericarditis-rheumatic-myocarditis",
+      "description": "Rheumatic pericarditis; rheumatic myocarditis",
+      "treatment": "Medical management",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "915E",
+      "slug": "915e-gangrene-severe-atherosclerosis-of-arteries-of-extremities-diabetes-mellitus-with-peripheral-circulatory-disease",
+      "description": "Gangrene; severe atherosclerosis of arteries of extremities; diabetes mellitus with peripheral circulatory disease",
+      "treatment": "Medical and surgical management including amputation",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "93E",
+      "slug": "93e-ventricular-septal-defect-persistent",
+      "description": "Ventricular septal defect - persistent",
+      "treatment": "Closure",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "97E",
+      "slug": "97e-coronary-artery-anomaly",
+      "description": "Coronary artery anomaly",
+      "treatment": "Anomalous coronary artery ligation",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "98E",
+      "slug": "98e-complete-corrected-and-other-transposition-of-great-vessels",
+      "description": "Complete, corrected and other transposition of great vessels",
+      "treatment": "Repair",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "99E",
+      "slug": "99e-tetralogy-of-fallot-tof",
+      "description": "Tetralogy of Fallot (TOF)",
+      "treatment": "Total repair tetralogy",
+      "category": "HEART AND VASCULATURE"
+    },
+    {
+      "code": "156G",
+      "slug": "156g-disorders-of-bile-duct",
+      "description": "Disorders of bile duct",
+      "treatment": "Excision; repair",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "231G",
+      "slug": "231g-portal-vein-thrombosis",
+      "description": "Portal vein thrombosis",
+      "treatment": "Shunt",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "255G",
+      "slug": "255g-cyst-and-pseudocyst-of-pancreas",
+      "description": "Cyst and pseudocyst of pancreas",
+      "treatment": "Drainage of pancreatic cyst",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "27G",
+      "slug": "27g-liver-abscess-pancreatic-abscess",
+      "description": "Liver abscess; pancreatic abscess",
+      "treatment": "Medical and surgical management",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "325G",
+      "slug": "325g-acute-necrosis-of-liver",
+      "description": "Acute necrosis of liver",
+      "treatment": "Medical management",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "327G",
+      "slug": "327g-acute-pancreatitis",
+      "description": "Acute pancreatitis",
+      "treatment": "Medical management, and where appropriate, surgical management",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "36G",
+      "slug": "36g-budd-chiari-syndrome-and-other-venous-embolism-and-thrombosis",
+      "description": "Budd-Chiari syndrome, and other venous embolism and thrombosis",
+      "treatment": "Thrombectomy / ligation",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "743G",
+      "slug": "743g-hepatorenal-syndrome",
+      "description": "Hepatorenal syndrome",
+      "treatment": "Medical management",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "910G",
+      "slug": "910g-gallstone-with-cholecystitis-and-or-jaundice",
+      "description": "Gallstone with cholecystitis and/or jaundice",
+      "treatment": "Medical management; cholecystectomy; other open or closed surgery",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "911G",
+      "slug": "911g-liver-failure-hepatic-vascular-obstruction-inborn-errors-of-liver-metabolism-biliary-atresia",
+      "description": "Liver failure; hepatic vascular obstruction; inborn errors of liver metabolism; biliary atresia",
+      "treatment": "Liver transplant, other surgery, medical management",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "950G",
+      "slug": "950g-cancer-of-liver-biliary-system-and-pancreas-treatable",
+      "description": "Cancer of liver, biliary system and pancreas - treatable",
+      "treatment": "Medical and surgical management",
+      "category": "LIVER, PANCREAS AND SPLEEN"
+    },
+    {
+      "code": "182T",
+      "slug": "182t-abuse-or-dependence-on-psychoactive-substance-including-alcohol",
+      "description": "Abuse or dependence on Psychoactive substance, including alcohol",
+      "treatment": "Hospital-based management up to 3 weeks/year",
+      "category": "MENTAL ILLNESS"
+    },
+    {
+      "code": "184T",
+      "slug": "184t-brief-reactive-psychosis",
+      "description": "Brief reactive psychosis",
+      "treatment": "Hospital-based management up to 3 weeks/year",
+      "category": "MENTAL ILLNESS"
+    },
+    {
+      "code": "901T",
+      "slug": "901t-acute-stress-disorder-accompanied-by-recent-significant-trauma-including-physical-or-sexual-abuse",
+      "description": "Acute stress disorder accompanied by recent significant trauma, including physical or sexual abuse",
+      "treatment": "Hospital admission for psychotherapy / counselling up to 3 days, or up to 12 outpatient psychotherapy / counselling contacts",
+      "category": "MENTAL ILLNESS"
+    },
+    {
+      "code": "902T",
+      "slug": "902t-major-affective-disorders-including-unipolar-and-bipolar-depression",
+      "description": "Major affective disorders, including unipolar and bipolar depression",
+      "treatment": "Hospital-based management up to 3 weeks/year (including inpatient electro-convulsive therapy and inpatient psychotherapy) or outpatient psychotherapy of up to 15 contacts",
+      "category": "MENTAL ILLNESS"
+    },
+    {
+      "code": "903T",
+      "slug": "903t-attempted-suicide-irrespective-of-cause",
+      "description": "Attempted suicide, irrespective of cause",
+      "treatment": "Hospital-based management up to 3 days or up to 6 outpatient contacts",
+      "category": "MENTAL ILLNESS"
+    },
+    {
+      "code": "907T",
+      "slug": "907t-schizophrenic-and-paranoid-delusional-disorders",
+      "description": "Schizophrenic and paranoid delusional disorders",
+      "treatment": "Hospital-based management up to 3 weeks/year",
+      "category": "MENTAL ILLNESS"
+    },
+    {
+      "code": "908T",
+      "slug": "908t-anorexia-nervosa-and-bulimia-nervosa",
+      "description": "Anorexia Nervosa and Bulimia Nervosa",
+      "treatment": "Hospital-based management up to 3 weeks/year or minimum of 15 outpatient contacts per year",
+      "category": "MENTAL ILLNESS"
+    },
+    {
+      "code": "909T",
+      "slug": "909t-treatable-dementia",
+      "description": "Treatable dementia",
+      "treatment": "Admission for initial diagnosis; management  of acute psychotic symptoms - up to 1 week",
+      "category": "MENTAL ILLNESS"
+    },
+    {
+      "code": "910T",
+      "slug": "910t-delirium-amphetamine-cocaine-or-other-psychoactive-substance",
+      "description": "Delirium: Amphetamine, Cocaine, or other psychoactive substance",
+      "treatment": "Hospital-based management up to 3 days",
+      "category": "MENTAL ILLNESS"
+    },
+    {
+      "code": "147H",
+      "slug": "147h-crush-injuries-of-trunk-upper-limbs-lower-limbs-including-blood-vessels",
+      "description": "Crush injuries of trunk, upper limbs, lower limbs, including blood vessels",
+      "treatment": "Surgical management; ventilation; acute renal dialysis",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "178H",
+      "slug": "178h-fracture-of-hip",
+      "description": "Fracture of hip",
+      "treatment": "Reduction; hip replacement",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "206H",
+      "slug": "206h-chronic-osteomyelitis",
+      "description": "Chronic osteomyelitis",
+      "treatment": "Incision and drainage",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "32H",
+      "slug": "32h-acute-osteomyelitis",
+      "description": "Acute osteomyelitis",
+      "treatment": "Medical and surgical management",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "34H",
+      "slug": "34h-pyogenic-arthritis",
+      "description": "Pyogenic arthritis",
+      "treatment": "Medical and surgical management",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "353H",
+      "slug": "353h-abscess-of-bursa-or-tendon",
+      "description": "Abscess of bursa or tendon",
+      "treatment": "Incision and drainage",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "445H",
+      "slug": "445h-injury-to-internal-organs",
+      "description": "Injury to internal organs",
+      "treatment": "Medical and surgical management",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "491H",
+      "slug": "491h-dislocations-fractures-of-vertebral-column-without-spinal-cord-injury",
+      "description": "Dislocations / fractures of vertebral column without spinal cord injury",
+      "treatment": "Medical management; surgical stabilisation",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "500H",
+      "slug": "500h-disruptions-of-the-achilles-quadriceps-tendons",
+      "description": "Disruptions of the achilles / quadriceps tendons",
+      "treatment": "Repair",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "85H",
+      "slug": "85h-congenital-dislocation-of-hip-coxa-vara-and-valga-congenital-clubfoot",
+      "description": "Congenital dislocation of hip; coxa vara and valga; congenital clubfoot",
+      "treatment": "Repair / reconstruction",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "900H",
+      "slug": "900h-open-fracture-dislocation-of-bones-and-joints",
+      "description": "Open fracture / dislocation of bones and joints",
+      "treatment": "Reduction / relocation; medical and surgical management",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "901H",
+      "slug": "901h-traumatic-amputation-of-limbs-hands-feet-and-digits",
+      "description": "Traumatic amputation of limbs, hands, feet, and digits",
+      "treatment": "Replantation / amputation",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "902H",
+      "slug": "902h-closed-fractures-dislocations-of-limb-bones-epiphyses-excluding-fingers-and-toes",
+      "description": "Closed fractures/ dislocations of limb bones / epiphyses – excluding fingers and toes",
+      "treatment": "Reduction / relocation",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "950H",
+      "slug": "950h-cancer-of-bones-treatable",
+      "description": "Cancer of bones - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "MUSCULOSKELETAL SYSTEM; TRAUMA NOS"
+    },
+    {
+      "code": "52N",
+      "slug": "52n-pregnancy",
+      "description": "Pregnancy",
+      "treatment": "Antenatal and obstetric care necessitating hospitalisation, including delivery",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "54N",
+      "slug": "54n-necrotizing-enterocolitis-in-newborn",
+      "description": "Necrotizing enterocolitis in newborn",
+      "treatment": "Medical and surgical management",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "56N",
+      "slug": "56n-respiratory-conditions-of-newborn",
+      "description": "Respiratory conditions of newborn",
+      "treatment": "Medical management; ventilation",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "67N",
+      "slug": "67n-low-birth-weight-under-1000g-with-respiratory-difficulties",
+      "description": "# Low birth weight (under 1000g) with respiratory difficulties",
+      "treatment": "# Medical management not including ventilation",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "71N",
+      "slug": "71n-birth-trauma-for-baby",
+      "description": "Birth trauma for baby",
+      "treatment": "Medical management; surgery",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "74N",
+      "slug": "74n-neonatal-and-infant-git-abnormalities-and-disorders-including-malrotation-and-atresia",
+      "description": "Neonatal and infant GIT abnormalities and disorders, including malrotation and atresia",
+      "treatment": "Medical and surgical management",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "901N",
+      "slug": "901n-congenital-systemic-infections-affecting-the-newborn",
+      "description": "Congenital systemic infections affecting the newborn",
+      "treatment": "Medical management, ventilation",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "902N",
+      "slug": "902n-neonatal-endocrine-metabolic-and-toxin-induced-conditions",
+      "description": "Neonatal endocrine, metabolic and toxin-induced conditions",
+      "treatment": "Medical management",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "903N",
+      "slug": "903n-neurological-abnormalities-in-the-newborn",
+      "description": "Neurological abnormalities in the newborn",
+      "treatment": "Medical management",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "904N",
+      "slug": "904n-haematological-disorders-of-the-newborn",
+      "description": "Haematological disorders of the newborn",
+      "treatment": "Medical management",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "967N",
+      "slug": "967n-low-birth-weight-under-2500-grams-1000g-with-respiratory-difficulties",
+      "description": "# Low birth weight (under 2500 grams & > 1000g) with respiratory difficulties",
+      "treatment": "# Medical management, including ventilation; intensive care therapy",
+      "category": "PREGNANCY AND CHILDBIRTH"
+    },
+    {
+      "code": "125D",
+      "slug": "125d-adult-respiratory-distress-syndrome-inhalation-and-aspiration-pneumonias",
+      "description": "Adult respiratory distress syndrome; inhalation and aspiration pneumonias",
+      "treatment": "Medical management; ventilation",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "157D",
+      "slug": "157d-acute-asthmatic-attack-pneumonia-due-to-respiratory-syncytial-virus-in-persons-under-age-3",
+      "description": "Acute asthmatic attack; pneumonia due to respiratory syncytial virus in persons under age 3",
+      "treatment": "Medical management",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "158D",
+      "slug": "158d-respiratory-failure-regardless-of-cause",
+      "description": "# Respiratory failure, regardless of cause",
+      "treatment": "# Medical management; oxygen; ventilation",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "170D",
+      "slug": "170d-empyema-and-abscess-of-lung",
+      "description": "Empyema and abscess of lung",
+      "treatment": "Medical and surgical management",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "203D",
+      "slug": "203d-hypoplasia-and-dysplasia-of-lung",
+      "description": "Hypoplasia and dysplasia of lung",
+      "treatment": "Medical and surgical management",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "315D",
+      "slug": "315d-atelectasis-collapse-of-lung",
+      "description": "Atelectasis (collapse of lung)",
+      "treatment": "Medical and surgical management; ventilation",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "340D",
+      "slug": "340d-benign-neoplasm-of-respiratory-and-intrathoracic-organs",
+      "description": "Benign neoplasm of respiratory and  intrathoracic organs",
+      "treatment": "Biopsy; lobectomy; Medical management; radiation therapy",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "5D",
+      "slug": "5d-pneumothorax-and-haemothorax",
+      "description": "Pneumothorax and haemothorax",
+      "treatment": "Tube thoracostomy / thoracotomy",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "900D",
+      "slug": "900d-open-fracture-of-ribs-and-sternum-multiple-rib-fractures-flail-chest",
+      "description": "Open fracture of ribs and sternum; multiple rib fractures; flail chest",
+      "treatment": "Medical and surgical management, ventilation",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "903D",
+      "slug": "903d-bacterial-viral-fungal-pneumonia",
+      "description": "Bacterial, viral, fungal pneumonia",
+      "treatment": "Medical management, ventilation",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "934D",
+      "slug": "934d-frank-haemoptysis",
+      "description": "Frank haemoptysis",
+      "treatment": "Medical and surgical management",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "950D",
+      "slug": "950d-cancer-of-lung-bronchus-pleura-trachea-mediastinum-other-respiratory-organs-treatable",
+      "description": "Cancer of lung, bronchus, pleura, trachea, mediastinum & other respiratory organs - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "RESPIRATORY SYSTEM"
+    },
+    {
+      "code": "112J",
+      "slug": "112j-toxic-epidermal-necrolysis-and-staphylococcal-scalded-skin-syndrome-stevens-johnson-syndrome",
+      "description": "Toxic epidermal necrolysis and staphylococcal scalded skin syndrome; Stevens-Johnson syndrome",
+      "treatment": "Medical management",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "349J",
+      "slug": "349j-cellulitis-and-abscesses-with-risk-of-organ-or-limb-damage-or-septiceamia-if-untreated-necrotizing-fasciitis",
+      "description": "Cellulitis and abscesses with risk of organ or limb damage or septiceamia if untreated; necrotizing fasciitis",
+      "treatment": "Medical and surgical management",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "356J",
+      "slug": "356j-pyoderma-body-deep-seated-fungal-infections",
+      "description": "Pyoderma; body, deep-seated fungal infections",
+      "treatment": "Medical management",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "373J",
+      "slug": "373j-non-superficial-open-wounds-non-life-threatening",
+      "description": "Non-superficial open wounds – non life-threatening",
+      "treatment": "Repair",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "465J",
+      "slug": "465j-acute-lymphadenitis",
+      "description": "Acute lymphadenitis",
+      "treatment": "Incision and drainage; medical management",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "900J",
+      "slug": "900j-burns-greater-than-10-of-body-surface-or-more-than-5-involving-head-neck-hands-perineum",
+      "description": "Burns, greater than 10% of body surface, or more than 5% involving head, neck, hands, perineum",
+      "treatment": "Debridement; free skin graft; medical management",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "901J",
+      "slug": "901j-disseminated-bullous-skin-disease-including-pemphigus-pemphigoid-epidermolysis-bullosa-epidermolytic-hyperkeratosis",
+      "description": "Disseminated bullous skin disease,  including pemphigus, pemphigoid, epidermolysis bullosa, epidermolytic hyperkeratosis",
+      "treatment": "Medical management",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "950J",
+      "slug": "950j-cancer-of-breast-treatable",
+      "description": "Cancer of breast - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "951J",
+      "slug": "951j-lethal-midline-granuloma",
+      "description": "Lethal midline granuloma",
+      "treatment": "Medical management, which includes radiation therapy",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "952J",
+      "slug": "952j-cancer-of-soft-tissue-including-sarcomas-and-malignancies-of-the-adnexa-treatable",
+      "description": "Cancer of soft tissue, including sarcomas and malignancies of the adnexa - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "953J",
+      "slug": "953j-malignant-melanoma-of-skin-treatable",
+      "description": "Malignant melanoma of skin - treatable",
+      "treatment": "Medical and surgical management, which includes radiation therapy",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "954J",
+      "slug": "954j-cancer-of-skin-excluding-malignant-melanoma-treatable",
+      "description": "Cancer of skin, excluding malignant melanoma - treatable",
+      "treatment": "If histologically confirmed, Medical and surgical management, which includes radiation therapy",
+      "category": "SKIN AND BREAST"
+    },
+    {
+      "code": "289L",
+      "slug": "289l-ureteral-fistula-intestinal",
+      "description": "Ureteral fistula (intestinal)",
+      "treatment": "Nephrostomy",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "354L",
+      "slug": "354l-abscess-of-prostate",
+      "description": "Abscess of prostate",
+      "treatment": "Turp; drain abscess",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "359L",
+      "slug": "359l-vesicoureteral-reflux",
+      "description": "Vesicoureteral reflux",
+      "treatment": "Medical management; replantation",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "436L",
+      "slug": "436l-torsion-of-testis",
+      "description": "Torsion of testis",
+      "treatment": "Orchidectomy; repair",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "43L",
+      "slug": "43l-trauma-to-the-urinary-system-including-ruptured-bladder",
+      "description": "Trauma to the urinary system including ruptured bladder",
+      "treatment": "Cystorrhaphy; suture; repair",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "900L",
+      "slug": "900l-hyperplasia-of-the-prostate-with-acute-urinary-retention-or-obstructive-renal-failure",
+      "description": "Hyperplasia of the prostate, with acute urinary retention or obstructive renal failure",
+      "treatment": "Transurethral resection; medical management",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "901L",
+      "slug": "901l-end-stage-renal-disease-regardless-of-cause",
+      "description": "End stage renal disease regardless of cause",
+      "treatment": "Dialysis and renal transplant where Department of Health criteria are met only (see criteria published in GPS 004-9001)",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "903L",
+      "slug": "903l-acute-glomerulonephritis-and-nephritic-syndrome",
+      "description": "Acute glomerulonephritis and nephritic syndrome",
+      "treatment": "Medical management",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "904L",
+      "slug": "904l-acute-and-chronic-pyelonephritis-renal-and-perinephric-abscess",
+      "description": "Acute and chronic pyelonephritis; renal and perinephric abscess",
+      "treatment": "Medical and surgical management",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "905L",
+      "slug": "905l-obstruction-of-the-urogenital-tract-regardless-of-cause",
+      "description": "Obstruction of the urogenital tract, regardless of cause",
+      "treatment": "Catheterisation; surgery; endoscopic removal of obstructing agent: lithotripsy",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "906L",
+      "slug": "906l-congenital-anomalies-of-urinary-system-symptomatic-and-life-threatening",
+      "description": "Congenital anomalies of urinary system - symptomatic and life-threatening",
+      "treatment": "Nephrectomy / repair",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "950L",
+      "slug": "950l-cancer-of-testis-treatable",
+      "description": "Cancer of testis - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "952L",
+      "slug": "952l-cancer-of-urinary-system-including-kidney-and-bladder-treatable",
+      "description": "Cancer of urinary system including kidney and bladder  - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "953L",
+      "slug": "953l-cancer-of-prostate-gland-treatable",
+      "description": "Cancer of prostate gland - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    },
+    {
+      "code": "954L",
+      "slug": "954l-cancer-of-penis-and-other-male-genital-organ-treatable",
+      "description": "Cancer of penis and other male genital organ - treatable",
+      "treatment": "Medical and surgical management, which includes chemotherapy and radiation therapy",
+      "category": "URINARY AND MALE GENITAL SYSTEM"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Open scheme",
+      "slug": "open-scheme",
+      "one_liner": "Anyone can join, regardless of employer.",
+      "detail": "An open medical scheme accepts members from the public, not just employees of a particular company. Discovery Health, Bonitas, and Momentum Health are open schemes. Compare this with a restricted scheme, which only accepts members from a defined group."
+    },
+    {
+      "term": "Restricted scheme",
+      "slug": "restricted-scheme",
+      "one_liner": "Membership is limited to a specific employer, industry, or profession.",
+      "detail": "A restricted scheme only accepts members who belong to a defined group — usually an employer, industry body, or profession (for example, a scheme for a specific bank's staff, or for civil servants). You generally cannot join one from outside that group."
+    },
+    {
+      "term": "PMB (Prescribed Minimum Benefits)",
+      "slug": "pmb",
+      "one_liner": "A legally mandated minimum level of cover every scheme must provide.",
+      "detail": "By law, every South African medical scheme must cover a defined list of conditions and emergencies in full, regardless of which plan you're on — these are the Prescribed Minimum Benefits (PMBs). PMBs exist so that serious or life-threatening conditions aren't left uncovered because of plan limits or exclusions."
+    },
+    {
+      "term": "CDL (Chronic Disease List)",
+      "slug": "cdl",
+      "one_liner": "The specific chronic conditions PMB cover extends to.",
+      "detail": "The Chronic Disease List names around two dozen chronic conditions — such as diabetes, asthma, and hypertension — that schemes must fund as part of PMB cover, including ongoing medication, according to a defined treatment algorithm (see DTP)."
+    },
+    {
+      "term": "DTP (Diagnosis Treatment Pair)",
+      "slug": "dtp",
+      "one_liner": "The government-set minimum treatment standard for a CDL condition.",
+      "detail": "For each Chronic Disease List condition, a Diagnosis Treatment Pair sets out the diagnosis and the minimum standard of treatment a scheme must fund at PMB level — so 'PMB cover for diabetes' has a specific, checkable meaning rather than being left to the scheme's discretion."
+    },
+    {
+      "term": "Co-payment",
+      "slug": "co-payment",
+      "one_liner": "An amount you pay yourself, on top of what the scheme pays.",
+      "detail": "Many plans require a co-payment for certain procedures or when you use a non-network provider — a fixed or percentage amount you're responsible for even though the claim is otherwise covered. PMB conditions treated at a designated service provider are generally protected from co-payments."
+    },
+    {
+      "term": "Designated Service Provider (DSP)",
+      "slug": "dsp",
+      "one_liner": "The provider your scheme names as the no-extra-cost option.",
+      "detail": "A scheme can name specific hospitals, pharmacies, or doctor networks as its Designated Service Providers. Using a DSP for a PMB condition means you shouldn't face a co-payment; going outside the DSP network for a non-emergency generally means you will, unless no DSP is reasonably available."
+    },
+    {
+      "term": "Waiting period",
+      "slug": "waiting-period",
+      "one_liner": "A window after joining where some or all benefits aren't payable yet.",
+      "detail": "Schemes may impose a general waiting period (up to 3 months) and/or a condition-specific waiting period (up to 12 months) when you join or upgrade, particularly if you weren't on another scheme immediately beforehand. PMB conditions cannot be excluded by a condition-specific waiting period, only delayed by the general one."
+    },
+    {
+      "term": "Late-joiner penalty",
+      "slug": "late-joiner-penalty",
+      "one_liner": "A permanent extra premium loading for joining a scheme later in life.",
+      "detail": "If you join a medical scheme for the first time after age 35 without continuous prior cover, schemes may apply a late-joiner penalty — an extra percentage added to your premium, for as long as you remain a scheme member. It rewards continuous cover rather than only joining once you need it."
+    },
+    {
+      "term": "Savings account / above-threshold benefit",
+      "slug": "savings-account",
+      "one_liner": "A day-to-day medical spending pot that isn't the same as your main cover.",
+      "detail": "Many plans allocate part of your premium to a personal medical savings account for day-to-day claims (GP visits, over-the-counter medicine). Once that's exhausted, some plans have an above-threshold benefit that kicks back in — but there's often a gap in between where you pay out of pocket."
+    },
+    {
+      "term": "Medical scheme",
+      "slug": "medical-scheme",
+      "one_liner": "A regulated, member-funded pool that pays healthcare benefits under registered rules.",
+      "detail": "The scheme collects contributions and funds benefits. It is overseen by the Council for Medical Schemes and differs from short-term medical insurance."
+    },
+    {
+      "term": "Medical aid",
+      "slug": "medical-aid",
+      "one_liner": "The everyday South African name commonly used for medical scheme cover.",
+      "detail": "The regulated entity is a medical scheme; the plan selected inside it is a benefit option."
+    },
+    {
+      "term": "Medical insurance",
+      "slug": "medical-insurance",
+      "one_liner": "An insurance policy that pays stated amounts for specified health events.",
+      "detail": "It commonly pays a fixed cash benefit and does not carry the same Prescribed Minimum Benefit duties as a medical scheme."
+    },
+    {
+      "term": "Benefit option",
+      "slug": "benefit-option",
+      "one_liner": "The specific plan selected inside a medical scheme.",
+      "detail": "Options differ in networks, day-to-day benefits, co-payments, limits and contributions."
+    },
+    {
+      "term": "Principal member",
+      "slug": "principal-member",
+      "one_liner": "The person in whose name the membership is registered.",
+      "detail": "Eligible family members may be registered as dependants under the principal member."
+    },
+    {
+      "term": "Dependant",
+      "slug": "dependant",
+      "one_liner": "An eligible person covered under the principal membership.",
+      "detail": "Adult and child dependant rates can differ, and proof of relationship or dependency may be required."
+    },
+    {
+      "term": "Contribution",
+      "slug": "contribution",
+      "one_liner": "The regular amount paid to keep membership active.",
+      "detail": "It is the monthly price for the selected option and covered members; it is not a co-payment."
+    },
+    {
+      "term": "Underwriting",
+      "slug": "underwriting",
+      "one_liner": "The limited membership conditions a scheme may assess when someone joins.",
+      "detail": "Depending on age and previous cover, lawful underwriting can include waiting periods or a late-joiner penalty."
+    },
+    {
+      "term": "Condition-specific waiting period",
+      "slug": "condition-specific-waiting-period",
+      "one_liner": "A temporary restriction on claims linked to a pre-existing condition.",
+      "detail": "A scheme may apply up to 12 months where permitted. Previous membership history affects what may lawfully be imposed."
+    },
+    {
+      "term": "Emergency medical condition",
+      "slug": "emergency-medical-condition",
+      "one_liner": "A sudden condition needing immediate care to prevent serious harm.",
+      "detail": "It is a PMB category. Clinical facts determine whether an event qualifies; contact the scheme as soon as reasonably possible."
+    },
+    {
+      "term": "Medical savings account",
+      "slug": "medical-savings-account",
+      "one_liner": "Part of a contribution set aside for eligible day-to-day claims.",
+      "detail": "It is the member's allocated pool, not an extra scheme benefit. PMB treatment may not be funded from savings."
+    },
+    {
+      "term": "Self-payment gap",
+      "slug": "self-payment-gap",
+      "one_liner": "A period when savings are finished and the member funds day-to-day costs.",
+      "detail": "On some options, qualifying expenses paid in this gap count toward an annual threshold."
+    },
+    {
+      "term": "Benefit limit",
+      "slug": "benefit-limit",
+      "one_liner": "The most an option will pay for a defined benefit in a period.",
+      "detail": "A limit can be an amount, number of visits or another cap. It cannot remove a valid PMB entitlement."
+    },
+    {
+      "term": "Scheme tariff or rate",
+      "slug": "scheme-tariff-rate",
+      "one_liner": "The price level an option uses to calculate payment.",
+      "detail": "If a provider charges more than the scheme rate, the member may owe the difference unless another protection applies."
+    },
+    {
+      "term": "Out-of-pocket payment",
+      "slug": "out-of-pocket-payment",
+      "one_liner": "Any healthcare cost paid by the member and not reimbursed.",
+      "detail": "This can include co-payments, tariff shortfalls, exclusions, costs above limits and self-payment-gap expenses."
+    },
+    {
+      "term": "Provider network",
+      "slug": "provider-network",
+      "one_liner": "A group of healthcare providers contracted for an option or benefit.",
+      "detail": "Confirm that both the facility and treating professional are in-network before planned care."
+    },
+    {
+      "term": "Formulary",
+      "slug": "formulary",
+      "one_liner": "The list of medicines a scheme approves for a benefit.",
+      "detail": "If a listed medicine is ineffective or harmful, a clinician can motivate for an alternative through the exception process."
+    },
+    {
+      "term": "Generic medicine",
+      "slug": "generic-medicine",
+      "one_liner": "A medicine with the same active ingredient as an original brand product.",
+      "detail": "Schemes may prefer registered generics to manage cost. Discuss substitution concerns with a pharmacist or clinician."
+    },
+    {
+      "term": "Clinical protocol",
+      "slug": "clinical-protocol",
+      "one_liner": "The evidence-based steps used to decide how a condition should be treated.",
+      "detail": "Protocols can set tests, medicines, referrals or stages. A clinician can motivate when the standard route is unsuitable."
+    },
+    {
+      "term": "Pre-authorisation",
+      "slug": "pre-authorisation",
+      "one_liner": "Approval requested before planned treatment or admission.",
+      "detail": "It is not an unlimited promise to pay: codes, providers, tariffs, limits and clinical changes can still affect the claim."
+    },
+    {
+      "term": "Managed care",
+      "slug": "managed-care",
+      "one_liner": "Programmes that coordinate treatment and apply clinical funding rules.",
+      "detail": "This includes chronic registration, case management, hospital authorisation and treatment protocols."
+    },
+    {
+      "term": "Claim statement",
+      "slug": "claim-statement",
+      "one_liner": "The scheme's record of how it processed a claim.",
+      "detail": "Compare the amount charged, scheme tariff, payment, reason code and member liability with the provider invoice."
+    },
+    {
+      "term": "Tariff shortfall",
+      "slug": "tariff-shortfall",
+      "one_liner": "The difference between the provider's charge and the scheme payment.",
+      "detail": "It differs from a fixed co-payment. Ask the provider and scheme for their written calculations."
+    },
+    {
+      "term": "Claim rejection",
+      "slug": "claim-rejection",
+      "one_liner": "A decision not to pay all or part of a claim.",
+      "detail": "Ask for the exact reason, code and registered rule in writing before deciding whether to correct, motivate or dispute it."
+    },
+    {
+      "term": "Clinical motivation",
+      "slug": "clinical-motivation",
+      "one_liner": "Information from a clinician explaining why care is medically necessary.",
+      "detail": "It should address diagnosis, relevant history, treatment tried, clinical risk and the requested service."
+    },
+    {
+      "term": "Internal appeal",
+      "slug": "internal-appeal",
+      "one_liner": "A request for the scheme to reconsider its own decision.",
+      "detail": "State the decision, desired outcome and relevant rule or PMB, and attach supporting evidence."
+    },
+    {
+      "term": "CMS complaint",
+      "slug": "cms-complaint",
+      "one_liner": "A formal complaint to the Council for Medical Schemes.",
+      "detail": "Use current CMS complaint guidance and include the scheme's correspondence and reference numbers."
+    },
+    {
+      "term": "Registered scheme rules",
+      "slug": "registered-scheme-rules",
+      "one_liner": "The legally registered terms governing membership and benefits.",
+      "detail": "Marketing summaries help, but registered rules and approved benefit schedules control how the option works."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Council for Medical Schemes — PMB",
+      "url": "https://www.medicalschemes.co.za/resources/pmb/",
+      "note": "Primary PMB definitions and consumer guidance."
+    },
+    {
+      "label": "CMS — choosing a medical scheme",
+      "url": "https://www.medicalschemes.co.za/choose-the-right-medical-scheme-for-your-needs/",
+      "note": "Primary consumer guidance for scheme and option choices."
+    },
+    {
+      "label": "CMS — medical scheme vs medical insurance",
+      "url": "https://www.medicalschemes.co.za/consumer-assistance/schemevsinsurance/",
+      "note": "Primary distinction used by the SchemeBook glossary."
+    },
+    {
+      "label": "CMS — complaints procedure",
+      "url": "https://www.medicalschemes.co.za/consumer-assistance/complaintsprocedure/",
+      "note": "Primary complaint and escalation guidance."
+    },
+    {
+      "label": "CMS Industry Report 2023",
+      "url": "https://www.medicalschemes.co.za/media-centre/the-medical-schemes-industry-in-2023/",
+      "note": "Registered scheme list (71 schemes)."
+    },
+    {
+      "label": "PMB conditions spreadsheet (CMS)",
+      "url": "https://www.medicalschemes.co.za/download/2032/prescribed-minimum-benefits/18097/pmblstofallconditions.xlsx",
+      "note": "Source for DTP coded list."
+    },
+    {
+      "label": "CDL treatment algorithms",
+      "url": "https://www.medicalschemes.co.za/publications/#2009-2152-wpfd-chronic-disease-list-algorithms",
+      "note": "Government Gazette minimum treatment standards."
+    }
+  ],
+  "pipeline": [
+    {
+      "stage": "authority",
+      "from": "CMS authority sources",
+      "to": "Core ZA"
+    },
+    {
+      "stage": "materialise",
+      "from": "Core ZA + glossary",
+      "to": "Sentrix SchemeBook copy"
+    },
+    {
+      "stage": "reuse",
+      "from": "Sentrix SchemeBook copy",
+      "to": "Library · ClinicalAtlas · ClaimBuddy"
+    },
+    {
+      "stage": "publish",
+      "from": "Sentrix SchemeBook copy",
+      "to": "SchemeBook actual"
+    }
+  ],
+  "content_hash": "116a4cd9dd6555c5c0329cedf60136ecd485d664dc205d38ed28b121ca202c22",
+  "generated_at": "2026-09-18T10:59:21.901546+00:00"
+}
