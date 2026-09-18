@@ -366,6 +366,21 @@ def cms_data_sources() -> list[dict[str, str]]:
             "note": "Primary PMB definitions and consumer guidance.",
         },
         {
+            "label": "CMS — choosing a medical scheme",
+            "url": "https://www.medicalschemes.co.za/choose-the-right-medical-scheme-for-your-needs/",
+            "note": "Primary consumer guidance for scheme and option choices.",
+        },
+        {
+            "label": "CMS — medical scheme vs medical insurance",
+            "url": "https://www.medicalschemes.co.za/consumer-assistance/schemevsinsurance/",
+            "note": "Primary distinction used by the SchemeBook glossary.",
+        },
+        {
+            "label": "CMS — complaints procedure",
+            "url": "https://www.medicalschemes.co.za/consumer-assistance/complaintsprocedure/",
+            "note": "Primary complaint and escalation guidance.",
+        },
+        {
             "label": "CMS Industry Report 2023",
             "url": "https://www.medicalschemes.co.za/media-centre/the-medical-schemes-industry-in-2023/",
             "note": "Registered scheme list (71 schemes).",
