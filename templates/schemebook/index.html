@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}SchemeBook — South African medical scheme directory{% endblock %}
-{% block meta_description %}SchemeBook — an independent directory of South African private medical schemes, PMBs, CDL, and DTP, plus a plain-language guide to medical aid jargon.{% endblock %}
+{% block title %}SchemeBook — navigate healthcare in South Africa{% endblock %}
+{% block meta_description %}SchemeBook — a guide to public care, private costs and medical schemes in South Africa.{% endblock %}
 {% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
 {% block head_extra %}
 <style>
@@ -25,30 +25,41 @@
 {% block content %}
 
 <article class="sx-essay">
-  <p class="sx-kicker">Sentrix Digital · ZA portfolio</p>
+  <p class="sx-kicker">RiskAtlas · South Africa</p>
   <h1>{{ title }}</h1>
-  <p class="sx-lead">{{ tagline }}</p>
+  <p class="sx-lead">Find your way through public care, private treatment costs and medical scheme rules. Start with your situation, then see the questions and sources that matter.</p>
 </article>
 
 <nav class="sb-tabbar" aria-label="SchemeBook sections">
-  <a href="#overview" class="is-active">Overview</a>
+  <a href="#start" class="is-active">Start here</a>
+  <a href="#overview">Overview</a>
   <a href="#directory">Directory</a>
   <a href="#rules">Rules</a>
   <a href="#jargon">Jargon</a>
   <a href="#who">Who it's for</a>
 </nav>
 
+<section id="start" class="sb-section" aria-labelledby="sb-start-title">
+  <h2 id="sb-start-title">What are you trying to work out?</h2>
+  <p>Choose a starting point. Confirm individual care, fees and cover with the relevant facility, clinician or scheme.</p>
+  <div class="sx-squares">
+    <a href="{{ url_for('schemebook_public_care') }}"><p class="sx-kicker">Public healthcare</p><h3>I need to use a clinic or hospital</h3><p>Where to begin, what to take and how referrals work.</p></a>
+    <a href="{{ url_for('schemebook_cost_guide') }}"><p class="sx-kicker">Plan ahead</p><h3>I need to understand costs</h3><p>Questions for the provider, facility and scheme.</p></a>
+    <a href="{{ url_for('schemebook_explore') }}"><p class="sx-kicker">Explore</p><h3>I know a term or procedure</h3><p>Browse general clinical concepts and coverage terms.</p></a>
+    <a href="#directory"><p class="sx-kicker">Medical schemes</p><h3>I want to understand cover</h3><p>Start with the registered scheme directory and PMB guides.</p></a>
+  </div>
+</section>
 <section id="overview" class="sb-section">
   <div class="compiler-why" aria-label="What, why, where, when">
     <div class="compiler-panel">
       <p class="ref-kicker">What</p>
       <h2>A registry and a translator, in one place</h2>
       <p>
-        SchemeBook is two things bolted together: a directory of every CMS-registered
+        SchemeBook connects public care and cost guides to a directory of CMS-registered
         medical scheme in South Africa (open and restricted, with type and PMB
         coverage), and a plain-language glossary of the terms those schemes'
         rules assume you already know — co-payment, DSP, late-joiner penalty,
-        and the rest. It is a reference tool, not a comparison or quote engine.
+        and the rest. It is a reference tool, not a quote or cover decision engine.
       </p>
     </div>
     <div class="compiler-panel">
