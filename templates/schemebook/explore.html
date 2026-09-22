@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Explore healthcare — SchemeBook{% endblock %}
+{% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
+{% block content %}
+<article class="sx-essay"><p class="sx-kicker"><a href="{{ url_for('schemebook_home') }}">SchemeBook</a> / Explore</p><h1>Explore healthcare in South Africa</h1><p class="sx-lead">Search a general procedure concept or SchemeBook term. These names are starting points, not South African tariff codes, cover decisions or clinical recommendations.</p></article>
+<form method="get" role="search" style="max-width:42rem;margin:1.5rem 0;display:flex;gap:.5rem;flex-wrap:wrap"><label for="sb-query">Search procedures and terms</label><input id="sb-query" name="q" value="{{ query }}" placeholder="e.g. colonoscopy, co-payment" style="flex:1;min-width:15rem;padding:.75rem"><button type="submit">Search</button></form>
+{% if query %}<section class="ac-panel"><h2>Results for “{{ query }}”</h2>{% if not procedures and not jargon %}<p>No matching entry yet. Try a broader term or browse below.</p>{% endif %}<ul>{% for item in procedures %}<li>{{ item.name }} <small>· {{ item.category }} · local validation pending</small></li>{% endfor %}</ul><ul>{% for term in jargon %}<li><a href="{{ url_for('schemebook_jargon_detail', slug=term.slug) }}">{{ term.term }}</a> — {{ term.one_liner }}</li>{% endfor %}</ul></section>{% endif %}
+<section class="ac-panel"><h2>Browse by clinical topic</h2><div class="sx-squares">{% for category in categories %}<a href="{{ url_for('schemebook_explore', q=category.name) }}"><h3>{{ category.name }}</h3><p>{{ category.concept_count }} general concepts</p></a>{% endfor %}</div></section>
+<section class="ac-panel"><h2>Other starting points</h2><p><a href="{{ url_for('schemebook_public_care') }}">Public care</a> · <a href="{{ url_for('schemebook_cost_guide') }}">Care and costs</a> · <a href="{{ url_for('atlascore.medical_schemes_schemes', core_code='za') }}">Scheme directory</a> · <a href="{{ url_for('schemebook_jargon') }}">Glossary</a></p></section>
+{% endblock %}
