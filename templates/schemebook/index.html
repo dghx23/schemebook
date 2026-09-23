@@ -1,206 +1,39 @@
-{% extends "base.html" %}
-{% block title %}SchemeBook — navigate healthcare in South Africa{% endblock %}
-{% block meta_description %}SchemeBook — a guide to public care, private costs and medical schemes in South Africa.{% endblock %}
-{% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
-{% block head_extra %}
-<style>
-  .sb-tabbar {
-    position: sticky; top: 0; z-index: 5;
-    display: flex; gap: 0.5rem; flex-wrap: wrap;
-    padding: 0.75rem 0; margin: 1.5rem 0;
-    background: var(--rv2-sticky-bg, rgba(245, 244, 251, 0.85)); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
-  }
-  .sb-tabbar a {
-    background: var(--rv2-glass, rgba(255, 255, 255, 0.6)); border: 1px solid var(--rv2-glass-border, rgba(255, 255, 255, 0.7));
-    border-radius: 999px; padding: 0.5rem 1.1rem; font-size: 0.85rem; font-weight: 700;
-    color: var(--rv2-violet-deep, #4f2d78); text-decoration: none;
-  }
-  .sb-tabbar a.is-active {
-    background: linear-gradient(135deg, var(--rv2-violet, #6a3fa0), var(--rv2-pink, #8a5f22));
-    color: #fff; border-color: transparent;
-  }
-  .sb-section { scroll-margin-top: 4.5rem; margin-bottom: 1.5rem; }
-</style>
-{% endblock %}
-{% block content %}
+<!doctype html><html lang="en-ZA"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#172235"><meta name="description" content="A plain-language directory and interactive guide to South African medical schemes, benefits, claims and member processes."><title>SchemeBook — Understand your medical scheme | RiskAtlas</title><link rel="canonical" href="https://schemebook.riskatlas.co.za/"><link rel="stylesheet" href="{{ url_for('static', filename='schemebook/styles.css') }}"></head>
+<body><a class="skip-link" href="#main">Skip to SchemeBook</a>
+<header class="site-header"><a class="brand" href="#explore" aria-label="SchemeBook home"><span class="brand-mark" aria-hidden="true">SB</span><span>SchemeBook</span></a><a class="parent-brand" href="https://riskatlas.co.za/" aria-label="RiskAtlas South Africa">RiskAtlas · South Africa</a><button class="menu-button" type="button" aria-expanded="false" aria-controls="primaryNav">Menu</button><nav id="primaryNav" aria-label="Main navigation"><a href="#explore" class="is-active">Start</a><a href="#directory">Find a scheme</a><a href="#scheme-questions">Ask</a><a href="#understand">Learn</a><a href="#claims">Claims</a><a href="#glossary">Glossary</a></nav><span class="privacy-pill"><span></span>Private shortlist</span></header>
 
-<article class="sx-essay">
-  <p class="sx-kicker">RiskAtlas · South Africa</p>
-  <h1>{{ title }}</h1>
-  <p class="sx-lead">Find your way through public care, private treatment costs and medical scheme rules. Start with your situation, then see the questions and sources that matter.</p>
-</article>
-
-<nav class="sb-tabbar" aria-label="SchemeBook sections">
-  <a href="#start" class="is-active">Start here</a>
-  <a href="#overview">Overview</a>
-  <a href="#directory">Directory</a>
-  <a href="#rules">Rules</a>
-  <a href="#jargon">Jargon</a>
-  <a href="#who">Who it's for</a>
-</nav>
-
-<section id="start" class="sb-section" aria-labelledby="sb-start-title">
-  <h2 id="sb-start-title">What are you trying to work out?</h2>
-  <p>Choose a starting point. Confirm individual care, fees and cover with the relevant facility, clinician or scheme.</p>
-  <div class="sx-squares">
-    <a href="{{ url_for('schemebook_public_care') }}"><p class="sx-kicker">Public healthcare</p><h3>I need to use a clinic or hospital</h3><p>Where to begin, what to take and how referrals work.</p></a>
-    <a href="{{ url_for('schemebook_cost_guide') }}"><p class="sx-kicker">Plan ahead</p><h3>I need to understand costs</h3><p>Questions for the provider, facility and scheme.</p></a>
-    <a href="{{ url_for('schemebook_explore') }}"><p class="sx-kicker">Explore</p><h3>I know a term or procedure</h3><p>Browse general clinical concepts and coverage terms.</p></a>
-    <a href="#directory"><p class="sx-kicker">Medical schemes</p><h3>I want to understand cover</h3><p>Start with the registered scheme directory and PMB guides.</p></a>
-  </div>
-</section>
-<section id="overview" class="sb-section">
-  <div class="compiler-why" aria-label="What, why, where, when">
-    <div class="compiler-panel">
-      <p class="ref-kicker">What</p>
-      <h2>A guide to care and cover, in one place</h2>
-      <p>
-        SchemeBook connects public care and cost guides to a directory of CMS-registered
-        medical schemes in South Africa (open and restricted), and a plain-language glossary of the terms those schemes'
-        rules assume you already know — co-payment, DSP, late-joiner penalty,
-        and the rest. It is a reference tool, not a quote or cover decision engine.
-      </p>
-    </div>
-    <div class="compiler-panel">
-      <p class="ref-kicker">Why</p>
-      <h2>The rules are public. Reading them isn't easy.</h2>
-      <p>
-        Prescribed Minimum Benefits, the Chronic Disease List, and Diagnosis
-        Treatment Pairs are all matters of public record — but they're published
-        across official sources and individual scheme rules, often in
-        regulatory language nobody outside the industry was taught to read.
-        SchemeBook exists so that gap isn't the reason a claim gets refused, a
-        benefit goes unused, or a reform proposal has to start from zero.
-      </p>
-    </div>
-    <div class="compiler-panel">
-      <p class="ref-kicker">Where</p>
-      <h2>Its own address</h2>
-      <p>
-        Standalone at <code>schemebook.riskatlas.co.za</code>, within the RiskAtlas
-        South Africa product family — its own front door, not a page buried inside something else.
-      </p>
-    </div>
-    <div class="compiler-panel">
-      <p class="ref-kicker">When</p>
-      <h2>Before the jargon costs you something</h2>
-      <p>
-        Before you sign up or switch schemes, when a claim or a co-payment
-        surprises you, when a rejection or scheme letter uses a term you don't
-        recognise, or when you're researching the system itself rather than
-        your own cover. The underlying PMB data refreshes on a daily cache
-        cycle from the Council for Medical Schemes; the scheme registry follows
-        the CMS Industry Report as new editions publish.
-      </p>
-    </div>
-  </div>
-
-  <section class="ac-panel" aria-label="SchemeBook at a glance" style="margin-top:1.5rem;">
-    <header class="ac-section-head"><h2>At a glance</h2></header>
-    <div class="ac-stat-grid">
-      <a href="{{ url_for('atlascore.medical_schemes_schemes', core_code='za') }}" class="ac-stat-card">
-        <span class="ac-stat-value">{{ stats.schemes }}</span>
-        <span class="ac-stat-label">Registered schemes</span>
-        <span class="ac-stat-detail">{{ stats.schemes_open }} open · {{ stats.schemes_restricted }} restricted</span>
-      </a>
-      <a href="{{ url_for('atlascore.medical_schemes_pmb', core_code='za') }}" class="ac-stat-card">
-        <span class="ac-stat-value">{{ stats.pmb_sections }}</span>
-        <span class="ac-stat-label">PMB sections</span>
-      </a>
-      <a href="{{ url_for('atlascore.medical_schemes_cdl', core_code='za') }}" class="ac-stat-card">
-        <span class="ac-stat-value">{{ stats.cdl_conditions }}</span>
-        <span class="ac-stat-label">Chronic Disease List conditions</span>
-      </a>
-      <a href="{{ url_for('atlascore.medical_schemes_dtp', core_code='za') }}" class="ac-stat-card">
-        <span class="ac-stat-value">{{ stats.dtp_conditions }}</span>
-        <span class="ac-stat-label">Diagnosis Treatment Pairs</span>
-      </a>
-    </div>
+<main id="main">
+  <section class="explorer" id="explore" aria-labelledby="pageTitle">
+    <div class="intro"><div><p class="eyebrow">South African medical schemes, clearly explained</p><h1 id="pageTitle">Understand the system.<br><em>Know what to ask.</em></h1></div><div class="intro-stats"><span><strong id="schemeTotal">{{ schemebook_client_data.stats.schemes }}</strong> registered schemes</span><span><strong id="topicTotal">8</strong> detailed guides</span><span><strong id="termTotal">{{ schemebook_client_data.glossary|length }}</strong> explained terms</span><small>Directory and PMB reference: current SchemeBook/Core ZA snapshot</small></div></div>
+    <div class="question-workspace"><aside><p class="question-label">What are you trying to understand?</p><div class="question-list" id="questionList" role="tablist" aria-label="Member questions"></div></aside><article class="answer-panel" id="answerPanel" aria-live="polite"></article></div>
   </section>
-</section>
 
-<section id="directory" class="sb-section sx-squares" aria-label="Directory">
-  <a href="{{ url_for('atlascore.medical_schemes_schemes', core_code='za') }}">
-    <p class="sx-kicker">Directory</p>
-    <h2>Scheme directory</h2>
-    <p>Every CMS-registered open and restricted scheme, with type, PMB coverage, and source record.</p>
-  </a>
-</section>
+  <section class="surface" id="directory" aria-labelledby="directoryTitle"><div class="section-head"><div><p class="eyebrow">Registered scheme directory</p><h2 id="directoryTitle">Find a medical scheme</h2><p>Browse open and restricted schemes. Save a private shortlist for later reference.</p></div><div class="section-stat"><strong id="savedCount">0</strong><span>shortlisted</span></div></div>
+    <div class="directory-tools"><label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg><span class="sr-only">Search schemes</span><input id="schemeSearch" type="search" placeholder="Search scheme name…" autocomplete="off"></label><div class="segmented" role="group" aria-label="Filter schemes"><button type="button" class="is-active" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="open" aria-pressed="false">Open</button><button type="button" data-filter="restricted" aria-pressed="false">Restricted</button><button type="button" data-filter="saved" aria-pressed="false">Shortlist</button></div></div>
+    <p class="results-line" id="schemeStatus" aria-live="polite"></p><div class="scheme-grid" id="schemeGrid"></div><div class="empty-state" id="schemeEmpty" hidden><h3>No matching schemes</h3><p>Try another name or filter.</p></div><button type="button" class="button secondary show-more" id="showMore">Show more schemes</button>
+  </section>
 
-<section id="rules" class="sb-section sx-squares" aria-label="Rules">
-  <a href="{{ url_for('atlascore.medical_schemes_pmb', core_code='za') }}">
-    <p class="sx-kicker">Rules</p>
-    <h2>PMB explainer</h2>
-    <p>What Prescribed Minimum Benefits are, and why your scheme has to pay for them regardless of your plan.</p>
-  </a>
-  <a href="{{ url_for('atlascore.medical_schemes_cdl', core_code='za') }}">
-    <p class="sx-kicker">Rules</p>
-    <h2>Chronic Disease List</h2>
-    <p>The chronic conditions PMB cover extends to, and the treatment standard attached to each.</p>
-  </a>
-  <a href="{{ url_for('atlascore.medical_schemes_dtp', core_code='za') }}">
-    <p class="sx-kicker">Rules</p>
-    <h2>Diagnosis Treatment Pairs</h2>
-    <p>The government-set minimum treatment standard behind each Chronic Disease List entry.</p>
-  </a>
-</section>
+  <section class="surface scheme-questions" id="scheme-questions" aria-labelledby="schemeQuestionsTitle"><div class="section-head"><div><p class="eyebrow">Ask SchemeBook</p><h2 id="schemeQuestionsTitle">Ask about your medical scheme</h2><p>Pick the scheme, type the question and SchemeBook will show what can be verified.</p></div><div class="ingest-pill"><span></span><strong id="ingestCount">{{ schemebook_client_data.stats.schemes }}</strong><small>schemes ready to select</small></div></div>
+    <ol class="qa-steps" id="qaSteps" aria-label="Question progress"><li class="is-active" id="stepChoose"><span>1</span><strong>Choose</strong><small>Select your scheme</small></li><li id="stepAsk"><span>2</span><strong>Ask</strong><small>Type or pick a question</small></li><li id="stepResult"><span>3</span><strong>Check</strong><small>See the verified result</small></li></ol>
+    <div class="qa-layout"><form class="qa-form" id="schemeQuestionForm"><label for="qaScheme">1. Which scheme are you asking about?</label><select id="qaScheme" required><option value="">Choose a scheme…</option></select><small class="field-help">You can also press “Ask” on any scheme in the directory above.</small><label for="qaQuestion">2. What would you like to know?</label><textarea id="qaQuestion" rows="4" maxlength="500" placeholder="For example: Which hospital network applies to my option?" required></textarea><div><span class="suggestion-label">Or choose a common question</span><div class="question-suggestions" id="questionSuggestions" aria-label="Suggested scheme questions"></div></div><button class="button primary qa-submit" type="submit">Check this question</button></form><article class="qa-answer" id="qaAnswer" aria-live="polite"><p class="answer-kicker">Your answer appears here</p><h3>Start by choosing a scheme</h3><p>Then ask in your own words or use one of the suggested questions. SchemeBook will never substitute information from a different scheme.</p></article></div>
+    <details class="system-details"><summary><span><strong>How SchemeBook verifies scheme information</strong><small>View the Core ZA reference and planned source packs</small></span><b aria-hidden="true">+</b></summary><div><div class="reference-layer"><div><p class="eyebrow">Harmonised with Sentrix Core ZA</p><h3>Shared reference layers</h3><p>Every scheme answer combines national rules with documents for the selected scheme and benefit option.</p></div><div class="reference-layer-grid" id="referenceLayerGrid"></div></div><div class="ingest-map"><div><p class="eyebrow">Scheme source pack</p><h3>Evidence reserved for every scheme</h3><p>The same reviewed structure is used for all 71 schemes.</p></div><div class="source-class-grid" id="sourceClassGrid"></div></div></div></details>
+  </section>
 
-<section id="jargon" class="sb-section sx-squares" aria-label="Jargon">
-  <a href="{{ url_for('schemebook_jargon') }}">
-    <p class="sx-kicker">Plain language</p>
-    <h2>Jargon, explained</h2>
-    <p>Co-payments, waiting periods, DSPs, late-joiner penalties — the words your scheme uses and what they actually mean.</p>
-  </a>
-  {% for term in jargon[:3] %}
-  <a href="{{ url_for('schemebook_jargon_detail', slug=term.slug) }}">
-    <p class="sx-kicker">Term</p>
-    <h2>{{ term.term }}</h2>
-    <p>{{ term.one_liner }}</p>
-  </a>
-  {% endfor %}
-</section>
+  <section class="surface cover-surface" id="cover" aria-labelledby="coverTitle"><div class="section-head"><div><p class="eyebrow">Cover explained</p><h2 id="coverTitle">Five layers shape what happens</h2><p>Select a layer to see what it controls and which terms are connected to it.</p></div></div><div class="layer-layout"><div class="layer-tabs" id="layerTabs" role="tablist" aria-label="Layers of medical scheme cover"></div><article class="layer-panel" id="layerPanel" aria-live="polite"></article></div></section>
 
-<section id="who" class="sb-section sx-squares" aria-label="Who SchemeBook is for">
-  <a href="#directory">
-    <p class="sx-kicker">Working out their own cover</p>
-    <h3>Consumers</h3>
-    <p>Read your own scheme's rules with confidence — what PMB actually covers, what a co-payment or waiting period means for you.</p>
-  </a>
-  <a href="#directory">
-    <p class="sx-kicker">Working inside the system</p>
-    <h3>Industry professionals</h3>
-    <p>Brokers, advisers, and administrators who need the registry and the rules in one place, without a sales angle.</p>
-  </a>
-  <a href="#directory">
-    <p class="sx-kicker">Looking in from outside</p>
-    <h3>International bodies</h3>
-    <p>A structured reference for understanding how South Africa's private medical scheme system actually works.</p>
-  </a>
-  <a href="#directory">
-    <p class="sx-kicker">Working on the system itself</p>
-    <h3>Institutional reformists</h3>
-    <p>A central, independent place to start from — the registry, the rules, and the language, without an industry position to defend.</p>
-  </a>
-</section>
+  <section class="surface knowledge-surface" id="understand" aria-labelledby="understandTitle"><div class="section-head"><div><p class="eyebrow">Understanding library</p><h2 id="understandTitle">Go beyond the definition</h2><p>Choose a topic for a practical explanation, worked example, common misunderstanding and questions to ask.</p></div><div class="section-stat"><strong id="understandingTotal">8</strong><span>deep-dive topics</span></div></div>
+    <div class="knowledge-layout"><div class="knowledge-tabs" id="knowledgeTabs" role="tablist" aria-label="Detailed understanding topics"></div><article class="knowledge-panel" id="knowledgePanel" aria-live="polite"></article></div>
+    <div class="document-library"><div class="document-intro"><p class="eyebrow">Document decoder</p><h3>Know what each document can prove</h3><p>A document can answer one question and still leave another open. Use this guide to assemble the right evidence.</p></div><div class="document-grid" id="documentGrid"></div></div>
+  </section>
 
-<script>
-(function () {
-  var tabs = document.querySelectorAll(".sb-tabbar a");
-  var sections = Array.prototype.map.call(tabs, function (a) {
-    return document.querySelector(a.getAttribute("href"));
-  });
-  function onScroll() {
-    var pos = window.scrollY + 80;
-    var activeIdx = 0;
-    sections.forEach(function (sec, i) {
-      if (sec && sec.offsetTop <= pos) activeIdx = i;
-    });
-    tabs.forEach(function (a, i) {
-      a.classList.toggle("is-active", i === activeIdx);
-    });
-  }
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
-})();
-</script>
-{% endblock %}
+  <section class="surface claim-surface" id="claims" aria-labelledby="claimsTitle"><div class="section-head"><div><p class="eyebrow">Read a claim result</p><h2 id="claimsTitle">What does the statement seem to show?</h2><p>Choose the closest result. SchemeBook explains what it may mean and what to check next.</p></div></div><div class="claim-layout"><div class="claim-choices" id="claimChoices" role="tablist" aria-label="Claim results"></div><article class="claim-panel" id="claimPanel" aria-live="polite"></article></div></section>
+
+  <section class="surface" id="glossary" aria-labelledby="glossaryTitle"><div class="section-head"><div><p class="eyebrow">Plain-language glossary</p><h2 id="glossaryTitle">Translate the terminology</h2><p>Search common membership, benefit, provider, medicine, claim and dispute terms.</p></div><div class="section-stat"><strong id="glossaryCount">40</strong><span>terms shown</span></div></div>
+    <label class="search-box glossary-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg><span class="sr-only">Search glossary</span><input id="glossarySearch" type="search" placeholder="Search PMB, network, co-payment, claim…" autocomplete="off"></label><div class="category-filters" id="categoryFilters" role="group" aria-label="Filter glossary categories"></div><div class="glossary-grid" id="glossaryGrid"></div><div class="empty-state" id="glossaryEmpty" hidden><h3>No matching term</h3><p>Try a shorter or broader word.</p></div>
+  </section>
+
+  <section class="sources" aria-labelledby="sourceTitle"><div><p class="eyebrow">Check the current rule</p><h2 id="sourceTitle">Official sources</h2><p>SchemeBook explains the system in plain language. For a decision or dispute, confirm the position against your scheme's current registered rules and CMS guidance.</p></div><div class="source-list" id="sourceList"></div></section>
+</main>
+<footer><div class="footer-brand"><span class="brand-mark" aria-hidden="true">SB</span><strong>SchemeBook</strong><span>by RiskAtlas</span></div><p>Independent educational reference. It does not recommend a scheme, confirm entitlement, interpret a specific clinical case or replace current registered rules and professional advice.</p><p><a href="https://riskatlas.co.za/">RiskAtlas</a> · <a href="https://clinical.riskatlas.co.za/">ClinicalAtlas ZA</a> · <a href="https://www.medicalschemes.co.za/" target="_blank" rel="noreferrer">Council for Medical Schemes ↗</a></p></footer>
+<dialog id="schemeDialog"><form method="dialog" class="dialog-shell"><button class="dialog-close" value="close" aria-label="Close">×</button><p class="eyebrow">Directory record</p><div id="dialogContent"></div></form></dialog><div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>globalThis.SCHEMEBOOK_DATA = {{ schemebook_client_data|tojson }};</script><script src="{{ url_for('static', filename='schemebook/core-za.js') }}"></script><script src="{{ url_for('static', filename='schemebook/content.js') }}"></script><script src="{{ url_for('static', filename='schemebook/guide.js') }}"></script><script src="{{ url_for('static', filename='schemebook/app.js') }}"></script></body></html>
