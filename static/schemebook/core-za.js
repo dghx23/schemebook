@@ -1,5 +1,5 @@
 (function(global){"use strict";
-const schemes=(global.SCHEMEBOOK_DATA&&global.SCHEMEBOOK_DATA.schemes)||[];
+const data=global.SCHEMEBOOK_DATA||{};const schemes=data.schemes||[],stats=data.stats||{};
 const sourceClasses=[
   {id:"registry",label:"CMS registration record",purpose:"Registration status, scheme type and canonical identity"},
   {id:"rules",label:"Registered scheme rules",purpose:"Membership, benefits, exclusions, disputes and governance"},
@@ -27,10 +27,10 @@ global.SCHEMEBOOK_CORE_ZA={
   mode:"placeholder",
   generated_for:schemes.length,
   shared_reference_layers:[
-    {id:"schemes",label:"Registered schemes",count:71,note:"16 open · 55 restricted",status:"available",route:"/core/za/medical-schemes/schemes"},
-    {id:"pmb",label:"PMB sections",count:6,note:"minimum benefit framework",status:"shared_reference",route:"/core/za/medical-schemes/pmb"},
-    {id:"cdl",label:"Chronic Disease List",count:26,note:"listed chronic conditions",status:"shared_reference",route:"/core/za/medical-schemes/cdl"},
-    {id:"dtp",label:"Diagnosis Treatment Pairs",count:266,note:"diagnosis and minimum treatment pairs",status:"shared_reference",route:"/core/za/medical-schemes/dtp"}
+    {id:"schemes",label:"Registered schemes",count:stats.schemes||schemes.length,note:`${stats.schemes_open||0} open · ${stats.schemes_restricted||0} restricted`,status:"available",route:"/core/za/medical-schemes/schemes"},
+    {id:"pmb",label:"PMB sections",count:stats.pmb_sections||0,note:"minimum benefit framework",status:"shared_reference",route:"/core/za/medical-schemes/pmb"},
+    {id:"cdl",label:"Chronic Disease List",count:stats.cdl_conditions||0,note:"listed chronic conditions",status:"shared_reference",route:"/core/za/medical-schemes/cdl"},
+    {id:"dtp",label:"Diagnosis Treatment Pairs",count:stats.dtp_conditions||0,note:"diagnosis and minimum treatment pairs",status:"shared_reference",route:"/core/za/medical-schemes/dtp"}
   ],
   source_classes:sourceClasses,
   records,
