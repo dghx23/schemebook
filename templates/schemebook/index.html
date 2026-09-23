@@ -1,6 +1,6 @@
 <!doctype html><html lang="en-ZA"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#172235"><meta name="description" content="A plain-language directory and interactive guide to South African medical schemes, benefits, claims and member processes."><title>SchemeBook — Understand your medical scheme | RiskAtlas</title><link rel="canonical" href="https://schemebook.riskatlas.co.za/"><link rel="stylesheet" href="{{ url_for('static', filename='schemebook/styles.css') }}"></head>
 <body><a class="skip-link" href="#main">Skip to SchemeBook</a>
-<header class="site-header"><a class="brand" href="#explore" aria-label="SchemeBook home"><span class="brand-mark" aria-hidden="true">SB</span><span>SchemeBook</span></a><a class="parent-brand" href="https://riskatlas.co.za/" aria-label="RiskAtlas South Africa">RiskAtlas · South Africa</a><button class="menu-button" type="button" aria-expanded="false" aria-controls="primaryNav">Menu</button><nav id="primaryNav" aria-label="Main navigation"><a href="#explore" class="is-active">Start</a><a href="#directory">Find a scheme</a><a href="#scheme-questions">Ask</a><a href="#understand">Learn</a><a href="#claims">Claims</a><a href="#glossary">Glossary</a></nav><span class="privacy-pill"><span></span>Private shortlist</span></header>
+<header class="site-header"><a class="brand" href="#explore" aria-label="SchemeBook home"><span class="brand-mark" aria-hidden="true">SB</span><span>SchemeBook</span></a><a class="parent-brand" href="https://riskatlas.co.za/" aria-label="RiskAtlas South Africa">RiskAtlas · South Africa</a><button class="menu-button" type="button" aria-expanded="false" aria-controls="primaryNav">Menu</button><nav id="primaryNav" aria-label="Main navigation"><a href="#explore" class="is-active">Start</a><a href="#directory">Find a scheme</a><a href="{{ url_for('schemebook_explore') }}">Explore care</a><a href="#public-care">Public care</a><a href="#plan-costs">Plan costs</a><a href="#scheme-questions">Ask</a><a href="#understand">Learn</a><a href="#claims">Claims</a><a href="#glossary">Glossary</a></nav><span class="privacy-pill"><span></span>Private shortlist</span></header>
 
 <main id="main">
   <section class="explorer" id="explore" aria-labelledby="pageTitle">
@@ -11,6 +11,42 @@
   <section class="surface" id="directory" aria-labelledby="directoryTitle"><div class="section-head"><div><p class="eyebrow">Registered scheme directory</p><h2 id="directoryTitle">Find a medical scheme</h2><p>Browse open and restricted schemes. Save a private shortlist for later reference.</p></div><div class="section-stat"><strong id="savedCount">0</strong><span>shortlisted</span></div></div>
     <div class="directory-tools"><label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg><span class="sr-only">Search schemes</span><input id="schemeSearch" type="search" placeholder="Search scheme name…" autocomplete="off"></label><div class="segmented" role="group" aria-label="Filter schemes"><button type="button" class="is-active" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="open" aria-pressed="false">Open</button><button type="button" data-filter="restricted" aria-pressed="false">Restricted</button><button type="button" data-filter="saved" aria-pressed="false">Shortlist</button></div></div>
     <p class="results-line" id="schemeStatus" aria-live="polite"></p><div class="scheme-grid" id="schemeGrid"></div><div class="empty-state" id="schemeEmpty" hidden><h3>No matching schemes</h3><p>Try another name or filter.</p></div><button type="button" class="button secondary show-more" id="showMore">Show more schemes</button>
+  </section>
+
+  <section class="surface care-surface" id="public-care" aria-labelledby="publicCareTitle">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">South African health system</p>
+        <h2 id="publicCareTitle">How to use public care</h2>
+        <p>Start with the right level of care, then ask how referrals work in your province. Services and local processes can vary.</p>
+      </div>
+      <a class="button secondary" href="{{ url_for('schemebook_public_care') }}">Detailed public pathway →</a>
+    </div>
+    <div class="care-step-grid">
+      <article><span>01</span><h3>Start at a clinic</h3><p>For routine primary care, find a nearby public clinic or community health centre. Ask about opening hours, what identification and records to bring, and how follow-up appointments work.</p></article>
+      <article><span>02</span><h3>Get a referral when needed</h3><p>The care team may refer you for tests, a specialist clinic or hospital treatment. Keep the referral letter, results, medicine list and appointment details together.</p></article>
+      <article><span>03</span><h3>Know the urgent route</h3><p>For a medical emergency, seek emergency care promptly. Ask the local facility or provincial health department about available services; do not wait for an online guide to assess symptoms.</p></article>
+      <article><span>04</span><h3>Ask about charges and support</h3><p>Public hospital charges may depend on the service and a patient's classification. Ask the facility's admissions or billing desk how your situation is assessed and what documents it needs.</p></article>
+    </div>
+    <p class="care-links"><a href="https://www.health.gov.za/" target="_blank" rel="noreferrer">National Department of Health ↗</a> · <a href="https://www.gov.za/about-sa/health" target="_blank" rel="noreferrer">Government health services ↗</a></p>
+  </section>
+
+  <section class="surface cost-surface" id="plan-costs" aria-labelledby="planCostsTitle">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Guide to fees and costs</p>
+        <h2 id="planCostsTitle">Plan for the full cost of care</h2>
+        <p>A provider's charge, a scheme's recognised rate and the amount you pay can differ. This guide helps you get a case-specific estimate.</p>
+      </div>
+      <a class="button secondary" href="{{ url_for('schemebook_cost_guide') }}">Open the full cost guide →</a>
+    </div>
+    <div class="care-step-grid">
+      <article><span>01</span><h3>Before the appointment</h3><p>Ask the practice for its consultation fee, whether it charges the scheme directly, which codes it expects to use and whether the provider is in your option's network.</p></article>
+      <article><span>02</span><h3>Before tests or a procedure</h3><p>Request a written estimate covering the facility, treating specialists, anaesthetist, pathology, imaging, medicines and follow-up. Confirm which services are billed separately.</p></article>
+      <article><span>03</span><h3>Check your scheme</h3><p>Give your scheme the proposed codes, provider names and facility. Ask about authorisation, benefits, limits, network rules, co-payments, PMB assessment and the amount it expects to fund.</p></article>
+      <article><span>04</span><h3>Compare the answers</h3><p>Match each quoted charge with the scheme's written response. Ask the provider and scheme to explain any possible shortfall before treatment, and save both documents.</p></article>
+    </div>
+    <div class="record-notice"><strong>What SchemeBook can and cannot show</strong><p>The directory confirms scheme identity and access type; it does not contain current provider fees or option-specific payouts. Illustrative examples in the learning guide are not quotes. Ask the provider and your scheme for your actual figures.</p></div>
   </section>
 
   <section class="surface scheme-questions" id="scheme-questions" aria-labelledby="schemeQuestionsTitle"><div class="section-head"><div><p class="eyebrow">Ask SchemeBook</p><h2 id="schemeQuestionsTitle">Ask about your medical scheme</h2><p>Pick the scheme, type the question and SchemeBook will show what can be verified.</p></div><div class="ingest-pill"><span></span><strong id="ingestCount">{{ schemebook_client_data.stats.schemes }}</strong><small>schemes ready to select</small></div></div>
