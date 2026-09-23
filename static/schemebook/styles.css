@@ -17,3 +17,13 @@ dialog{max-width:none;padding:0;border:0;border-radius:1rem;color:var(--ink);bac
 @media(max-width:980px){.knowledge-layout{grid-template-columns:1fr}.knowledge-tabs{grid-template-columns:repeat(4,1fr)}.qa-layout,.ingest-map,.reference-layer{grid-template-columns:1fr}.source-class-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:680px){.intro-stats{grid-template-columns:1fr 1fr}.intro-stats span:nth-child(2){border:0}.intro-stats span:nth-child(3){grid-column:1/-1;border:0;border-top:1px solid rgba(255,255,255,.12);padding-top:.75rem}.detail-grid,.misunderstanding,.knowledge-footer,.document-grid,.qa-waiting ul,.source-class-grid,.reference-layer-grid{grid-template-columns:1fr}.misunderstanding>div+div{border-left:0;border-top:1px solid #b9ddf4}.knowledge-tabs{grid-template-columns:1fr 1fr}.knowledge-tabs button{grid-template-columns:1.55rem 1fr;padding:.55rem}.qa-form,.qa-answer{padding:1rem}.qa-answer{min-height:0}.ingest-pill{width:100%}.reference-layer{padding:1rem}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+
+/* RiskAtlas integration for the standalone SchemeBook client */
+.site-header{grid-template-columns:auto auto 1fr auto}
+.brand-mark{width:2.1rem;height:2.1rem;display:grid;place-items:center;border-radius:.55rem;background:var(--blue);color:var(--navy);font-size:.72rem;font-weight:900;letter-spacing:.04em}
+.parent-brand{color:#9fb0c4;text-decoration:none;font-size:.76rem;font-weight:760;white-space:nowrap;border-left:1px solid rgba(255,255,255,.14);padding-left:1rem}
+.parent-brand:hover{color:#fff}
+.footer-brand .brand-mark{width:1.8rem;height:1.8rem}
+.footer-brand span:last-child{color:#8090a4;font-size:.78rem;font-weight:650;letter-spacing:0}
+@media(max-width:980px){.site-header{grid-template-columns:1fr auto auto}.parent-brand{display:none}}
