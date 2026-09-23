@@ -1,10 +1,10 @@
 """SchemeBook — independent South African medical scheme directory and
-consumer jargon resource. ZA portfolio, under Sentrix Digital.
+consumer jargon resource. A RiskAtlas South Africa product.
 
 Data layer: no duplication. SchemeBook reuses cms_authority.py (the same
 CMS-registered scheme / PMB / CDL / DTP data that Core ZA and ClinicalAtlas
-ZA already ingest) — it is a standalone front door onto that data, not a
-second copy of it. The one thing genuinely new here is the plain-language
+ZA already ingest) — it is a standalone RiskAtlas front door onto that data,
+not a second copy of it. The one thing genuinely new here is the plain-language
 jargon glossary, which is SchemeBook's own consumer-facing content.
 """
 
