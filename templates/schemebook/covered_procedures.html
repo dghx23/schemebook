@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block title %}Covered conditions & treatments — SchemeBook{% endblock %}
+{% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
+{% block content %}
+
+<article class="sx-essay">
+  <p class="sx-kicker"><a href="{{ url_for('schemebook_home') }}">SchemeBook</a> / Covered conditions</p>
+  <h1>Find a PMB condition or minimum treatment</h1>
+  <p class="sx-lead">
+    Search the Diagnosis Treatment Pair (DTP) directory by condition, DTP code or minimum treatment,
+    or browse by clinical category. This is a SchemeBook guide to the CMS PMB source set — not a quote,
+    diagnosis or individual benefit decision.
+  </p>
+</article>
+
+<section class="ac-panel">
+  <div class="ac-section-head">
+    <div>
+      <p class="sx-kicker">Prescribed Minimum Benefits</p>
+      <h2>{{ total_indexed }} DTP records currently indexed</h2>
+    </div>
+  </div>
+  <p>
+    The Council for Medical Schemes describes a limited set of <strong>271 medical conditions</strong>
+    defined through Diagnosis Treatment Pairs. Core ZA currently indexes <strong>{{ total_indexed }}</strong>
+    parsed DTP records from the CMS source file. The remaining difference is being reconciled before
+    SchemeBook describes the catalogue as complete.
+  </p>
+  <p class="ac-meta">
+    A DTP links a diagnosis to a minimum treatment entitlement. It does not by itself tell you
+    which provider to use, what a provider will charge, whether authorisation is required, or the
+    exact amount your option will pay.
+  </p>
+</section>
+
+<form class="ac-panel" method="get" role="search">
+  <label for="procedure-q"><strong>Search covered conditions and treatments</strong></label>
+  <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.5rem;">
+    <input id="procedure-q" name="q" type="search" value="{{ query or '' }}"
+           placeholder="e.g. epilepsy, ventilation, 902A"
+           style="flex:1;min-width:16rem;padding:.75rem;">
+    {% if category_slug %}<input type="hidden" name="category" value="{{ category_slug }}">{% endif %}
+    <button type="submit">Search</button>
+  </div>
+  <p class="ac-meta">Search by diagnosis, DTP code, minimum treatment or clinical category.</p>
+</form>
+
+{% if categories and not category_slug and not query %}
+<section class="ac-panel">
+  <h2>Browse by clinical category</h2>
+  <div class="sx-squares">
+    {% for category in categories %}
+    <a href="{{ url_for('schemebook_covered_procedures', category=category.slug) }}">
+      <h3>{{ category.name|title }}</h3>
+      <p>{{ category.count }} indexed condition{% if category.count != 1 %}s{% endif %}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if active_category or query %}
+<section class="ac-panel">
+  <div class="ac-section-head">
+    <div>
+      <h2>
+        {% if query %}Results for “{{ query }}”
+        {% elif active_category %}{{ active_category|title }}
+        {% else %}Results{% endif %}
+      </h2>
+      <span class="ac-meta">{{ items|length }} matching indexed record{% if items|length != 1 %}s{% endif %}</span>
+    </div>
+  </div>
+
+  {% if active_category %}
+  <p><a href="{{ url_for('schemebook_covered_procedures') }}">← All clinical categories</a></p>
+  {% endif %}
+
+  {% if items %}
+  <div class="ac-table-wrap">
+    <table class="ac-table">
+      <thead>
+        <tr><th>DTP code</th><th>Condition</th><th>Minimum treatment</th></tr>
+      </thead>
+      <tbody>
+      {% for item in items %}
+        <tr>
+          <td><a href="{{ url_for('schemebook_covered_procedure_detail', code=item.code) }}"><strong>{{ item.code }}</strong></a></td>
+          <td>{{ item.description }}</td>
+          <td>{{ item.treatment }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <p>No matching indexed DTP record. Try a broader condition, treatment or code.</p>
+  {% endif %}
+</section>
+{% endif %}
+
+<section class="ac-panel">
+  <h2>Using this with SchemeBook</h2>
+  <div class="sx-squares">
+    <a href="{{ url_for('schemebook_cost_guide') }}"><h3>Plan costs</h3><p>Ask the provider and your scheme for current fees, codes, network rules and likely member payments.</p></a>
+    <a href="{{ url_for('schemebook_explore') }}"><h3>Explore care</h3><p>Start with a general healthcare service or procedure concept if you do not know the DTP code.</p></a>
+    <a href="{{ url_for('schemebook_home') }}#scheme-questions"><h3>Ask SchemeBook</h3><p>Choose your medical scheme and see what SchemeBook can verify from the available source layer.</p></a>
+  </div>
+</section>
+
+<section class="ac-panel">
+  <h2>Authoritative source</h2>
+  <p>
+    <a href="https://www.medicalschemes.co.za/resources/pmb/" target="_blank" rel="noopener">Council for Medical Schemes — Prescribed Minimum Benefits ↗</a>
+    ·
+    <a href="https://www.medicalschemes.co.za/resources/pmb/pmb-conditions/" target="_blank" rel="noopener">CMS PMB conditions list ↗</a>
+  </p>
+  <p class="ac-meta">
+    Annexure A to the Medical Schemes Act regulations is the legal source. CMS notes that its coded
+    PMB conditions list is a guideline and the regulatory condition definition prevails if there is a conflict.
+  </p>
+</section>
+
+{% endblock %}
