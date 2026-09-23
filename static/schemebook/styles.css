@@ -27,3 +27,14 @@ dialog{max-width:none;padding:0;border:0;border-radius:1rem;color:var(--ink);bac
 .footer-brand .brand-mark{width:1.8rem;height:1.8rem}
 .footer-brand span:last-child{color:#8090a4;font-size:.78rem;font-weight:650;letter-spacing:0}
 @media(max-width:980px){.site-header{grid-template-columns:1fr auto auto}.parent-brand{display:none}}
+
+.care-step-grid{margin-top:1.5rem;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem}
+.care-step-grid article{padding:1rem;border:1px solid var(--line);border-radius:.7rem;background:var(--canvas)}
+.care-step-grid article>span{display:inline-grid;width:2rem;height:2rem;place-items:center;border-radius:.45rem;background:var(--navy);color:#fff;font-size:.72rem;font-weight:850}
+.care-step-grid h3{margin:.8rem 0 .35rem;font-size:.95rem}
+.care-step-grid p{margin:0;color:var(--muted);font-size:.82rem}
+.care-links{margin:1rem 0 0;color:var(--muted);font-size:.82rem}
+.care-links a{color:var(--blue2);font-weight:750}
+.care-surface .section-head .button,.cost-surface .section-head .button{flex:0 0 auto}
+@media(max-width:900px){.care-step-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.care-step-grid{grid-template-columns:1fr}}
