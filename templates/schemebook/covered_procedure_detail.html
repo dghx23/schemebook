@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %}{{ dtp.code }} — Covered condition — SchemeBook{% endblock %}
+{% block body_class %}ac-body ra-home-body sx-home sx-shell{% endblock %}
+{% block content %}
+
+<article class="sx-essay">
+  <p class="sx-kicker">
+    <a href="{{ url_for('schemebook_home') }}">SchemeBook</a> /
+    <a href="{{ url_for('schemebook_covered_procedures') }}">Covered conditions</a> /
+    {{ dtp.code }}
+  </p>
+  <h1>{{ dtp.description }}</h1>
+  <p class="sx-lead">DTP code <strong>{{ dtp.code }}</strong> · {{ dtp.category|title }}</p>
+</article>
+
+<section class="ac-panel">
+  <p class="sx-kicker">What the DTP says</p>
+  <h2>Minimum treatment</h2>
+  <p>{{ dtp.treatment }}</p>
+</section>
+
+<section class="ac-panel">
+  <h2>What this record tells you</h2>
+  <div class="sx-squares">
+    <div>
+      <h3>Diagnosis / condition</h3>
+      <p>{{ dtp.description }}</p>
+    </div>
+    <div>
+      <h3>Clinical category</h3>
+      <p>{{ dtp.category|title }}</p>
+    </div>
+    <div>
+      <h3>Minimum treatment descriptor</h3>
+      <p>{{ dtp.treatment }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="ac-panel">
+  <h2>What it does not settle on its own</h2>
+  <ul>
+    <li>Whether your exact clinical presentation satisfies the PMB descriptor.</li>
+    <li>Which designated service provider or network rules apply to your option.</li>
+    <li>Whether pre-authorisation, referral or clinical motivation is required.</li>
+    <li>The provider's current charge, the scheme tariff, or your final out-of-pocket amount.</li>
+    <li>How an individual dispute will be decided.</li>
+  </ul>
+</section>
+
+<section class="ac-panel">
+  <h2>Questions to ask your scheme</h2>
+  <ol>
+    <li>Does my diagnosis meet this DTP descriptor for PMB purposes?</li>
+    <li>What treatment and public-sector protocol are you applying?</li>
+    <li>Which DSP or network provider should I use, and when may I use another provider?</li>
+    <li>What authorisation, referral, motivation or supporting records do you need?</li>
+    <li>Please confirm the funding decision and any member payment in writing.</li>
+  </ol>
+</section>
+
+<section class="ac-panel">
+  <h2>Plan the care and cost side separately</h2>
+  <p>
+    The DTP describes minimum PMB treatment; it is not a provider quote. For planned care,
+    ask the provider what will be billed and ask your scheme how it will fund the exact service,
+    codes, facility and providers involved.
+  </p>
+  <p>
+    <a href="{{ url_for('schemebook_cost_guide') }}">Open SchemeBook’s cost-planning guide →</a>
+  </p>
+</section>
+
+<section class="ac-panel">
+  <h2>Source and legal context</h2>
+  <p>
+    <a href="https://www.medicalschemes.co.za/resources/pmb/" target="_blank" rel="noopener">Council for Medical Schemes — PMBs ↗</a>
+    ·
+    <a href="https://www.medicalschemes.co.za/resources/pmb/pmb-conditions/" target="_blank" rel="noopener">CMS PMB conditions list ↗</a>
+  </p>
+  <p class="ac-meta">
+    SchemeBook is an educational reference. The CMS coded conditions list is a guideline; where it
+    conflicts with Annexure A to the regulations, the regulatory definition prevails.
+  </p>
+</section>
+
+{% endblock %}
