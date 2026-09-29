@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}SchemeBook{% endblock %}</title>
+  <meta name="description" content="{% block meta_description %}Independent South African medical scheme directory and plain-language guide.{% endblock %}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='schemebook/styles.css') }}">
+  <style>
+    .sb-shell{width:min(1100px,calc(100% - 32px));margin:auto;padding:34px 0 70px}
+    .sb-top{display:flex;gap:20px;align-items:center;justify-content:space-between;padding:16px max(16px,calc((100vw - 1100px)/2));background:#172235;color:#fff}
+    .sb-top a{color:#fff;text-decoration:none}.sb-top nav{display:flex;gap:20px;flex-wrap:wrap}
+    .sx-essay,.ac-panel,.sx-note{background:#fff;border:1px solid #d9e2ec;border-radius:16px;padding:28px;margin:0 0 20px}
+    .sx-essay h1{font-size:clamp(2rem,4vw,3.25rem);line-height:1.12;margin:.4em 0}
+    .sx-kicker{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#5e738d}
+    .sx-lead{font-size:1.1rem;color:#42536a}.sx-squares{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+    .sx-squares a,.ref-card{display:block;background:#f6f9fc;border:1px solid #d9e2ec;border-radius:12px;padding:16px;text-decoration:none}
+    .ac-table-wrap{overflow-x:auto}.ac-table{width:100%;border-collapse:collapse}.ac-table th,.ac-table td{text-align:left;padding:12px;border-bottom:1px solid #d9e2ec}
+    .ac-meta{color:#637287;font-size:.92rem}.sb-footer{padding:24px;text-align:center;border-top:1px solid #d9e2ec}
+    @media(max-width:700px){.sb-top{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body class="{% block body_class %}{% endblock %}">
+  <header class="sb-top"><a href="{{ url_for('schemebook_home') }}"><strong>SchemeBook</strong></a><nav aria-label="SchemeBook"><a href="{{ url_for('schemebook_covered_procedures') }}">Covered conditions</a><a href="{{ url_for('schemebook_explore') }}">Explore</a><a href="{{ url_for('schemebook_jargon') }}">Glossary</a><a href="https://riskatlas.co.za/">RiskAtlas</a></nav></header>
+  <main class="sb-shell">{% block content %}{% endblock %}</main>
+  <footer class="sb-footer">SchemeBook · RiskAtlas South Africa</footer>
+</body>
+</html>

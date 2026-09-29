@@ -1,0 +1,28 @@
+{
+  "source": "https://www.health.gov.za/uniform-patient-fee-schedule/",
+  "checked_at": "2026-09-23",
+  "scope": "Official public patient fee schedule publication links. No patient-specific liability or private medical scheme tariff.",
+  "annexures": [
+    {
+      "annexure": "A1",
+      "effective_from": "2026-04-01",
+      "format": "xlsx",
+      "url": "https://www.health.gov.za/wp-content/uploads/2026/03/ANNEXURE_A1_TARIFFS_01APRIL2026_FINAL.xlsx",
+      "status": "source link verified; tariff rows not parsed"
+    },
+    {
+      "annexure": "A2",
+      "effective_from": "2026-04-01",
+      "format": "xls",
+      "url": "https://www.health.gov.za/wp-content/uploads/2026/03/ANNEXURE_A2_UPFS_TARIFFS_01APRIL2026_FINAL.xls",
+      "status": "source link verified; tariff rows not parsed"
+    },
+    {
+      "annexure": "A6",
+      "effective_from": "2026-04-01",
+      "format": "xlsx",
+      "url": "https://www.health.gov.za/wp-content/uploads/2026/03/ANNEXURE_A6_UPFS_TARIFFS_01APRIL_2026_FINAL.xlsx",
+      "status": "source link verified; tariff rows not parsed"
+    }
+  ]
+}
