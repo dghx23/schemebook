@@ -1,0 +1,42 @@
+name: SchemeBook sync
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "cms_authority.py"
+      - "schemebook.py"
+      - "schemebook_sync.py"
+      - "data/cms_schemes.json"
+      - "data/cms_pmb_dtp.json"
+      - "data/cms_pmb_cache.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: schemebook-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh, materialise, validate and log
+        run: python scripts/sync_schemebook.py --refresh-authority --trigger scheduled
+      - name: Validate snapshot
+        run: python -m unittest tests.test_schemebook_sync
+      - name: Persist changed copy and audit trail
+        run: |
+          git config user.name "schemebook-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/schemebook_snapshot.json data/schemebook_sync_state.json data/ingest_log.json data/cms_pmb_cache.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: sync SchemeBook authority snapshot"
+          git push

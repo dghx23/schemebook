@@ -2840,19 +2840,19 @@
     {
       "stage": "materialise",
       "from": "Core ZA + glossary",
-      "to": "Sentrix SchemeBook copy"
+      "to": "SchemeBook snapshot"
     },
     {
       "stage": "reuse",
-      "from": "Sentrix SchemeBook copy",
-      "to": "Library · ClinicalAtlas · ClaimBuddy"
+      "from": "SchemeBook snapshot",
+      "to": "Versioned Git snapshot for downstream integration"
     },
     {
       "stage": "publish",
-      "from": "Sentrix SchemeBook copy",
+      "from": "SchemeBook snapshot",
       "to": "SchemeBook actual"
     }
   ],
-  "content_hash": "1ed9f07a098c76fa69d3789b24aef5e865a780c9071fcf6f2753584ce0f1baca",
-  "generated_at": "2026-09-29T09:55:12.829330+00:00"
+  "content_hash": "4327ed452a17b4c27a607be2ef91ceb4e6efce59604cac2cc317d45cb4d86009",
+  "generated_at": "2026-09-29T19:54:11.901922+00:00"
 }

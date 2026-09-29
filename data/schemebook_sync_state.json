@@ -1,0 +1,13 @@
+{
+  "product": "SchemeBook",
+  "status": "success",
+  "content_hash": "4327ed452a17b4c27a607be2ef91ceb4e6efce59604cac2cc317d45cb4d86009",
+  "changed": true,
+  "synced_at": "2026-09-29T19:54:11.901922+00:00",
+  "record_counts": {
+    "schemes": 71,
+    "glossary": 38,
+    "cdl": 26,
+    "dtp": 266
+  }
+}
