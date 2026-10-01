@@ -1,9 +1,9 @@
 {
   "product": "SchemeBook",
   "status": "success",
-  "content_hash": "a2ea65e7b447500ac7b3b6d7e17928f04e744433df35f01e3caf2a97480c6470",
+  "content_hash": "0b43302ae0cc3f319f3221d8e935206e538fc378b67456445752db56ff75aba7",
   "changed": true,
-  "synced_at": "2026-09-30T09:45:26.635171+00:00",
+  "synced_at": "2026-10-01T10:12:07.903157+00:00",
   "record_counts": {
     "schemes": 71,
     "glossary": 38,
