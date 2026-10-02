@@ -487,7 +487,7 @@
     ],
     "diagnosis_based_note": "PMB eligibility uses a diagnosis-based approach — symptoms determine the PMB, not how the condition was contracted.",
     "cached_excerpt": "Prescribed Minimum Benefits (PMBs) are defined benefits to ensure that all medical scheme members have access to minimum health services.\" />",
-    "fetched_at": "2026-10-01T10:11:42.991083+00:00",
+    "fetched_at": "2026-10-02T09:49:32.778914+00:00",
     "source_url": "https://www.medicalschemes.co.za/resources/pmb/"
   },
   "cdl": [
@@ -2853,6 +2853,6 @@
       "to": "SchemeBook actual"
     }
   ],
-  "content_hash": "0b43302ae0cc3f319f3221d8e935206e538fc378b67456445752db56ff75aba7",
-  "generated_at": "2026-10-01T10:12:07.903157+00:00"
+  "content_hash": "ac0619c994e6c295be1e40d3651b06be0be7a17895ec9602446a35309f6678be",
+  "generated_at": "2026-10-02T09:49:55.922876+00:00"
 }
